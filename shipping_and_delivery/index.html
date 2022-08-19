@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Returns and Refunds</title>
+    <link rel="icon" type="image/x-icon" href="https://biz.refr.club/favicon.ico">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;700&display=swap');
+        
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        
+        ::-webkit-scrollbar-track {
+            background: #242836;
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background: #333541;
+        }
+        
+        * {
+        
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        
+        }
+        
+        body,html {
+        
+            width: 100%;
+            min-height: 100%;
+            background-color: #242836;
+        
+        }
+        
+        .main-header {
+        
+            width: 100%;
+            height: 75px;
+            background-color: #181A24;
+            display: block;
+        
+        }
+        
+        .main-header ul.header-options {
+        
+            width: 100%;
+            height: 100%;
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding-right: 100px;
+        
+        }
+        
+        .main-header ul.header-options li {
+            display: inline-block;
+        }
+        
+        .main-header ul.header-options li.title {
+        
+            font-size: 18px;
+            color: #fff;
+            font-family: Arial;
+            cursor: pointer;
+        
+        }
+        
+        .header-mobile {
+        
+            width: 100%;
+            height: 75px;
+            background-color: #181A24;
+            text-align: center;
+            display: none;
+        }
+        
+        .title-mobile {
+            font-size: 18px;
+            color: #fff;
+            font-family: Arial;
+            cursor: pointer;
+            padding-top: 30px;
+        }
+        
+        a {
+            text-decoration: none;
+            font-size: 16px;
+            color: #6D6F79;
+            font-family: Arial;
+            cursor: pointer;
+        }
+        
+        a:hover {
+            font-size: 16px;
+            color: #9598a7;
+        }
+        
+        .card {
+            margin-top: 100px;
+            margin-bottom: 100px;
+            width: 1200px;
+            border-radius: 30px;
+            background-color: #333541;
+            margin-left: auto;
+            margin-right: auto;
+            color: white;
+            padding-bottom: 30px;
+            padding-left: 50px;
+            padding-right: 25px;
+        }
+        
+        .card .primary-heading {
+            text-align: center;
+            font-family: josefin sans;
+            color: white;
+            padding-top: 50px ;
+            font-size: 4em;
+        }
+        
+        .paragraph, h4 {
+            font-family: josefin sans;
+            color: rgb(179, 179, 179);
+            padding-top: 50px;
+            font-size: 1.5em;
+            line-height: 1.3em;
+            font-weight: 500;
+        }
+        ul{
+            margin-left: 25px;
+            margin-right: 25px;
+        }
+        ul h4{
+            padding-top: 50px;
+        }
+        ul li .paragraph {
+            padding-top: 0px;
+            margin-top: 0px;
+        }
+        
+        .bold {
+            font-weight: 700;
+            color: white;
+        }
+        
+        .footer-heading {
+            text-align: center;
+            font-family: josefin sans;
+            color: white;
+            margin-bottom: 50px;
+            font-size: 2em;
+            line-height: 35px;
+        }
+        
+        @media only screen and (max-width: 1218px) {
+            .card {
+                margin-top: 100px;
+                margin-bottom: 100px;
+                width: 1000px;
+                border-radius: 30px;
+                background-color: #333541;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+        
+        @media only screen and (max-width: 1012px) {
+            .card {
+                margin-top: 100px;
+                margin-bottom: 100px;
+                width: 800px;
+                border-radius: 30px;
+                background-color: #333541;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+        
+        @media only screen and (max-width: 832px) {
+            .card {
+                margin-top: 100px;
+                margin-bottom: 100px;
+                width: 600px;
+                border-radius: 30px;
+                background-color: #333541;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .card .primary-heading {
+                font-size: 3.5em;
+            }
+        
+            .footer-heading {
+                font-size: 1.5em;
+            }
+        }
+        
+        @media only screen and (max-width: 626px) {
+            .card {
+                margin-top: 100px;
+                margin-bottom: 100px;
+                width: 450px;
+                border-radius: 30px;
+                background-color: #333541;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        
+            .header-mobile {
+                display: block;
+            }
+        
+            .main-header {
+                display: none;
+            }
+        
+            .card .primary-heading {
+                font-size: 3em;
+            }
+        }
+        
+        @media only screen and (max-width: 480px) {
+            .card {
+                margin-top: 100px;
+                margin-bottom: 100px;
+                width: 350px;
+                border-radius: 30px;
+                background-color: #333541;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        
+            .card .primary-heading {
+                font-size: 2em;
+            }
+        }
+        
+        @media only screen and (max-width: 365px) {
+            .card {
+                margin-top: 100px;
+                margin-bottom: 100px;
+                width: 290px;
+                border-radius: 30px;
+                background-color: #333541;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        
+            .card .primary-heading {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="main-header dark-theme">
+
+        <ul class="header-options">
+    
+             <li class="title"> Refr Tech </p></li>
+            <li class="option"> <a href="https://refr.club"> India </a></p></li>
+            <li class="option"> <a href="https://refr.club"> United States </a></p></li>
+            <li class="option"> <a href="https://refr.club"> Europe </a></p></li>
+            <li class="option"> <a href="https://refr.club"> China </a></p></li>
+            <li class="option"> <a href="https://refr.club"> ASEAN </a></p></li>
+            <li class="option"> <a href="https://refr.club"> Middle East </a></p></li>
+        </ul>
+    
+    </header>
+
+    <header class="header-mobile dark-theme">
+            <h4 class="title-mobile"> Refr Tech </h4>
+    </header>
+
+    <section id="terms-of-service">
+        <div class="card">
+            <h1 class="primary-heading">Shipping & Delivery</h1>
+
+
+<p class="paragraph">The business can choose to avail Refr logistics support or manage logistics on their own. Ship and deliver your products with our integrated shipping partners - Dunzo and Shiprocket.</p>
+
+<p class="paragraph">Same day delivery of food is available with our shipping partner Dunzo</p>
+
+
+<h4><strong>For other products: Shiprocket</strong></h4>
+
+<p class="paragraph">You can select from the various courier partners of Shiprocket, offering the most cost & time effective solution, depending on the weight of the product to be delivered.</p>
+
+<p class="paragraph">Shipping rates are what you charge your customer in addition to the cost of the products that they order, which are added to a customer's order at checkout.</p>
+
+
+<h4><strong>Post Order Tracking</strong></h4>
+
+<p class="paragraph">Your customers can track their order that contains complete order tracking details.</p>
+
+
+<h4><strong>Sync & Import Orders</strong></h4>
+
+<p class="paragraph">Import orders directly into the panel and process all incoming orders from one platform.</p>
+
+
+<h4><strong>Shipping and Delivery For customers</strong></h4>
+
+
+<h4><strong>How does the delivery process work?</strong></h4>
+<ul>
+    <li><p class="paragraph">Once our system processes your order, your products are inspected thoroughly by the store to ensure they are in perfect condition.</p></li>
+    <li><p class="paragraph">They are packed and handed over to our trusted delivery partner at the store</p></li>
+    <li><p class="paragraph">Our delivery partners then bring the package to you at the earliest possible. In case, they are unable to reach your provided address or at a suitable time, they will contact you to resolve the issue.</p></li>
+</ul>
+
+
+
+<h4><strong>My order has been shipped. Now how can I track it?</strong></h4>
+<ul>
+    <li><p class="paragraph">Once your order has been dispatched, you will receive an email with the details of the tracking number and the courier company that is processing your order.</p></li>
+    <li><p class="paragraph">You can track the status of your package 24 hours after your order is dispatched</p></li>
+    <li><p class="paragraph">You can track your order under the ‘My Orders’ section.</p></li>
+</ul>
+
+
+
+<h4><strong>What if I am not available at the delivery address to collect my order?</strong></h4>
+
+<p class="paragraph">We make three attempts to deliver any product. In case you missed the first or second attempt, make sure to be available for the third attempt of the delivery. Please note that post three unsuccessful attempts, the product is returned to the store.</p>
+
+<p class="paragraph">You can check the status of your order in the ‘My Orders’ section.</p>
+
+
+<h4><strong>What is the estimated delivery time?</strong></h4>
+
+<p class="paragraph">Stores generally procure and ship the items within the time specified mentioned on the store page. Business days exclude public holidays and Sundays.</p>
+
+
+<h4><strong>Estimated delivery time depends on the following factors:</strong></h4>
+
+<ul>
+    <li><p class="paragraph">The store offering the product</p></li>
+    <li><p class="paragraph">Product type</p></li>
+    <li><p class="paragraph">Product's availability with the store</p></li>
+    <li><p class="paragraph">Store location</p></li>
+    <li><p class="paragraph">Shipping address for delivery</p></li>
+    <li><p class="paragraph">Courier partner's time-to-deliver to location</p></li>
+</ul>
+
+
+
+<h4><strong>Store does not ship to my area. Why?</strong></h4>
+
+<p class="paragraph">At times stores prefer not to ship to certain locations, which is entirely at their discretion. This is mainly due to the non- availability of reliable courier partners in your location.</p>
+
+
+<h4><strong>Why does the delivery date not correspond to the delivery timeline of X-Y business days?</strong></h4>
+
+<p class="paragraph">It is possible that the store or our courier partners have a holiday between the day you placed your order and the estimated date of delivery, which is not factored in the timeline given. These situations are rare & may encompass some unforeseen circumstances.</p>
+
+
+<h4><strong>What are the delivery charges?</strong></h4>
+
+<p class="paragraph">Delivery charges are variable for different stores & products. Please check your order summary to see their details.</p>
+
+
+<h4><strong>Why is the COD option not offered in my location?</strong></h4>
+
+<p class="paragraph">Availability of COD depends on the ability of our courier partner servicing your location to accept cash as payment at the time of delivery.</p>
+
+
+        </div>
+    </section>
+    <footer>
+        <p class="footer-heading">© Copyright 2020-2021 Refr Tech. All rights reserved.</p>
+    </footer>
+</body>
+</html>

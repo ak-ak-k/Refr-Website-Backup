@@ -1,0 +1,25 @@
+.how_it_work {
+  color: black !important;
+}
+
+.header-wrap .menu ul li a i {
+  height: 20px;
+  width: 20px;
+  border: 1px solid black !important;
+}
+
+.download_app {
+  border: 1px solid black !important;
+  padding: 9px 10px;
+  border-radius: 8px;
+}
+
+.social-area .social-media-box {
+  width: 45%;
+  display: flex;
+  gap: 20px;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  justify-content: space-between;
+}

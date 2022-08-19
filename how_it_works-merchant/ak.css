@@ -1,0 +1,412 @@
+.banner_img {
+  /* width: max-content; */
+  position: relative;
+}
+
+.banner_img img {
+  object-fit: contain;
+  /* aspect-ratio: 16/9; */
+}
+
+.power_getstarted {
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  max-width: 37%;
+  z-index: 1;
+}
+
+.banner_img p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 67px;
+  color: #ffffff;
+  /* position: absolute;
+  top: 35%;
+  left: 10%;
+  max-width: 37%;
+  z-index: 1; */
+}
+
+.banner_img::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.523);
+}
+
+/*  */
+
+.d-flex {
+  gap: 15%;
+  justify-content: center;
+  padding: 10%;
+}
+
+.left_img {
+  display: flex;
+  margin-bottom: 8%;
+  align-items: center;
+  gap: 30px;
+}
+
+.left_img img {
+  width: 45px;
+  height: 45px;
+}
+
+.left_img p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 24px;
+  color: #000000;
+  margin: 13px 0 0 0px !important;
+}
+
+/*  */
+
+.main3 {
+  background: #f4f4f4;
+  padding: 2% 10%;
+}
+
+.get_started {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 56px;
+  color: #000000;
+  text-align: center;
+}
+
+.started_coin_cards {
+  display: flex;
+  align-items: baseline;
+}
+
+.start_coins {
+  width: 21vw;
+  cursor: pointer;
+}
+
+.primary {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  margin: 8px 0;
+}
+
+.secondary {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.8rem;
+  line-height: 16px;
+  text-align: center;
+  color: #000000;
+  max-width: 64%;
+  margin: auto;
+}
+
+/*  */
+
+.patner_today {
+  padding: 3% 10%;
+}
+
+.patner_today p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 56px;
+  color: #000000;
+  text-align: center;
+}
+
+.btns {
+  text-align: center;
+}
+
+.btns button {
+  background: #8111e8;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 28px;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  padding: 10px;
+  margin-right: 2%;
+}
+
+.question {
+  padding: 3% 10%;
+}
+
+.question p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 44px;
+  color: #000000;
+}
+
+/*  */
+.qna {
+  margin: 5% 0;
+}
+
+.faqs {
+  /* padding-bottom: 2%; */
+  border-bottom: 1px solid #acacac;
+}
+
+.ques {
+  border: none;
+  width: -webkit-fill-available;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  margin: 2% 0;
+  flex: 1 1 auto;
+  position: relative;
+}
+
+.ques .primary_ques {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 28px;
+  color: #000000;
+}
+
+.primary_ques::before {
+  content: "+";
+  color: #000;
+  font-size: 20px;
+  right: 0;
+  position: absolute;
+  transform: rotate(90deg);
+  transition: all 0.6s ease;
+}
+.primary_ques.activeFilter::before {
+  display: none;
+}
+
+.ques .primary_ques.activeFilter::after {
+  content: "-";
+  color: #000;
+  font-size: 20px;
+  transform: rotate(180deg);
+  right: 0;
+  top: 0;
+  position: absolute;
+  transition: all 0.6s ease;
+}
+
+.panel {
+  padding: 10px 2%;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+ul.dashed {
+  list-style-type: none;
+}
+
+ul.dashed > li {
+  text-indent: -15px;
+}
+
+ul.dashed > li:before {
+  content: "-";
+  text-indent: -15px;
+  padding-right: 10px;
+  color: #000000;
+}
+
+ul.dashed li {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 22px;
+  color: #757575;
+  padding-bottom: 20px;
+}
+
+.more_ques p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem !important;
+  line-height: 28px;
+  color: #000000;
+  margin: 2% 0;
+}
+
+/*  */
+
+.support {
+  background: #f2f4f8;
+  padding: 4% 10%;
+}
+
+.refr p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 59px;
+
+  color: #000000;
+}
+
+/*  */
+
+.dflex_support {
+  display: flex;
+  align-items: center;
+}
+
+.refr {
+  width: -webkit-fill-available;
+}
+
+.refr_support_text p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 35px;
+  color: #4a4a4a;
+}
+
+.email {
+  display: flex;
+  gap: 8%;
+  align-items: center;
+}
+
+.anchor p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 25px;
+  color: #000000;
+  margin: 0;
+}
+
+.anchor a {
+  color: #8111e8 !important;
+}
+
+@media screen and (max-width: 900px) {
+  .power_getstarted {
+    position: relative;
+    max-width: 100%;
+    background-color: #ffffff;
+    top: 0;
+    left: 0;
+    text-align: center;
+  }
+
+  .power_getstarted p {
+    font-size: 1.2rem;
+    color: black;
+    margin: 0;
+  }
+  .right_1img {
+    display: none;
+  }
+  .get_started {
+    font-size: 1.3rem;
+  }
+  .arrow {
+    display: none;
+  }
+  .started_coin_cards {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .start_coins {
+    width: 80%;
+    margin: auto;
+  }
+  .secondary {
+    max-width: 100%;
+  }
+  .main3 {
+    padding: 5%;
+  }
+  .patner_today p {
+    font-size: 1.3rem;
+  }
+  .btns button {
+    padding: 5px 10px;
+  }
+  .question {
+    padding: 7%;
+  }
+  .question p {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .ques .primary_ques {
+    font-size: 1rem;
+    max-width: 90%;
+    text-align: left;
+  }
+  .dflex_support {
+    flex-direction: column;
+  }
+  .refr {
+    text-align: center;
+  }
+  .refr p {
+    font-size: 1.3rem;
+    margin: 0;
+  }
+  .refr_support_text p {
+    text-align: center;
+  }
+  .email {
+    gap: 16px;
+    justify-content: center;
+  }
+  .more_ques p {
+    text-align: left;
+  }
+  .support {
+    padding: 8%;
+  }
+  .email_svg svg {
+    width: 60px;
+  }
+  .patner_today {
+    padding: 8% 0 0 0;
+  }
+}

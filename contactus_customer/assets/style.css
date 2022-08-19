@@ -1,0 +1,146 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #8000ff;
+}
+::-webkit-scrollbar-track {
+  background: #564e5e;
+}
+
+html,
+body {
+  overscroll-behavior-x: none;
+  cursor: default !important;
+  overscroll-behavior: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: var(--primaryFont);
+  color: var(--blackColor);
+  font-size: 1em;
+  line-height: 25px;
+  font-weight: 400;
+}
+a {
+  color: currentColor;
+  text-decoration: none;
+  transition: var(--transition);
+}
+a:hover {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+
+.content {
+  margin: 5% 0% 5% 8%;
+  display: flex;
+  width: 85%;
+}
+
+.content_p p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.75rem !important;
+  line-height: 72px;
+  color: #000000;
+}
+
+.suggest_p p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem !important;
+  line-height: 30px;
+  color: #6f6f6f;
+  max-width: 80%;
+  padding: 2% 0 0 0;
+}
+
+.cards {
+  background: #f1f4f9;
+  padding: 5% 10%;
+  margin-bottom: 5%;
+}
+
+.cards .d-flex {
+  display: flex;
+  gap: 9%;
+}
+
+.card_block {
+  width: 40vw;
+  height: 356px;
+  background: #ffffff;
+  border: 1px solid #cecece;
+  border-radius: 20px;
+  cursor: pointer;
+  position: relative;
+}
+
+.card_block .title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2rem !important;
+  line-height: 39px;
+  color: #333333;
+  padding: 24px 10px 8px 24px;
+}
+
+.card_block .sub_head {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px !important;
+  line-height: 166.5%;
+  color: #8d8d8d;
+  padding: 0px 10px 12px 24px;
+}
+
+.card_img {
+  object-fit: contain;
+  position: absolute;
+  bottom: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .content {
+    flex-direction: column;
+  }
+  .content_p p {
+    font-size: 1.5rem !important;
+    line-height: 30px;
+  }
+  .svg_logo svg {
+    width: 100px;
+  }
+  .suggest_p p {
+    max-width: 100%;
+    font-size: 1rem !important;
+    line-height: 30px !important;
+  }
+  .d-flex {
+    flex-direction: column;
+  }
+  .card_block {
+    width: 100%;
+    margin-bottom: 10%;
+  }
+  .card_img {
+    width: -webkit-fill-available;
+  }
+}

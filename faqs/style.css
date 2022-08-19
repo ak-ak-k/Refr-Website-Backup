@@ -1,0 +1,255 @@
+:root {
+  --font-family: "Inter", sans-serif;
+  --font-style: normal;
+  --white: white;
+  --black: black;
+  --text_center: center;
+  --background_card: #f2f2f2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: #f2f4f8;
+}
+
+/* header starts */
+
+.header {
+  display: grid;
+  grid-template-areas: "header header header header header header";
+  gap: 10px;
+  padding: 20px 0 20px 63px;
+}
+
+.item1 {
+  grid-area: header;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+
+  text-transform: capitalize;
+
+  color: #000000;
+}
+
+/* header ends */
+
+/* banner starts */
+
+.container2 {
+  width: 98%;
+}
+
+.main {
+  /* background: linear-gradient(90deg, #9400d3 0%, #4b0082 100%); */
+  background: linear-gradient(98.06deg, #112a61 5.12%, #060d20 46.32%, #432247 98.85%);
+  transform: skewY(-6deg);
+  height: 500px;
+  transform-origin: 0;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.faqs_heading {
+  max-width: 900px;
+  padding: 0 5%;
+  margin: 80px auto;
+}
+
+.faqs_line {
+  font-size: var(--font-family);
+  font-style: var(--font-style);
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 56px;
+
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.faqs_secondline {
+  font-size: var(--font-family);
+  font-style: var(--font-style);
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 56px;
+  text-align: center;
+  color: var(--white);
+}
+
+/* banner ends */
+.main_content {
+  width: 100%;
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 0 5% 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main_content .lg_col {
+  width: calc(100% - 300px);
+}
+
+.main_content .lg_col .faq_content {
+  border: 1px solid #eee;
+  padding: 27px 37px 15px;
+  background-color: #fff;
+  margin-bottom: 50px;
+}
+
+.box_heading {
+  font-family: var(--font-family);
+  font-style: var(--font-style);
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 29px;
+  text-transform: capitalize;
+  color: var(--black);
+}
+
+.faqs_ques {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--background_card);
+  margin: 40px 0 0 10px;
+  padding: 10px 13px;
+
+  border: none;
+  width: 100%;
+}
+
+.faqs_flex {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.faqs_ques:hover {
+  cursor: pointer;
+}
+
+.faqs_ques .svgs .svgCircle {
+  fill: #a34cf333;
+}
+
+.faqs_ques .manHat {
+  stroke: #b3b6c4;
+}
+
+.faqs_ques:hover .manHat {
+  stroke: #9400d3;
+}
+
+.active .manHat {
+  stroke: #9400d3;
+}
+
+.faqs_ques:hover .svgs .svgCircle {
+  fill: #9400d3;
+}
+
+.active .svgs .svgCircle {
+  fill: #9400d3;
+}
+.active .rotate {
+  transform: rotate(0deg);
+  transition-duration: 0.3s;
+}
+.active .rotate {
+  transform: rotate(180deg);
+}
+
+.panel {
+  padding: 10px 11%;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+/* faqs any ques right side section */
+
+.faq_any_ques {
+  width: 300px;
+  padding-top: 150px;
+  padding-left: 55px;
+}
+
+.side_section {
+  background: rgba(19, 19, 19, 0.05);
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.any_ques {
+  padding: 20px 0;
+}
+
+.have_any {
+  font-family: var(--font-family);
+  font-style: var(--font-style);
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  color: var(--black);
+}
+
+.additional_ques {
+  font-family: var(--font-family);
+  font-style: var(--font-style);
+  font-weight: 500;
+  color: var(--black);
+  font-size: 1rem;
+  padding-top: 16px;
+}
+
+.faqs_primary {
+  font-family: var(--font-family);
+  font-style: var(--font-style);
+  font-weight: 500;
+  color: var(--black);
+  font-size: 1rem;
+  text-align: left;
+  margin-bottom: 0 !important;
+}
+
+@media (max-width: 960px) {
+  .main_content {
+    padding-bottom: 80px;
+    flex-direction: column;
+  }
+  .main_content .lg_col {
+    width: 100%;
+  }
+
+  .faq_any_ques {
+    padding-top: 0px;
+    padding-left: 5px;
+  }
+  .main_content .lg_col .faq_content {
+    padding: 10px 15px;
+    margin-bottom: 40px;
+  }
+  .faqs_ques {
+    margin: 40px 0 0 0px;
+  }
+  .box_heading {
+    padding: 17px 0 0px 0;
+  }
+}
+main {
+  width: 100%;
+}

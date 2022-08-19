@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Returns and Refunds</title>
+    <link rel="icon" type="image/x-icon" href="https://biz.refr.club/favicon.ico">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;700&display=swap');
+        
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        
+        ::-webkit-scrollbar-track {
+            background: #242836;
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background: #333541;
+        }
+        
+        * {
+        
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        
+        }
+        
+        body,html {
+        
+            width: 100%;
+            min-height: 100%;
+            background-color: #242836;
+        
+        }
+        
+        .main-header {
+        
+            width: 100%;
+            height: 75px;
+            background-color: #181A24;
+            display: block;
+        
+        }
+        
+        .main-header ul.header-options {
+        
+            width: 100%;
+            height: 100%;
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding-right: 100px;
+        
+        }
+        
+        .main-header ul.header-options li {
+            display: inline-block;
+        }
+        
+        .main-header ul.header-options li.title {
+        
+            font-size: 18px;
+            color: #fff;
+            font-family: Arial;
+            cursor: pointer;
+        
+        }
+        
+        .header-mobile {
+        
+            width: 100%;
+            height: 75px;
+            background-color: #181A24;
+            text-align: center;
+            display: none;
+        }
+        
+        .title-mobile {
+            font-size: 18px;
+            color: #fff;
+            font-family: Arial;
+            cursor: pointer;
+            padding-top: 30px;
+        }
+        
+        a {
+            text-decoration: none;
+            font-size: 16px;
+            color: #6D6F79;
+            font-family: Arial;
+            cursor: pointer;
+        }
+        
+        a:hover {
+            font-size: 16px;
+            color: #9598a7;
+        }
+        
+        .card {
+            margin-top: 100px;
+            margin-bottom: 100px;
+            width: 1200px;
+            border-radius: 30px;
+            background-color: #333541;
+            margin-left: auto;
+            margin-right: auto;
+            color: white;
+            padding-bottom: 30px;
+            padding-left: 50px;
+            padding-right: 25px;
+        }
+        
+        .card .primary-heading {
+            text-align: center;
+            font-family: josefin sans;
+            color: white;
+            padding-top: 50px ;
+            font-size: 4em;
+        }
+        
+        .paragraph, h4 {
+            font-family: josefin sans;
+            color: rgb(179, 179, 179);
+            padding-top: 50px;
+            font-size: 1.5em;
+            line-height: 1.3em;
+            font-weight: 500;
+        }
+        ul{
+            margin-left: 25px;
+            margin-right: 25px;
+        }
+        ul h4{
+            padding-top: 50px;
+        }
+        ul li .paragraph {
+            padding-top: 0px;
+            margin-top: 0px;
+        }
+        
+        .bold {
+            font-weight: 700;
+            color: white;
+        }
+        
+        .footer-heading {
+            text-align: center;
+            font-family: josefin sans;
+            color: white;
+            margin-bottom: 50px;
+            font-size: 2em;
+            line-height: 35px;
+        }
+        
+        @media only screen and (max-width: 1218px) {
+            .card {
+                margin-top: 100px;
+                margin-bottom: 100px;
+                width: 1000px;
+                border-radius: 30px;
+                background-color: #333541;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+        
+        @media only screen and (max-width: 1012px) {
+            .card {
+                margin-top: 100px;
+                margin-bottom: 100px;
+                width: 800px;
+                border-radius: 30px;
+                background-color: #333541;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+        
+        @media only screen and (max-width: 832px) {
+            .card {
+                margin-top: 100px;
+                margin-bottom: 100px;
+                width: 600px;
+                border-radius: 30px;
+                background-color: #333541;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .card .primary-heading {
+                font-size: 3.5em;
+            }
+        
+            .footer-heading {
+                font-size: 1.5em;
+            }
+        }
+        
+        @media only screen and (max-width: 626px) {
+            .card {
+                margin-top: 100px;
+                margin-bottom: 100px;
+                width: 450px;
+                border-radius: 30px;
+                background-color: #333541;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        
+            .header-mobile {
+                display: block;
+            }
+        
+            .main-header {
+                display: none;
+            }
+        
+            .card .primary-heading {
+                font-size: 3em;
+            }
+        }
+        
+        @media only screen and (max-width: 480px) {
+            .card {
+                margin-top: 100px;
+                margin-bottom: 100px;
+                width: 350px;
+                border-radius: 30px;
+                background-color: #333541;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        
+            .card .primary-heading {
+                font-size: 2em;
+            }
+        }
+        
+        @media only screen and (max-width: 365px) {
+            .card {
+                margin-top: 100px;
+                margin-bottom: 100px;
+                width: 290px;
+                border-radius: 30px;
+                background-color: #333541;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        
+            .card .primary-heading {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="main-header dark-theme">
+
+        <ul class="header-options">
+    
+             <li class="title"> Refr Tech </p></li>
+            <li class="option"> <a href="https://refr.club"> India </a></p></li>
+            <li class="option"> <a href="https://refr.club"> United States </a></p></li>
+            <li class="option"> <a href="https://refr.club"> Europe </a></p></li>
+            <li class="option"> <a href="https://refr.club"> China </a></p></li>
+            <li class="option"> <a href="https://refr.club"> ASEAN </a></p></li>
+            <li class="option"> <a href="https://refr.club"> Middle East </a></p></li>
+        </ul>
+    
+    </header>
+
+    <header class="header-mobile dark-theme">
+            <h4 class="title-mobile"> Refr Tech </h4>
+    </header>
+
+    <section id="terms-of-service">
+        <div class="card">
+            <h1 class="primary-heading">Returns and Refunds</h1>
+
+<p class="paragraph">Refr offers its customers an ’Easy return/refund policy’, wherein the option of exchange, replacement and/ or refund is offered by the respective stores to you. You can raise a return/exchange request of a product within 15 days of its delivery.</p>
+
+<p class="paragraph">All returns and exchanges are subject to each store’s specific policy. Returned orders void Cash Back and will be deducted from your Refr wallet. If a store processes your exchange order as a cancellation and a new transaction is created, the exchange may be treated as a cancelled order.To ensure you receive Cash Back on exchanged orders, you can instead return the item and place an entirely new order at that store.</p>
+
+
+<h4><strong>How do I return an item purchased on Refr?</strong></h4>
+
+<p class="paragraph">To return a product, please follow these steps</p>
+
+<ul>
+    <li><p class="paragraph">Step 1: Create a 'Return Request' under “My Orders” section. Select the reason for your return and tap the 'Return’ button. Keep the item ready for pick up.</p></li>
+    <li><p class="paragraph">Step 2: Pick up: In most locations, we offer a free pick-up service. We will pick up the products within 2-4 business days. We will notify you by email when your return has been processed. We will initiate the refund or replacement process only if the products received by us in their original packaging with their seals, labels and barcodes intact</p></li>
+</ul>
+
+
+<h4><strong>I have received a damaged or defective item/wrong product in my order, how should I proceed?</strong></h4>
+
+<p class="paragraph">If you have received an item in a damaged/defective condition or have been sent a wrong product, you can initiate your return/refund within 15 days of receiving the order. Such products can only be returned in their original packaging, in an unused and sealed condition. [Opened or used products will not be accepted as returns.]</p>
+
+<p class="paragraph">If a return is accepted, Refr will replace or refund the entire amount for the damaged/ defective / expired / wrong product.</p>
+
+<p class="paragraph">Note: If it is a case of replacement, it is subject to the availability of stock. In cases when a replacement may not be available, we will refund you the full amount.</p>
+
+<h4><strong>Which are the items that cannot be returned/exchanged?</strong></h4>
+
+
+<p class="paragraph">Returns will not be accepted under the following conditions:</p>
+
+<ul>
+    <li><p class="paragraph">Product which has been used</p></li>
+    <li><p class="paragraph">Returned without original packaging including, price tags, labels, and other accessories or if the original packaging is damaged.</p></li>
+    <li><p class="paragraph">If serial number or price tag is tampered</p></li>
+    <li><p class="paragraph">Products that are not covered under Store’s Exchange/Return policy</p></li>
+    <li><p class="paragraph">Product is altered or tampered with</p></li>
+    <li><p class="paragraph">If request is initiated after 15 business days of order delivery</p></li>
+</ul>
+
+
+<p class="paragraph">Categories not eligible for Return:</p>
+
+<ul>
+    <li><p class="paragraph">Products like jewellery, sunglasses, socks, deodorants, perfumes, shapewear bottoms, lingerie, cosmetics (eg: lipsticks, compacts, mascaras, etc) cannot be returned</p></li>
+    <li><p class="paragraph">Personal care appliances cannot be returned due to hygiene issues</p></li>
+</ul>
+
+<h4><strong>Can I return part of my order?</strong></h4>
+
+<p class="paragraph">Yes. If you have ordered multiple items together, you can initiate a return/replacement/refund for any individual item of that order. However, any product being returned needs to be returned in the original condition with all packaging & tags intact.</p>
+
+<h4><strong>How will I get refunded for the returned orders and how long will this process take?</strong></h4>
+
+<p class="paragraph">In case of a return/replacement/refund, we process the refund once the products have been received and verified at the respective store.</p>
+
+<ul>
+    <li><p class="paragraph">For payments done through credit/debit cards or net banking, the refund will be processed to the same account from which the payment was made within 2-4 business days of the store receiving the product.</p></li>
+    <li><p class="paragraph">For cash on delivery transactions, we will initiate a bank transfer for the refund amount. Please add your bank details to your Refr account. This process will be completed within 2-4 business days of the store receiving the product.</p></li>
+</ul>
+
+<h4><strong>Why is my return request cancelled multiple times and how can I re-initiate?</strong></h4>
+<p class="paragraph">Return requests can get cancelled if the pick-up of the product is unsuccessful. Make sure that the pickup address & your contact number are correct & that someone is available at the given address for the pick-up of the order.</p>
+
+
+<h4><strong>How do I track my Return/Exchange product?</strong></h4>
+
+<p class="paragraph">You can track your Return/Exchange by selecting your order from the “My Orders” section.</p>
+
+<h4><strong>How can I cancel my return/exchange request for my order?</strong></h4>
+
+<p class="paragraph">You can cancel the return/exchange request for an order by visiting the ‘My Orders’ section> Particular order.</p>
+
+<h4><strong>Can I change my pickup address?</strong></h4>
+
+<p class="paragraph">Please note that the pickup address can be updated only after cancelling your ongoing return/exchange request and reinitiating the same. Kindly cancel your ongoing return/exchange request by visiting the ‘My Orders’ section. At the time of reinitiating the return/exchange request, please add the correct address along with the correct pin code.</p>
+
+
+<h4><strong>Why is my return request getting rejected?</strong></h4>
+
+<p class="paragraph">The possible reasons for return request rejection can be</p>
+
+<ul>
+    <li><p class="paragraph">Wrong reason selected</p></li>
+    <li><p class="paragraph">Products that are not covered under Store’s Return policy</p></li>
+</ul>
+
+
+<h4><strong>Why has my return request been declined after the product has been picked up?</strong></h4>
+
+<p class="paragraph">This may have happened if the item you returned is used, damaged or it’s original tags are missing. In the event that the return request is declined, the product will be returned to you & you will not be eligible for a refund. Refr has no liability in this regard.</p>
+
+
+<h4><strong>Can I exchange my order twice?</strong></h4>
+
+<p class="paragraph">Sorry! As per the policies, only one exchange request is accepted. In case you are not satisfied with the exchanged product, you can raise a return request within 7 days of exchanged product delivery.</p>
+
+
+<h4><strong>What happens to my cashback if I return an online order?</strong></h4>
+
+<p class="paragraph">If you return an online order, your cashback will be transferred back to the store from your Refr wallet</p>
+
+
+<h4><strong>Can I cancel my order?</strong></h4>
+
+<p class="paragraph">No. Once an order placed at any store on Refr cannot be cancelled.</p>
+
+
+        </div>
+    </section>
+    <footer>
+        <p class="footer-heading">© Copyright 2020-2021 Refr Tech. All rights reserved.</p>
+    </footer>
+</body>
+</html>
