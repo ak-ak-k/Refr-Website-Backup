@@ -122,6 +122,7 @@ header {
   color: var(--whiteColor);
   position: fixed;
   top: 0;
+  left: -8px;
   z-index: 1;
 }
 header .container-fluid {
@@ -1851,8 +1852,10 @@ video::-webkit-media-controls {
     display: none;
   }
   header {
-    /* position: absolute !important; */
-    background: transparent !important;
+    position: static;
+    background: transparent;
+    width: 100%;
+    padding: 1% 0 4% 0;
   }
   .banner {
     padding-top: 120px;

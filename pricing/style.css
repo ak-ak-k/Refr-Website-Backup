@@ -460,14 +460,14 @@ tr {
 /* ---------------------- */
 
 .ques_list {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   max-width: 50%;
   margin: auto;
 }
 
 .accordion {
   cursor: pointer;
-  padding: 18px 0 0 0;
+  padding: 18px 0 18px 0;
   border: none;
   text-align: left;
   outline: none;
@@ -491,7 +491,8 @@ tr {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 35px;
+  margin: 0;
 }
 
 .faqs_desc {
@@ -535,17 +536,21 @@ tr {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 26px;
-
   text-align: left;
-
   color: #000000;
+  margin: 0;
+}
+
+.change {
+  width: 20px;
 }
 
 .active .change {
   transform: rotate(0deg);
   transition-duration: 0.3s;
+  width: 20px;
 }
 .active .change {
   transform: rotate(180deg);
@@ -554,6 +559,23 @@ tr {
 .left_content svg {
   width: 100%;
   max-width: 25px;
+}
+
+.credits {
+  width: 100%;
+  text-align: center;
+  margin: 0 0 6% 0;
+}
+
+.btn-primary {
+  background-color: #8000ff;
+  border-color: #8000ff;
+  font-weight: 500;
+  font-size: 1em;
+  text-transform: capitalize;
+  display: inline-grid;
+  place-items: center;
+  box-shadow: 0px -1px 2px 2px #8000ff, 0px 1px 2px 2px #8000ff;
 }
 
 @media screen and (max-width: 900px) {
@@ -565,8 +587,10 @@ tr {
     padding-top: 105px;
   } */
   .brand {
-    font-size: 20px;
-    margin-bottom: 0;
+    font-size: 22px;
+    max-width: 50%;
+    margin: auto;
+    line-height: 30px;
   }
   .get_started {
     font-size: 14px;
@@ -582,17 +606,22 @@ tr {
   }
   .pt_1 {
     margin: 25px 0;
+    width: 100%;
   }
   .choose {
     font-size: 25px;
-    padding: 6px;
+    /* padding: 6px 10px 6px 10px; */
+    width: 85%;
+    margin: auto;
   }
   .correct {
-    font-size: 15px;
+    font-size: 14px;
     width: 100%;
     max-width: 81%;
-    text-align: justify;
+    text-align: center;
     padding: 10px;
+    line-height: 20px;
+    color: #616161;
   }
   .cards_section {
     gap: 50px;
@@ -636,9 +665,9 @@ tr {
   }
 
   .feature {
-    font-size: 30px;
-    margin-bottom: 0;
-    padding: 6px;
+    font-size: 25px;
+    width: 85%;
+    margin: auto;
   }
 
   .feature_acc {
@@ -683,15 +712,18 @@ tr {
   }
   .faq_text p {
     font-size: 25px;
-    padding: 35px 30px 5px 30px;
+    line-height: 28px;
+    padding: 20px 30px 5px 30px;
   }
   .faqs_text {
     font-size: 16px;
+    margin: 0 !important;
+    line-height: 25px;
   }
   .faqs_desc {
     font-size: 15px;
     width: 95%;
-    margin: auto;
+    margin: 0 auto 5% auto;
   }
   .line {
     width: 90%;
@@ -710,13 +742,19 @@ tr {
     margin: 20px auto;
   }
   .accordion {
-    padding: 1% 6% 1% 8%;
+    padding: 5% 2% 5% 2%;
     max-width: 100%;
     text-align: left;
     align-items: center;
   }
   .ques_list {
-    max-width: 100%;
+    max-width: 88%;
+  }
+  .panel {
+    padding: 0;
+  }
+  .btn-primary {
+    padding: 12px !important;
   }
 }
 .container2 {

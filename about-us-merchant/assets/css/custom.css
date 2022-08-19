@@ -68,6 +68,12 @@ img {
 
 /* changes */
 
+.get_free_demo {
+  background-color: #8000ff;
+  padding: 10px 16px;
+  border-radius: 5px;
+}
+
 .header-wrap .menu ul {
   display: flex;
   align-items: center;
@@ -116,12 +122,13 @@ section.banner {
 }
 header {
   background: linear-gradient(98.06deg, #112a61 5.12%, #060d20 46.32%, #432247 98.85%);
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   padding: 20px 0px;
   width: 100%;
   color: var(--whiteColor);
+  z-index: 3;
 }
 header .container-fluid {
   padding-left: 35px;
