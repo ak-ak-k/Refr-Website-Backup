@@ -68,6 +68,12 @@ img {
 
 /* changes */
 
+.get_free_demo {
+  background-color: #8000ff;
+  padding: 10px 16px;
+  border-radius: 5px;
+}
+
 .header-wrap .menu ul {
   display: flex;
   align-items: center;

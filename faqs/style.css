@@ -124,7 +124,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: var(--background_card);
+  background: transparent;
   margin: 40px 0 0 10px;
   padding: 10px 13px;
 
@@ -174,10 +174,11 @@ body {
 }
 
 .panel {
-  padding: 10px 11%;
   display: none;
   background-color: white;
   overflow: hidden;
+  max-width: 80%;
+  margin: auto;
 }
 
 /* faqs any ques right side section */

@@ -67,6 +67,11 @@ img {
 /*  */
 
 /* changes */
+.get_free_demo {
+  background-color: #8000ff;
+  padding: 10px 16px;
+  border-radius: 5px;
+}
 
 .header-wrap .menu ul {
   display: flex;
@@ -132,6 +137,11 @@ header .container-fluid {
 header.merchant-social .container-fluid {
   padding-left: 100px;
   padding-right: 100px;
+  position: fixed;
+  background: #ffffff;
+  z-index: 3;
+  top: 0;
+  padding: 1% 10%;
 }
 .header-wrap {
   display: flex;
@@ -1783,6 +1793,7 @@ video::-webkit-media-controls {
   header.merchant-social .container-fluid {
     padding-left: 30px;
     padding-right: 30px;
+    position: static;
   }
 
   .banner.merchant-social .container-fluid {

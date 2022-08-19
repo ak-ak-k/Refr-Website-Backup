@@ -68,6 +68,12 @@ img {
 
 /* changes */
 
+.get_free_demo {
+  background-color: #8000ff;
+  padding: 10px 16px;
+  border-radius: 5px;
+}
+
 .header-wrap .menu ul {
   display: flex;
   align-items: center;
@@ -128,6 +134,11 @@ header .container-fluid {
 header.merchant-social .container-fluid {
   padding-left: 100px;
   padding-right: 100px;
+  position: fixed;
+  background: linear-gradient(86.39deg, #f0a6a6 7.44%, #c16568 92.33%);
+  top: 0;
+  z-index: 3;
+  padding: 1% 10%;
 }
 .header-wrap {
   display: flex;
@@ -1116,7 +1127,7 @@ span.badge-list {
   z-index: 1;
 }
 .social-area .social-media-box {
-  width: 45%;
+  width: 75%;
   display: flex;
   gap: 20px;
   flex-flow: row wrap;
@@ -1785,6 +1796,7 @@ video::-webkit-media-controls {
   header.merchant-social .container-fluid {
     padding-left: 30px;
     padding-right: 30px;
+    position: static;
   }
 
   .banner.merchant-social .container-fluid {
