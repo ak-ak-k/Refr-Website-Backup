@@ -407,7 +407,7 @@ header.merchant-social .header-wrap .logo a img {
 }
 .strip.merchant-social,
 .refrclub-featurs-bottom {
-  background-color: #f2f2f2;
+  background-color: #ffffff;
 }
 .refrclub-featurs-bottom h4 {
   font-size: 1.25em;
@@ -3360,3 +3360,66 @@ i.bordicon {
     background: white !important;
   }
 } */
+
+/*  */
+
+.sol_work {
+  background: #f8f0ff;
+}
+
+.main_sol {
+  width: 100%;
+  margin: 4% auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.sol_text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 41px;
+  color: #000000;
+  margin: 0;
+  max-width: 80%;
+}
+
+.sol_secondary {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin: 0;
+}
+
+.d_flex {
+  display: flex;
+  align-items: center;
+  gap: 0%;
+}
+
+.d_flex svg {
+  margin-right: 15px;
+}
+
+.sol_tert {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin: 0 auto 0 9%;
+  max-width: 70%;
+  margin-bottom: 5%;
+}
+
+@media screen and (max-width: 900px) {
+  .main_sol {
+    flex-direction: column;
+    padding: 5%;
+  }
+  .sol_text {
+    margin-bottom: 6%;
+  }
+}

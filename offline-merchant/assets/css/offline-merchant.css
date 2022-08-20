@@ -15,7 +15,7 @@
 }
 
 .social-area .social-media-box {
-  width: 45%;
+  width: 75%;
   display: flex;
   gap: 20px;
   flex-flow: row wrap;

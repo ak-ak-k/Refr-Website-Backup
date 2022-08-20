@@ -45,9 +45,10 @@ img {
 }
 
 .content {
-  margin: 5% 0% 5% 8%;
+  margin: 4% 0% 5% 8%;
   display: flex;
   width: 85%;
+  align-items: center;
 }
 
 .content_p p {
