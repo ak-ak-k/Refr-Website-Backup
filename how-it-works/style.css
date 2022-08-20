@@ -233,18 +233,26 @@ margin-left: auto;
 
 .shop_products {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   background: rgba(129, 17, 232, 0.1);
   padding: 40px;
+}
+
+.shop_right {
+  text-align: right;
 }
 
 .main_img {
   width: 18vw;
 }
 
+.shop_img {
+  max-width: 30vw;
+}
+
 .want_more {
   text-align: center;
-  margin: 20px 0;
+  margin: 6% 0;
 }
 
 .want_to {
@@ -455,5 +463,8 @@ footer {
   }
   header a img {
     width: 100px;
+  }
+  .shop_img {
+    max-width: 40vw;
   }
 }
