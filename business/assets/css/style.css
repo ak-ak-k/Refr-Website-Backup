@@ -792,8 +792,8 @@ section.for-everyone .title {
   margin-bottom: 30px;
 }
 .service {
-  background: linear-gradient(98.06deg, #112a61 5.12%, #060d20 46.32%, #432247 98.85%), #ebebeb;
-  color: var(--whiteColor);
+  background: #ffffff;
+  color: var(--blackColor);
   padding-bottom: 50px;
   padding-top: 50px;
 }
@@ -917,11 +917,12 @@ section.for-everyone .title {
 }
 .btn-primary {
   font-size: 1em;
-  padding: 16px 25px !important;
+  padding: 16px 30px !important;
   line-height: 1;
   max-width: fit-content;
   width: fit-content;
   min-width: fit-content;
+  margin-right: 5%;
 }
 .btn-primary {
   background-color: #8000ff;
@@ -1331,6 +1332,10 @@ video::-webkit-media-controls {
     align-items: end;
     gap: 9px;
   }
+
+  .social-media-box .mb_5 {
+    margin-bottom: 5%;
+  }
   .social-area .social-media-box {
     width: 100%;
     justify-content: center;
@@ -1340,6 +1345,9 @@ video::-webkit-media-controls {
   }
   .banner-wrap.flex-wrap h1 span {
     font-size: 2rem !important;
+  }
+  .joinrefr_title h2 {
+    font-size: 28px;
   }
 }
 @media (max-width: 706px) {
@@ -1485,7 +1493,7 @@ video::-webkit-media-controls {
 
 @media screen and (max-width: 1600px) {
   .grow-business .grow-business-wrap .single-grow h3 {
-    font-size: 1.1em;
+    font-size: 1em;
   }
   .grow-business .grow-business-wrap .single-grow h3 svg {
     height: 14px;
@@ -1630,6 +1638,9 @@ video::-webkit-media-controls {
 }
 
 @media screen and (max-width: 991px) {
+  .joinrefr_title h2 {
+    font-size: 28px;
+  }
   .refrclub-featurs-bottom h4 {
     font-size: 1.25em;
     margin: 15px 0 5px;
@@ -1702,6 +1713,9 @@ video::-webkit-media-controls {
 }
 
 @media screen and (max-width: 768px) {
+  .joinrefr_title h2 {
+    font-size: 26px;
+  }
   .strip h2 {
     font-size: 2em;
   }
@@ -1795,6 +1809,9 @@ video::-webkit-media-controls {
 }
 
 @media screen and (max-width: 700px) {
+  .joinrefr_title h2 {
+    font-size: 22px;
+  }
   .single-badge {
     bottom: 26px !important;
     left: 0 !important;
@@ -2066,6 +2083,9 @@ video::-webkit-media-controls {
 }
 
 @media screen and (max-width: 425px) {
+  .joinrefr_title h2 {
+    font-size: 22px;
+  }
   .banner.merchant-social .banner-wrap .banner-img {
     min-width: 100%;
     padding-top: 50px;
@@ -3387,8 +3407,13 @@ i.bordicon {
 }
 
 @media screen and (max-width: 900px) {
+  .btn-primary {
+    font-size: 16px !important;
+    padding: 12px !important;
+  }
+
   .img_sections img {
-    width: 120px;
+    width: 101px;
     margin-bottom: 5%;
   }
   .img_sections {
@@ -3405,3 +3430,6 @@ i.bordicon {
     }
   } */
 }
+
+/*  */
+
