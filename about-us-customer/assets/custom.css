@@ -80,6 +80,7 @@ a {
     cursor: pointer;
     margin-right: 16px;
     animation: logoImg 1s cubic-bezier(0.8, 0, 0.12, 0.99);
+    padding: 5%;
   }
   .join_btn {
     background-color: #111 !important;
@@ -94,6 +95,7 @@ a {
     cursor: pointer;
     margin-right: 10px;
     animation: logoImg 0.9s cubic-bezier(0.8, 0, 0.12, 0.99);
+    padding: 5%;
   }
   @media (min-width: 455px) {
     .mobile_creditCard {

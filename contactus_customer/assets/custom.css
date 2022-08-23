@@ -120,6 +120,10 @@ a {
       border: none;
       cursor: pointer;
       margin-right: 16px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0 4%;
     }
     .join_btn {
       background-color: #111 !important;
@@ -198,7 +202,10 @@ a {
       border: none;
       cursor: pointer;
       margin-right: 6px;
-      padding: 3px 23px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* padding: 3px 23px; */
     }
     .footer-sm-section .title h1 {
       font-size: 26px;
@@ -3830,7 +3837,6 @@ a {
     flex-direction: column;
     z-index: 5;
     padding: 15px 156px;
-
   }
 
   /* .logo {
@@ -6653,8 +6659,8 @@ a {
       align-items: flex-end;
     }
     .explore_btn {
-      min-height: 30px;
-      min-width: 80px;
+      /* min-height: 30px;
+      min-width: 80px; */
       border-radius: 100px;
       background: linear-gradient(180deg, #9b6cff 0%, #6a32e1 100%);
       color: white;
@@ -6695,8 +6701,8 @@ a {
       align-items: flex-end;
     }
     .explore_btn {
-      min-height: 30px;
-      min-width: 80px;
+      /* min-height: 30px;
+      min-width: 80px; */
       border-radius: 100px;
       background: linear-gradient(180deg, #9b6cff 0%, #6a32e1 100%);
       color: white;
