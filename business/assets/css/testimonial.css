@@ -70,6 +70,7 @@
     flex-direction: column;
     box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
     border-radius: 4px;
+    margin: 0% auto 8% auto;
   }
   .testimonials_img img {
     max-width: 100%;

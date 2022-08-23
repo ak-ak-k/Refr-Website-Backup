@@ -180,7 +180,7 @@ body {
   display: none;
   background-color: white;
   overflow: hidden;
-  max-width: 80%;
+  width: 86%;
   margin: auto;
 }
 
@@ -252,6 +252,9 @@ body {
   }
   .box_heading {
     padding: 17px 0 0px 0;
+  }
+  .panel{
+    max-width: 65%;
   }
 }
 main {

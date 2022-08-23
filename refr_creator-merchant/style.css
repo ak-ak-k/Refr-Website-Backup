@@ -42,13 +42,14 @@
   max-width: 100%;
   width: 100%;
   min-height: 940px;
-  height: 850px;
+  height: 100%;
+
 }
 .sec2 img {
   max-width: 100%;
   width: 100%;
   min-height: 940px;
-  height: 850px;
+  height: 100%;
 }
 
 .text_wrapper {
@@ -93,13 +94,17 @@
 
 .d-flex {
   align-items: center;
-  margin: auto;
+  margin:10% auto;
   width: 92%;
-  padding: 5%;
+  /* padding: 5%; */
 }
 
 .refr_democratises {
   max-width: 100%;
+}
+
+.right_img img{
+  /* width: 45vw; */
 }
 
 .primary {

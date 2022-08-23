@@ -1,19 +1,23 @@
+* {
+  font-family: Inter, " sans-serif" !important;
+}
+
+.about_refr {
+  margin: 8% 0 10% 0;
+}
+
 #aboutus_content {
   padding: 0 12% !important;
 }
 
-.about_refr {
-  margin: 15% 0 10% 0;
-}
-
 .about {
-  font-family: "Poppins";
+  font-family: "Poppins" !important;
   font-style: normal;
   font-weight: 700;
   font-size: 2rem !important;
   line-height: 60px;
   color: #000000;
-  padding: 15px 0;
+  padding: 0 0 15px 0;
 }
 
 .about_desc {
@@ -22,7 +26,7 @@
   font-weight: 400;
   font-size: 1rem !important;
   line-height: 24px;
-
+  text-transform: initial;
   color: #000000;
 }
 
@@ -31,12 +35,13 @@
 .what_we p {
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 1rem !important;
   line-height: 24px;
   text-transform: capitalize;
   color: #000000;
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
+  margin: 0;
 }
 
 /* empowering */
@@ -44,6 +49,7 @@
 .center_div {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 5%;
 }
 
 .emp_mil {
@@ -68,6 +74,7 @@
   width: 100%;
   max-width: 400px;
   padding: 20px 0;
+  text-transform: initial;
 }
 
 .emp_img {
@@ -122,8 +129,9 @@
   #aboutus_content {
     padding: 0 8% !important;
   }
+
   .about_refr {
-    margin: 10% 0 5% 0;
+    margin: 30% 0 5% 0;
   }
 }
 
@@ -133,11 +141,13 @@
     font-size: 1rem !important;
     line-height: 30px;
   }
+
   .refr_platform {
     font-size: 0.8rem !important;
     padding: 10px 0;
     max-width: 300px;
   }
+
   .center_div {
     display: flex;
     flex-direction: column;
@@ -147,6 +157,12 @@
     font-size: 1.3rem !important;
     line-height: 30px;
     text-align: center;
+  }
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 640px) and (orientation: landscape) {
+  .about_refr {
+    margin: 15% 0 5% 0 !important;
   }
 }
 

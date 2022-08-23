@@ -421,9 +421,7 @@ a {
   @media screen and (max-width: 1024px) {
     .mainHeader {
       /* margin: 0px 20px 0px 20px; */
-      /* padding: 0 20px; */
-      padding: 0;
-      overflow-x: hidden;
+      padding: 0 20px;
       /* margin: 0px 160px 0px 160px; */
       background: linear-gradient(105.18deg, #fdb271 0%, #fe9ea1 78.54%, #ffbd81 90%, #ffa862 100%);
       width: 100%;
@@ -1173,11 +1171,12 @@ a {
     font-weight: 400;
     /* margin: 0px 160px 0px 160px; */
     background: linear-gradient(105.18deg, #fdb271 0%, #fe9ea1 78.54%, #ffbd81 90%, #ffa862 100%);
-    /* width: 100%; */
+    width: 100%;
     padding: 0 160px;
     display: flex;
     flex-direction: column;
     z-index: 5;
+    width: -webkit-fill-available;
   }
 
   .logo img {
@@ -1223,7 +1222,7 @@ a {
   header {
     z-index: 3;
     /* text-transform: uppercase; */
-    padding-top: 28px;
+    /* padding-top: 28px; */
     display: flex;
     color: #111;
     justify-content: space-between;
@@ -2138,7 +2137,7 @@ a {
   header {
     z-index: 3;
     /* text-transform: uppercase; */
-    padding-top: 60px;
+    /* padding-top: 60px; */
     display: flex;
     color: #111;
     justify-content: space-between;
@@ -3018,7 +3017,7 @@ a {
   header {
     z-index: 3;
     /* text-transform: uppercase; */
-    padding-top: 60px;
+    /* padding-top: 60px; */
     display: flex;
     color: #111;
     justify-content: space-between;
@@ -3826,11 +3825,13 @@ a {
     font-weight: 400;
     /* margin: 0px 160px 0px 160px; */
     background: linear-gradient(105.18deg, #fdb271 0%, #fe9ea1 78.54%, #ffbd81 90%, #ffa862 100%);
-    /* width: 100%; */
+    width: -webkit-fill-available;
     padding: 0 160px;
     display: flex;
     flex-direction: column;
     z-index: 5;
+    padding: 15px 156px;
+
   }
 
   /* .logo {
@@ -3882,7 +3883,7 @@ a {
   header {
     z-index: 3;
     /* text-transform: uppercase; */
-    padding-top: 30px;
+    /* padding-top: 30px; */
     display: flex;
     color: #111;
     justify-content: space-between;
@@ -4750,7 +4751,7 @@ a {
   header {
     z-index: 3;
     /* text-transform: uppercase; */
-    padding-top: 60px;
+    /* padding-top: 60px; */
     display: flex;
     color: #111;
     justify-content: space-between;
@@ -5600,7 +5601,7 @@ a {
   header {
     z-index: 3;
     /* text-transform: uppercase; */
-    padding-top: 28px;
+    /* padding-top: 28px; */
     display: flex;
     color: #111;
     justify-content: space-between;
@@ -6734,7 +6735,7 @@ a {
   header {
     z-index: 3;
     /* text-transform: uppercase; */
-    padding-top: 20px;
+    /* padding-top: 20px; */
     display: flex;
     color: #111;
     justify-content: space-between;

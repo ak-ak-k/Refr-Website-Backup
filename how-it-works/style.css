@@ -2,10 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Inter", sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-decoration: none;
   list-style-type: none;
 }
+
 /* header */
 
 .header {
@@ -55,6 +56,7 @@ header {
 .main_heading {
   text-align: right;
 }
+
 /*  */
 
 .banner_text {
@@ -187,7 +189,7 @@ margin-left: auto;
 .main_line {
   font-style: normal;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: 42px;
   text-transform: uppercase;
   display: flex;
@@ -198,7 +200,7 @@ margin-left: auto;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.1rem !important;
   line-height: 32px;
   color: rgba(0, 0, 0, 0.7);
   width: 480px;
@@ -374,46 +376,58 @@ footer {
     height: auto;
     background-color: #ffffff;
   }
+
   .banner img {
     object-fit: contain;
   }
+
   .para_left h6 {
     font-size: 40px;
   }
+
   header {
     margin: 0 5px;
   }
+
   .shop_products {
     flex-direction: column;
     margin: 0;
     padding: 9px;
   }
+
   .secondary_line {
     width: -webkit-fill-available;
     text-align: center;
     padding: 7px;
   }
+
   .main_line {
     text-align: center;
   }
+
   .shop_product_text {
     text-align: center;
   }
+
   .explore {
     text-align: center;
   }
+
   .shop_right {
     text-align: center;
   }
+
   /*  */
   .col_1 {
     flex-direction: column;
     justify-content: center;
     gap: 30px;
   }
+
   .para_left {
     text-align: center;
   }
+
   /*  */
 
   /* .want_more {
@@ -423,15 +437,18 @@ footer {
     display: flex;
     flex-direction: column;
   }
+
   .followus_section {
     display: flex;
     gap: 20px;
     flex-direction: column;
   }
+
   .refr_tech {
     width: 100%;
     text-align: center;
   }
+
   .explore_btn {
     min-height: 30px;
     min-width: 80px;
@@ -446,6 +463,7 @@ footer {
     margin-right: 16px;
     padding: 10px;
   }
+
   .join_btn {
     background-color: #111 !important;
     min-height: 30px;
@@ -460,12 +478,15 @@ footer {
     margin-right: 6px;
     padding: 10px;
   }
+
   .main_img {
     width: 8rem;
   }
+
   header a img {
     width: 100px;
   }
+
   .shop_img {
     max-width: 40vw;
   }

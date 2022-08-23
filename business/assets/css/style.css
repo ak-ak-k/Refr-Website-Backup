@@ -127,9 +127,11 @@ img {
 .img_sections {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 3%;
-  margin: 0 0 1% 0;
+  gap: 7%;
+  margin: 0 auto;
+  max-width: 60%;
 }
 
 .img_sections img {
@@ -1327,8 +1329,11 @@ video::-webkit-media-controls {
 /*small to large devices*/
 
 @media screen and (max-width: 900px) {
+  .card .card_img{
+    margin: 10% auto;
+  }
   .get_demo_cta {
-    padding: 5% 0 !important;
+    padding: 10% 0 !important;
   }
   .get_started_contact {
     display: flex;
@@ -3416,12 +3421,13 @@ i.bordicon {
   }
 
   .img_sections img {
-    width: 101px;
+    width: 85px;
     margin-bottom: 5%;
   }
   .img_sections {
     flex-wrap: wrap;
-    gap: 10%;
+    gap: 8%;
+    max-width: 100%;
   }
 }
 

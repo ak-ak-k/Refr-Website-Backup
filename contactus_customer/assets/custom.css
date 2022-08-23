@@ -3829,6 +3829,8 @@ a {
     display: flex;
     flex-direction: column;
     z-index: 5;
+    padding: 15px 156px;
+
   }
 
   /* .logo {
