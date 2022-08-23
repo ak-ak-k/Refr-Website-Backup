@@ -116,7 +116,7 @@ a {
       color: white;
       font-size: 11px;
       font-weight: 600;
-      text-transform: uppercase;
+      text-transform: capitalize;
       border: none;
       cursor: pointer;
       margin-right: 16px;
@@ -129,10 +129,13 @@ a {
       color: white;
       font-size: 11px;
       font-weight: 600;
-      text-transform: uppercase;
+      text-transform: capitalize;
       border: none;
       cursor: pointer;
       margin-right: 6px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
     .footer-sm-section .title h1 {
       font-size: 26px;
@@ -174,6 +177,10 @@ a {
       align-items: flex-end;
     }
     .explore_btn {
+      padding: 0 2%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       min-height: 30px;
       min-width: 80px;
       border-radius: 100px;
@@ -181,7 +188,7 @@ a {
       color: white;
       font-size: 11px;
       font-weight: 600;
-      text-transform: uppercase;
+      text-transform: capitalize;
       border: none;
       cursor: pointer;
       margin-right: 16px;
@@ -189,16 +196,17 @@ a {
     .join_btn {
       background-color: #111 !important;
       min-height: 30px;
-      min-width: 130px;
+      /* min-width: 130px; */
       border-radius: 100px;
       color: white;
       font-size: 11px;
       font-weight: 600;
-      text-transform: uppercase;
+      text-transform: capitalize;
       border: none;
       cursor: pointer;
       margin-right: 6px;
-      padding: 3px 23px;
+      /* padding: 3px 23px; */
+      padding: 0;
     }
     .footer-sm-section .title h1 {
       font-size: 26px;
@@ -421,7 +429,7 @@ a {
   @media screen and (max-width: 1024px) {
     .mainHeader {
       /* margin: 0px 20px 0px 20px; */
-      padding: 0 20px;
+      padding: 0 0px;
       /* margin: 0px 160px 0px 160px; */
       background: linear-gradient(105.18deg, #fdb271 0%, #fe9ea1 78.54%, #ffbd81 90%, #ffa862 100%);
       width: 100%;
@@ -1199,7 +1207,7 @@ a {
     color: white;
     font-size: 14px;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: capitalize;
     border: none;
     cursor: pointer;
     margin-right: 16px;
@@ -1212,7 +1220,7 @@ a {
     color: white;
     font-size: 14px;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: capitalize;
     border: none;
     cursor: pointer;
     margin-right: 10px;
@@ -2114,7 +2122,7 @@ a {
     color: white;
     font-size: 14px;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: capitalize;
     border: none;
     cursor: pointer;
     margin-right: 16px;
@@ -2127,7 +2135,7 @@ a {
     color: white;
     font-size: 14px;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: capitalize;
     border: none;
     cursor: pointer;
     margin-right: 10px;
@@ -2994,7 +3002,7 @@ a {
     color: white;
     font-size: 14px;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: capitalize;
     border: none;
     cursor: pointer;
     margin-right: 16px;
@@ -3007,7 +3015,7 @@ a {
     color: white;
     font-size: 14px;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: capitalize;
     border: none;
     cursor: pointer;
     margin-right: 10px;
@@ -3831,7 +3839,6 @@ a {
     flex-direction: column;
     z-index: 5;
     padding: 15px 156px;
-
   }
 
   /* .logo {
@@ -3860,7 +3867,7 @@ a {
     color: white;
     font-size: 14px;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: capitalize;
     border: none;
     cursor: pointer;
     margin-right: 16px;
@@ -3873,7 +3880,7 @@ a {
     color: white;
     font-size: 14px;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: capitalize;
     border: none;
     cursor: pointer;
     margin-right: 10px;
@@ -4728,7 +4735,7 @@ a {
     color: white;
     font-size: 14px;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: capitalize;
     border: none;
     cursor: pointer;
     margin-right: 16px;
@@ -4741,7 +4748,7 @@ a {
     color: white;
     font-size: 14px;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: capitalize;
     border: none;
     cursor: pointer;
     margin-right: 10px;
@@ -5578,7 +5585,7 @@ a {
     color: white;
     font-size: 14px;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: capitalize;
     border: none;
     cursor: pointer;
     margin-right: 16px;
@@ -5591,7 +5598,7 @@ a {
     color: white;
     font-size: 14px;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: capitalize;
     border: none;
     cursor: pointer;
     margin-right: 10px;
@@ -6627,7 +6634,7 @@ a {
     color: white;
     font-size: 12px;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: capitalize;
     border: none;
     cursor: pointer;
     margin-right: 16px;
@@ -6641,7 +6648,7 @@ a {
     color: white;
     font-size: 12px;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: capitalize;
     border: none;
     cursor: pointer;
     margin-right: 10px;
@@ -6661,7 +6668,7 @@ a {
       color: white;
       font-size: 11px;
       font-weight: 600;
-      text-transform: uppercase;
+      text-transform: capitalize;
       border: none;
       cursor: pointer;
       margin-right: 16px;
@@ -6674,7 +6681,7 @@ a {
       color: white;
       font-size: 11px;
       font-weight: 600;
-      text-transform: uppercase;
+      text-transform: capitalize;
       border: none;
       cursor: pointer;
       margin-right: 6px;
@@ -6696,6 +6703,10 @@ a {
       align-items: flex-end;
     }
     .explore_btn {
+      padding: 0 4%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       min-height: 30px;
       min-width: 80px;
       border-radius: 100px;
@@ -6703,7 +6714,7 @@ a {
       color: white;
       font-size: 11px;
       font-weight: 600;
-      text-transform: uppercase;
+      text-transform: capitalize;
       border: none;
       cursor: pointer;
       margin-right: 16px;
@@ -6716,7 +6727,7 @@ a {
       color: white;
       font-size: 11px;
       font-weight: 600;
-      text-transform: uppercase;
+      text-transform: capitalize;
       border: none;
       cursor: pointer;
       margin-right: 6px;
