@@ -5,13 +5,17 @@
   padding: 1%;
 }
 
+.p_relative {
+  position: relative;
+}
+
 .testimonials {
   background-color: #ffffff;
   width: 80%;
   margin: 3% auto;
   display: flex;
   gap: 5%;
-  position: relative;
+  /* position: relative; */
 }
 
 .testimonials_img img {
@@ -50,13 +54,13 @@
 .left_arrow {
   position: absolute;
   top: 30%;
-  left: -4%;
+  left: 6%;
 }
 
 .right_arrow {
   position: absolute;
   top: 30%;
-  right: -4%;
+  right: 6%;
 }
 
 @media screen and (max-width: 900px) {

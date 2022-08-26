@@ -76,25 +76,20 @@ header {
 
 .banner {
   position: relative;
-  /* height: 400px; */
   width: 100%;
 }
 
 .banner img {
-  width: inherit;
+  width: 100%;
+  height: 500px;
   object-fit: cover;
-  /* object-position: 70% 35%; */
 }
 
 .para_left {
   width: 100%;
-  /* max-width: 500px; */
-  /* padding: 7rem 0; */
-
   position: absolute;
   top: 0;
   right: 0;
-  /* vertical-align: top; */
   transform: translate(-50px, 50px);
   top: 50%;
   left: 50%;
@@ -382,7 +377,8 @@ footer {
 }
 
 @media screen and (max-width: 900px) {
-  .media_dflex {}
+  .media_dflex {
+  }
 
   .banner {
     height: auto;

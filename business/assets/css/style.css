@@ -919,12 +919,13 @@ section.for-everyone .title {
 }
 .btn-primary {
   font-size: 1em;
-  padding: 16px 30px !important;
+  /* padding: 16px 30px !important; */
   line-height: 1;
   max-width: fit-content;
   width: fit-content;
   min-width: fit-content;
   margin-right: 5%;
+  padding: 10px 16px !important;
 }
 .btn-primary {
   background-color: #8000ff;
@@ -1329,7 +1330,7 @@ video::-webkit-media-controls {
 /*small to large devices*/
 
 @media screen and (max-width: 900px) {
-  .card .card_img{
+  .card .card_img {
     margin: 10% auto;
   }
   .get_demo_cta {
@@ -1833,6 +1834,7 @@ video::-webkit-media-controls {
   }
   .header-wrap .business-link {
     left: 25vw !important;
+    display: none;
   }
   .row ul.mainmenu.business-link li:hover .dropdownContain {
     max-height: 50vh !important;
@@ -1968,7 +1970,7 @@ video::-webkit-media-controls {
   .banner .banner-wrap .banner-content {
     max-width: 100%;
     position: relative;
-    z-index: 1000;
+    /* z-index: 1000; */
   }
   .banner .banner-wrap .banner-img {
     width: 100%;
@@ -3416,8 +3418,8 @@ i.bordicon {
 
 @media screen and (max-width: 900px) {
   .btn-primary {
-    font-size: 16px !important;
-    padding: 12px !important;
+    font-size: 14px !important;
+    padding: 8px !important;
   }
 
   .img_sections img {
