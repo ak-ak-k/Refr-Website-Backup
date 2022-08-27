@@ -1,0 +1,196 @@
+* {
+  font-family: Inter, " sans-serif" !important;
+}
+
+.about_refr {
+  margin: 8% 0 10% 0;
+}
+
+#aboutus_content {
+  padding: 0 12% !important;
+}
+
+.about {
+  font-family: "Poppins" !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem !important;
+  line-height: 60px;
+  color: #000000;
+  padding: 0 0 15px 0;
+}
+
+.about_desc {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem !important;
+  line-height: 24px;
+  text-transform: initial;
+  color: #000000;
+}
+
+/* what we do */
+
+.what_we p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem !important;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #000000;
+  /* padding-bottom: 30px; */
+  margin: 0;
+}
+
+/* empowering */
+
+.center_div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+
+.emp_mil {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem !important;
+  line-height: 48px;
+  text-transform: capitalize;
+  color: #000000;
+  width: 100%;
+  max-width: 400px;
+}
+
+.refr_platform {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem !important;
+  line-height: 24px;
+  color: #000000;
+  width: 100%;
+  max-width: 400px;
+  padding: 20px 0;
+  text-transform: initial;
+}
+
+.emp_img {
+  max-width: 100%;
+  object-fit: cover;
+  width: 400px;
+  height: 230px;
+}
+
+/* our mission */
+
+.our_mission {
+  margin: 10% 0 20px 0;
+}
+
+.our_mission p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem !important;
+  line-height: 24px;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #000000;
+}
+
+.making_comm p {
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem !important;
+  line-height: 48px;
+  text-transform: capitalize;
+  color: #000000;
+  padding-bottom: 20px;
+}
+
+.making_comm_text p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem !important;
+  line-height: 24px;
+  color: #000000;
+  text-align: initial;
+  padding-bottom: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+  #aboutus_content {
+    padding: 0 8% !important;
+  }
+
+  /* .about_refr {
+    margin: 18% 0 5% 0;
+  } */
+}
+
+@media screen and (max-width: 768px) {
+  .emp_mil {
+    max-width: 400px;
+    font-size: 1rem !important;
+    line-height: 30px;
+  }
+
+  .refr_platform {
+    font-size: 0.8rem !important;
+    padding: 10px 0;
+    max-width: 300px;
+  }
+
+  .center_div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .making_comm p {
+    font-size: 1.3rem !important;
+    line-height: 30px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 640px) and (orientation: landscape) {
+  .about_refr {
+    margin: 15% 0 5% 0 !important;
+  }
+}
+
+.banner {
+  width: -webkit-fill-available;
+}
+
+.discover {
+  text-align: center;
+  padding: 5% 0;
+  background: #F5F8FA;
+}
+
+.discover_title {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.discover_subtit {
+  font-size: 0.8rem;
+  color: #4D4D4D;
+  padding: 0 0 2% 0;
+}
+
+.purple_btn {
+  background: linear-gradient(180deg, #9B6CFF 0%, #6A32E1 100%);
+  padding: 10px 20px;
+  border: none;
+  color: #FFF;
+  border-radius: 20px;
+}

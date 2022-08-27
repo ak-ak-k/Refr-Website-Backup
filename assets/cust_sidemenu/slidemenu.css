@@ -1,0 +1,90 @@
+.dflex {
+    display: flex;
+}
+
+.opensidebtn {
+    display: none;
+    align-self: center;
+    background: transparent;
+    border: none;
+    padding: 10px;
+    font-size: 26px;
+    color: white;
+}
+
+
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #FFF;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 0px;
+}
+
+.sidebar a {
+    padding: 12px 8px 12px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    border-bottom: 1px solid #9130EB;
+}
+
+.logo {
+    padding-right: 0px;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    color: white;
+    /* margin-left: 50px; */
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: #444;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+.sidemenuheader {
+    display: flex;
+    background: #9130EB;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 900px) {
+    .opensidebtn{
+        display: block;
+    }
+
+    .header_btns{
+        display: none;
+    }
+}
