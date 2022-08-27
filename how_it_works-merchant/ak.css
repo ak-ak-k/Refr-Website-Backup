@@ -45,15 +45,34 @@
 
 .d-flex {
   gap: 15%;
+  align-items: center;
   justify-content: center;
   padding: 10%;
 }
 
+.img_content {
+  border: 1px solid #c8c8c8;
+  border-radius: 7px;
+  padding: 2% 2%;
+}
+
+.right_1img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right_1img img {
+  width: 95%;
+}
+
 .left_img {
   display: flex;
-  margin-bottom: 8%;
+  margin-bottom: 4%;
   align-items: center;
   gap: 30px;
+  border-bottom: 1px solid #c8c8c8;
+  padding-bottom: 6%;
 }
 
 .left_img img {

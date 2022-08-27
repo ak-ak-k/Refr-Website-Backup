@@ -940,6 +940,7 @@ section.for-everyone .title {
   place-items: center;
   /* min-width: 194px; */
   box-shadow: 0px -1px 2px 2px #8000ff, 0px 1px 2px 2px #8000ff;
+  padding: 10px 16px !important;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -3417,7 +3418,7 @@ i.bordicon {
 @media screen and (max-width: 900px) {
   .btn-primary {
     font-size: 16px !important;
-    padding: 12px !important;
+    padding: 8px !important;
   }
 
   .img_sections img {
