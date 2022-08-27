@@ -1247,6 +1247,11 @@ video::-webkit-media-controls {
 /*small to large devices*/
 
 @media screen and (max-width: 900px) {
+  .media_btn {
+    color: white !important;
+    width: 54%;
+    margin: 2% 3%;
+  }
   .get_started_contact {
     display: flex;
     align-items: end;

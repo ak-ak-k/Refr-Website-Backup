@@ -240,6 +240,10 @@ nav {
 
 /*  */
 
+.logo svg {
+  width: 100px;
+}
+
 .container1 {
   margin: 5rem 15rem;
 }
@@ -589,6 +593,20 @@ footer {
 }
 
 @media screen and (max-width: 900px) {
+  .logo svg {
+    width: 80px;
+  }
+
+  .header-wrap .business-link {
+    display: none;
+  }
+
+  .media_btn {
+    color: white !important;
+    width: 54%;
+    margin: 2% 3%;
+  }
+
   .linksX {
     display: none;
   }

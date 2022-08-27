@@ -1,3 +1,7 @@
+.logo svg {
+  width: 100px;
+}
+
 .banner_img {
   /* width: max-content; */
   position: relative;
@@ -87,13 +91,13 @@
   font-size: 1.25rem;
   line-height: 24px;
   color: #000000;
-  margin: 13px 0 0 0px !important;
+  margin: 0px !important;
 }
 
 /*  */
 
 .main3 {
-  background: #f4f4f4;
+  background: #edd5ff;
   padding: 2% 10%;
 }
 
@@ -160,7 +164,7 @@
   text-align: center;
 }
 
-.btns button {
+.btns a {
   background: #8111e8;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
@@ -172,7 +176,7 @@
   color: #ffffff;
   border: none;
   outline: none;
-  padding: 10px;
+  padding: 1.5% 3.5%;
   margin-right: 2%;
 }
 
@@ -257,6 +261,11 @@ ul.dashed {
 
 ul.dashed > li {
   text-indent: -15px;
+}
+
+ul.dashed > li strong {
+  font-weight: 600;
+  color: #000000;
 }
 
 ul.dashed > li:before {
@@ -353,6 +362,23 @@ ul.dashed li {
     text-align: center;
   }
 
+  .banner_img::after {
+    position: relative;
+  }
+
+  .img_content {
+    padding: 8%;
+  }
+
+  .left_img p {
+    font-size: 16px;
+  }
+
+  .left_img {
+    margin-bottom: 8%;
+    padding-bottom: 8%;
+  }
+
   .power_getstarted p {
     font-size: 1.2rem;
     color: black;
@@ -380,11 +406,12 @@ ul.dashed li {
   }
   .main3 {
     padding: 5%;
+    border-radius: 18px 18px 0 0;
   }
   .patner_today p {
     font-size: 1.3rem;
   }
-  .btns button {
+  .btns a {
     padding: 5px 10px;
   }
   .question {
@@ -395,9 +422,16 @@ ul.dashed li {
     text-align: center;
   }
   .ques .primary_ques {
-    font-size: 1rem;
+    font-size: 16px;
     max-width: 90%;
     text-align: left;
+  }
+  ul.dashed li {
+    font-size: 14px;
+    padding-bottom: 10px;
+  }
+  .ques {
+    margin: 6% 0;
   }
   .dflex_support {
     flex-direction: column;

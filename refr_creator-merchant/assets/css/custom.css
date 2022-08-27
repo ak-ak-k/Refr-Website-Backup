@@ -172,7 +172,7 @@ header.merchant-social.offline-seller .header-wrap .menu ul.mainmenu li:last-chi
   margin-left: 20px;
 }
 .header-wrap .menu ul li a {
-  color: var(--whiteColor);
+  color: var(--blackColor);
   font-size: 1.25em;
   font-weight: 500;
 }
@@ -187,6 +187,7 @@ header.merchant-social.offline-seller .header-wrap .menu ul.mainmenu li:last-chi
   background-color: #8000ff;
   padding: 10px 16px;
   border-radius: 5px;
+  color: #ffffff;
 }
 .header-wrap .menu ul li:last-child a:hover i {
   border-color: #fff;
@@ -1248,6 +1249,19 @@ video::-webkit-media-controls {
 /*small to large devices*/
 
 @media screen and (max-width: 900px) {
+  .logo svg {
+    width: 80px;
+  }
+
+  .header-wrap .business-link {
+    display: none;
+  }
+
+  .media_btn {
+    color: white !important;
+    width: 54%;
+    margin: 2% 3%;
+  }
   .get_started_contact {
     display: flex;
     align-items: end;
@@ -1428,6 +1442,7 @@ video::-webkit-media-controls {
   }
   .header-wrap .logo a {
     font-size: 1.2em;
+    color: #000000;
   }
   .header-wrap .business-link {
     top: 50%;

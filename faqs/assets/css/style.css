@@ -1240,10 +1240,25 @@ video::-webkit-media-controls {
   max-width: 160px;
   left: -100px;
 }
-
+.logo svg {
+  width: 100px;
+}
 /*small to large devices*/
 
 @media screen and (max-width: 900px) {
+  .logo svg {
+    width: 80px;
+  }
+
+  .header-wrap .business-link {
+    display: none;
+  }
+
+  .media_btn {
+    color: white !important;
+    width: 54%;
+    margin: 2% 3%;
+  }
   .get_started_contact {
     display: flex;
     align-items: end;

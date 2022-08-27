@@ -78,6 +78,11 @@ img {
 /*  */
 
 /* changes */
+
+.logo svg {
+  width: 100px;
+}
+
 .get_free_demo {
   background-color: #8000ff;
   padding: 10px 16px;
@@ -200,7 +205,7 @@ header.merchant-social.offline-seller .header-wrap .menu ul.mainmenu li:last-chi
 
 .header-wrap .menu ul li a {
   color: var(--whiteColor);
-  font-size: 1.25em;
+  font-size: 1em;
   font-weight: 500;
 }
 
@@ -311,6 +316,7 @@ header.merchant-social .header-wrap .menu ul.mainmenu li:last-child a i {
 header.merchant-social .header-wrap .menu ul li:last-child a {
   color: var(--whiteColor);
   background-color: #8000ff;
+  margin: 3%;
 }
 
 header.merchant-social .header-wrap .menu ul.mainmenu li:last-child a:hover i,
@@ -436,7 +442,7 @@ header.merchant-social .header-wrap .logo a img {
   margin-bottom: 0;
   font-weight: 700;
   font-size: 2.25em;
-  color: #000;
+  color: #ffffff;
   text-transform: capitalize;
 }
 
@@ -948,7 +954,7 @@ section.for-everyone .title {
   flex-direction: column;
 }
 
-.footer-top-wrap .footer-link ul li+li {
+.footer-top-wrap .footer-link ul li + li {
   margin-top: 8px;
 }
 
@@ -1479,6 +1485,27 @@ video::-webkit-media-controls {
 /*small to large devices*/
 
 @media screen and (max-width: 900px) {
+  .media_btn {
+    color: white !important;
+    width: 54%;
+    margin: 0 5%;
+  }
+
+  .logo svg {
+    max-width: 80px !important;
+    width: 80px !important;
+  }
+
+  .header-wrap .business-link {
+    display: none;
+  }
+
+  .media_btn {
+    color: white !important;
+    width: 54%;
+    margin: 0 5%;
+  }
+
   .social-area .social-media-box {
     width: 100%;
     justify-content: center;
@@ -1594,7 +1621,6 @@ video::-webkit-media-controls {
 }
 
 @media screen and (min-width: 1600px) {
-
   .container,
   .container-lg,
   .container-md,
@@ -1705,7 +1731,7 @@ video::-webkit-media-controls {
   }
 
   .header-wrap .menu ul li a {
-    font-size: 1.2em;
+    font-size: 1em;
   }
 
   .banner .banner-wrap .banner-content {
@@ -1989,7 +2015,7 @@ video::-webkit-media-controls {
   }
 
   .grow-business.merchant-social .row .col-12:last-child {
-    margin-top: 0px;
+    /* margin-top: 0px; */
   }
 
   .how-work-wrap .single-work-inner {
@@ -2100,7 +2126,8 @@ video::-webkit-media-controls {
     min-width: 300px;
   }
 
-  .menu .dropOut {}
+  .menu .dropOut {
+  }
 
   .menu li {
     width: 100%;
@@ -2350,7 +2377,7 @@ video::-webkit-media-controls {
     width: auto;
   }
 
-  .store-icon ul li+li {
+  .store-icon ul li + li {
     margin-left: 10px;
   }
 
@@ -2485,7 +2512,7 @@ video::-webkit-media-controls {
     width: 100%;
   }
 
-  .store-icon ul li+li {
+  .store-icon ul li + li {
     margin-left: 0;
     margin-bottom: 0;
   }
@@ -2537,7 +2564,8 @@ section.topsection {
   background: linear-gradient(86.39deg, #f0a6a6 7.44%, #c16568 92.33%) !important;
 }
 
-@media screen and (max-width: 2000px) {}
+@media screen and (max-width: 2000px) {
+}
 
 @media screen and (min-width: 800px) {
   .banner.merchant-social .banner-content h1 {
@@ -2565,7 +2593,6 @@ section.topsection {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1600px) {
-
   .featurebox:nth-child(1) p,
   .featurebox:nth-child(3) p {
     width: 100% !important;
@@ -2588,7 +2615,6 @@ section.topsection {
 }
 
 @media screen and (min-width: 768px) {
-
   .featurebox:nth-child(1) p,
   .featurebox:nth-child(3) p {
     margin-left: auto;
@@ -2717,6 +2743,7 @@ section.topsection {
 
 .leftimges img {
   max-width: 100%;
+  width: 93% !important;
 }
 
 .leftimges {
@@ -3094,7 +3121,7 @@ section.topsection {
 }
 
 .light-bg {
-  background-color: #f7f7f7 !important;
+  background-color: #000000 !important;
 }
 
 .banner.merchant-social .container-fluid {
@@ -3616,7 +3643,7 @@ section {
   position: relative;
 }
 
-.dropdownContain ul>li.drop {
+.dropdownContain ul > li.drop {
   display: inline-block;
 }
 
@@ -3863,27 +3890,27 @@ ul.mainmenu.business-link li:hover .dropOut {
   display: none;
 }
 
-.top-nav .menu-btn:checked~.menu {
+.top-nav .menu-btn:checked ~ .menu {
   max-height: 100%;
   min-height: 100vh;
   transform: translateX(0vw);
   transition: all 0.23s linear;
 }
 
-.top-nav .menu-btn:checked~.menu-icon .navicon {
+.top-nav .menu-btn:checked ~ .menu-icon .navicon {
   background: transparent;
 }
 
-.top-nav .menu-btn:checked~.menu-icon .navicon:before {
+.top-nav .menu-btn:checked ~ .menu-icon .navicon:before {
   transform: rotate(-45deg);
 }
 
-.top-nav .menu-btn:checked~.menu-icon .navicon:after {
+.top-nav .menu-btn:checked ~ .menu-icon .navicon:after {
   transform: rotate(45deg);
 }
 
-.top-nav .menu-btn:checked~.menu-icon:not(.steps) .navicon:before,
-.top-nav .menu-btn:checked~.menu-icon:not(.steps) .navicon:after {
+.top-nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.top-nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   top: 0;
 }
 
@@ -3991,7 +4018,7 @@ i.bordicon {
 }
 
 .sol_work {
-  background: #000000;
+  background: rgba(0, 0, 0, 0.88);
 }
 
 .main_sol {
@@ -4011,9 +4038,8 @@ i.bordicon {
 
 .l_box {
   position: absolute;
-  top: -17%;
-  left: 50%;
-
+  top: -38%;
+  left: 46%;
 }
 
 .r_box {
@@ -4021,9 +4047,6 @@ i.bordicon {
   top: 7%;
   right: 4%;
 }
-
-
-
 
 .sol_text {
   font-style: normal;
@@ -4034,8 +4057,6 @@ i.bordicon {
   margin: 0;
   max-width: 45%;
 }
-
-
 
 .d_flex {
   display: flex;
@@ -4048,13 +4069,13 @@ i.bordicon {
 }
 
 .block_1 {
-  background: #FFFFFF;
-  box-shadow: 5px 5px 15px 5px #f2f2;
+  background: #ffffff;
+  box-shadow: 0px -4px 13px rgb(162 162 162 / 25%);
   border-radius: 18px;
   width: 271px;
   /* height: 271px; */
   margin-bottom: 8%;
-  padding: 8% 4%;
+  padding: 8% 4% 0 4%;
 }
 
 .sol_primary {
@@ -4065,6 +4086,17 @@ i.bordicon {
   color: #000000;
   margin: 0;
   padding: 5% 0;
+  position: relative;
+}
+
+.sol_primary::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 4px;
+  height: 4px;
+  width: 75px;
+  background: #874bf9;
 }
 
 .sol_secondary {
@@ -4073,9 +4105,9 @@ i.bordicon {
   font-size: 16px;
   line-height: 25px;
   color: #000000;
-
+  margin: 0;
+  padding: 4% 0 16% 0;
 }
-
 
 @media screen and (max-width: 900px) {
   .main_sol {

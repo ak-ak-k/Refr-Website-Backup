@@ -134,6 +134,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  .about_refr {
+    margin: 8% 0 5% 0 !important;
+  }
+
   .emp_mil {
     max-width: 400px;
     font-size: 1rem !important;

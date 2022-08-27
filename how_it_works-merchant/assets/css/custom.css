@@ -1330,6 +1330,21 @@ video::-webkit-media-controls {
 /*small to large devices*/
 
 @media screen and (max-width: 900px) {
+  .logo svg {
+    max-width: 80px !important;
+    width: 80px !important;
+  }
+
+  .header-wrap .business-link {
+    display: none;
+  }
+
+  .media_btn {
+    color: white !important;
+    width: 54%;
+    margin: 0 5%;
+  }
+
   .card .card_img {
     margin: 10% auto;
   }
@@ -1959,8 +1974,8 @@ video::-webkit-media-controls {
     display: none;
   }
   header {
-    position: absolute !important;
-    background: transparent !important;
+    position: static;
+    background: linear-gradient(98.06deg, #112a61 5.12%, #060d20 46.32%, #432247 98.85%);
   }
   .banner {
     padding-top: 120px;

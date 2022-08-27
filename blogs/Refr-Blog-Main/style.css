@@ -51,6 +51,10 @@ img {
   max-width: 100%;
 }
 
+.logo svg {
+  width: 100px;
+}
+
 header {
   background: linear-gradient(90deg, #ab007b 0%, #100073 100%);
   padding: 20px 0px;
@@ -628,6 +632,16 @@ footer {
 /* drop_down ends */
 
 @media screen and (max-width: 900px) {
+  .logo svg {
+    width: 80px;
+  }
+
+  .media_btn {
+    color: white !important;
+    width: 54%;
+    margin: 2% 3%;
+  }
+
   .linksX {
     display: none;
   }

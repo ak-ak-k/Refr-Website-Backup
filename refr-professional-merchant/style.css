@@ -18,7 +18,7 @@
   color: #ffffff;
 }
 
-.get_started button {
+.get_started a {
   background: #8111e8;
   border-radius: 8px;
   padding: 16px;
@@ -34,6 +34,7 @@
   color: #ffffff;
   padding: 12px 25px;
   border: none;
+  width: max-content;
 }
 
 /*  */
@@ -300,7 +301,7 @@
   line-height: 48px;
 }
 
-.cant_find button {
+.cant_find a {
   padding: 10px 20px;
   background: #8111e8;
   border-radius: 8px;
@@ -344,6 +345,19 @@
 }
 
 @media screen and (max-width: 900px) {
+  .logo svg {
+    width: 80px;
+  }
+
+  .header-wrap .business-link {
+    display: none;
+  }
+
+  .media_btn {
+    color: white !important;
+    width: 54%;
+    margin: 2% 3%;
+  }
   .whole {
     flex-direction: column;
     width: 90%;
@@ -353,7 +367,7 @@
     font-size: 2rem;
     line-height: 50px;
   }
-  .get_started button {
+  .get_started a {
     padding: 10px 20px;
     border: none;
   }

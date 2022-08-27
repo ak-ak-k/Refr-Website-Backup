@@ -23,6 +23,15 @@ a {
   }
 }
 
+.header_btns .how_it_work {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #272727;
+  padding-right: 16px;
+}
+
 /*-------------------Mobile---------------------------------*/
 
 @media (max-width: 768px) {
@@ -53,7 +62,7 @@ a {
     z-index: 5;
   }
 
-  .logo img {
+  .logo svg {
     width: 100px;
     animation: logoImg 0.8s cubic-bezier(0.8, 0, 0.12, 0.99);
   }
@@ -80,6 +89,7 @@ a {
     cursor: pointer;
     margin-right: 16px;
     animation: logoImg 1s cubic-bezier(0.8, 0, 0.12, 0.99);
+    padding: 5%;
   }
   .join_btn {
     background-color: #111 !important;
@@ -94,6 +104,7 @@ a {
     cursor: pointer;
     margin-right: 10px;
     animation: logoImg 0.9s cubic-bezier(0.8, 0, 0.12, 0.99);
+    padding: 5%;
   }
   @media (min-width: 455px) {
     .mobile_creditCard {
@@ -116,14 +127,10 @@ a {
       color: white;
       font-size: 11px;
       font-weight: 600;
-      text-transform: uppercase;
+      text-transform: capitalize;
       border: none;
       cursor: pointer;
       margin-right: 16px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 0 4%;
     }
     .join_btn {
       background-color: #111 !important;
@@ -133,10 +140,13 @@ a {
       color: white;
       font-size: 11px;
       font-weight: 600;
-      text-transform: uppercase;
+      text-transform: capitalize;
       border: none;
       cursor: pointer;
       margin-right: 6px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
     .footer-sm-section .title h1 {
       font-size: 26px;
@@ -178,6 +188,10 @@ a {
       align-items: flex-end;
     }
     .explore_btn {
+      padding: 0 2%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       min-height: 30px;
       min-width: 80px;
       border-radius: 100px;
@@ -185,7 +199,7 @@ a {
       color: white;
       font-size: 11px;
       font-weight: 600;
-      text-transform: uppercase;
+      text-transform: capitalize;
       border: none;
       cursor: pointer;
       margin-right: 16px;
@@ -193,19 +207,17 @@ a {
     .join_btn {
       background-color: #111 !important;
       min-height: 30px;
-      min-width: 130px;
+      /* min-width: 130px; */
       border-radius: 100px;
       color: white;
       font-size: 11px;
       font-weight: 600;
-      text-transform: uppercase;
+      text-transform: capitalize;
       border: none;
       cursor: pointer;
       margin-right: 6px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
       /* padding: 3px 23px; */
+      padding: 0;
     }
     .footer-sm-section .title h1 {
       font-size: 26px;
@@ -428,7 +440,7 @@ a {
   @media screen and (max-width: 1024px) {
     .mainHeader {
       /* margin: 0px 20px 0px 20px; */
-      padding: 0 20px;
+      padding: 0 0px;
       /* margin: 0px 160px 0px 160px; */
       background: linear-gradient(105.18deg, #fdb271 0%, #fe9ea1 78.54%, #ffbd81 90%, #ffa862 100%);
       width: 100%;
@@ -1179,13 +1191,14 @@ a {
     /* margin: 0px 160px 0px 160px; */
     background: linear-gradient(105.18deg, #fdb271 0%, #fe9ea1 78.54%, #ffbd81 90%, #ffa862 100%);
     width: 100%;
-    padding: 0 160px;
+    padding: 0 92px;
     display: flex;
     flex-direction: column;
     z-index: 5;
+    width: -webkit-fill-available;
   }
 
-  .logo img {
+  .logo svg {
     width: 100px;
     animation: logoImg 0.8s cubic-bezier(0.8, 0, 0.12, 0.99);
   }
@@ -1199,17 +1212,18 @@ a {
   }
 
   .explore_btn {
-    padding: 15px 30px 15px 30px;
     border-radius: 100px;
     background: linear-gradient(180deg, #9b6cff 0%, #6a32e1 100%);
     color: white;
     font-size: 14px;
-    font-weight: 600;
-    text-transform: uppercase;
+    font-weight: 500;
+    text-transform: capitalize;
     border: none;
     cursor: pointer;
     margin-right: 16px;
     animation: logoImg 1s cubic-bezier(0.8, 0, 0.12, 0.99);
+    padding: 9px 20px;
+    letter-spacing: 1px;
   }
   .join_btn {
     background-color: #111 !important;
@@ -1218,7 +1232,7 @@ a {
     color: white;
     font-size: 14px;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: capitalize;
     border: none;
     cursor: pointer;
     margin-right: 10px;
@@ -2100,7 +2114,7 @@ a {
     z-index: 5;
   }
 
-  .logo img {
+  .logo svg {
     width: 7rem;
     animation: logoImg 0.8s cubic-bezier(0.8, 0, 0.12, 0.99);
   }
@@ -2114,17 +2128,18 @@ a {
   }
 
   .explore_btn {
-    padding: 15px 30px 15px 30px;
     border-radius: 100px;
     background: linear-gradient(180deg, #9b6cff 0%, #6a32e1 100%);
     color: white;
     font-size: 14px;
-    font-weight: 600;
-    text-transform: uppercase;
+    font-weight: 500;
+    text-transform: capitalize;
     border: none;
     cursor: pointer;
     margin-right: 16px;
     animation: logoImg 1s cubic-bezier(0.8, 0, 0.12, 0.99);
+    padding: 9px 20px;
+    letter-spacing: 1px;
   }
   .join_btn {
     background-color: #111 !important;
@@ -2133,7 +2148,7 @@ a {
     color: white;
     font-size: 14px;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: capitalize;
     border: none;
     cursor: pointer;
     margin-right: 10px;
@@ -2980,7 +2995,7 @@ a {
     text-transform: uppercase;
   } */
 
-  .logo img {
+  .logo svg {
     width: 130px;
     animation: logoImg 0.8s cubic-bezier(0.8, 0, 0.12, 0.99);
   }
@@ -2994,17 +3009,18 @@ a {
   }
 
   .explore_btn {
-    padding: 15px 30px 15px 30px;
     border-radius: 100px;
     background: linear-gradient(180deg, #9b6cff 0%, #6a32e1 100%);
     color: white;
     font-size: 14px;
-    font-weight: 600;
-    text-transform: uppercase;
+    font-weight: 500;
+    text-transform: capitalize;
     border: none;
     cursor: pointer;
     margin-right: 16px;
     animation: logoImg 1s cubic-bezier(0.8, 0, 0.12, 0.99);
+    padding: 9px 20px;
+    letter-spacing: 1px;
   }
   .join_btn {
     background-color: #111 !important;
@@ -3013,7 +3029,7 @@ a {
     color: white;
     font-size: 14px;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: capitalize;
     border: none;
     cursor: pointer;
     margin-right: 10px;
@@ -3831,12 +3847,12 @@ a {
     font-weight: 400;
     /* margin: 0px 160px 0px 160px; */
     background: linear-gradient(105.18deg, #fdb271 0%, #fe9ea1 78.54%, #ffbd81 90%, #ffa862 100%);
-    width: 100%;
+    width: -webkit-fill-available;
     padding: 0 160px;
     display: flex;
     flex-direction: column;
     z-index: 5;
-    padding: 15px 156px;
+    padding: 8px 102px;
   }
 
   /* .logo {
@@ -3845,7 +3861,7 @@ a {
     text-transform: uppercase;
   } */
 
-  .logo img {
+  .logo svg {
     width: 130px;
     animation: logoImg 0.8s cubic-bezier(0.8, 0, 0.12, 0.99);
   }
@@ -3859,17 +3875,18 @@ a {
   }
 
   .explore_btn {
-    padding: 15px 30px 15px 30px;
     border-radius: 100px;
     background: linear-gradient(180deg, #9b6cff 0%, #6a32e1 100%);
     color: white;
     font-size: 14px;
-    font-weight: 600;
-    text-transform: uppercase;
+    font-weight: 500;
+    text-transform: capitalize;
     border: none;
     cursor: pointer;
     margin-right: 16px;
     animation: logoImg 1s cubic-bezier(0.8, 0, 0.12, 0.99);
+    padding: 9px 20px;
+    letter-spacing: 1px;
   }
   .join_btn {
     background-color: #111 !important;
@@ -3878,7 +3895,7 @@ a {
     color: white;
     font-size: 14px;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: capitalize;
     border: none;
     cursor: pointer;
     margin-right: 10px;
@@ -4701,7 +4718,7 @@ a {
     /* margin: 0px 160px 0px 160px; */
     background: linear-gradient(105.18deg, #fdb271 0%, #fe9ea1 78.54%, #ffbd81 90%, #ffa862 100%);
     width: 100%;
-    padding: 0 160px;
+    padding: 0 114px;
     display: flex;
     flex-direction: column;
     z-index: 5;
@@ -4713,7 +4730,7 @@ a {
     text-transform: uppercase;
   } */
 
-  .logo img {
+  .logo svg {
     width: 150px;
     animation: logoImg 0.8s cubic-bezier(0.8, 0, 0.12, 0.99);
   }
@@ -4727,17 +4744,18 @@ a {
   }
 
   .explore_btn {
-    padding: 15px 30px 15px 30px;
     border-radius: 100px;
     background: linear-gradient(180deg, #9b6cff 0%, #6a32e1 100%);
     color: white;
     font-size: 14px;
-    font-weight: 600;
-    text-transform: uppercase;
+    font-weight: 500;
+    text-transform: capitalize;
     border: none;
     cursor: pointer;
     margin-right: 16px;
     animation: logoImg 1s cubic-bezier(0.8, 0, 0.12, 0.99);
+    padding: 9px 20px;
+    letter-spacing: 1px;
   }
   .join_btn {
     background-color: #111 !important;
@@ -4746,7 +4764,7 @@ a {
     color: white;
     font-size: 14px;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: capitalize;
     border: none;
     cursor: pointer;
     margin-right: 10px;
@@ -5555,6 +5573,7 @@ a {
     display: flex;
     flex-direction: column;
     z-index: 5;
+    padding: 8px 190px;
   }
 
   /* .logo {
@@ -5563,7 +5582,7 @@ a {
     text-transform: uppercase;
   } */
 
-  .logo img {
+  .logo svg {
     width: 130px;
     animation: logoImg 0.8s cubic-bezier(0.8, 0, 0.12, 0.99);
   }
@@ -5577,17 +5596,18 @@ a {
   }
 
   .explore_btn {
-    padding: 15px 30px 15px 30px;
     border-radius: 100px;
     background: linear-gradient(180deg, #9b6cff 0%, #6a32e1 100%);
     color: white;
     font-size: 14px;
-    font-weight: 600;
-    text-transform: uppercase;
+    font-weight: 500;
+    text-transform: capitalize;
     border: none;
     cursor: pointer;
     margin-right: 16px;
     animation: logoImg 1s cubic-bezier(0.8, 0, 0.12, 0.99);
+    padding: 9px 20px;
+    letter-spacing: 1px;
   }
   .join_btn {
     background-color: #111 !important;
@@ -5596,7 +5616,7 @@ a {
     color: white;
     font-size: 14px;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: capitalize;
     border: none;
     cursor: pointer;
     margin-right: 10px;
@@ -6392,7 +6412,7 @@ a {
   .sectionOne {
     background: linear-gradient(105.18deg, #fdb271 0%, #fe9ea1 78.54%, #ffbd81 90%, #ffa862 100%);
   }
-  .logo img {
+  .logo svg {
     animation: logoImg 0.8s cubic-bezier(0.8, 0, 0.12, 0.99);
   }
 
@@ -6609,7 +6629,7 @@ a {
     z-index: 5;
   }
 
-  .logo img {
+  .logo svg {
     width: 100px;
     /* transition: .8s cubic-bezier(0.25, 0.46, 0.45, 0.94); */
     animation: logoImg 0.8s cubic-bezier(0.8, 0, 0.12, 0.99);
@@ -6625,18 +6645,18 @@ a {
   }
 
   .explore_btn {
-    min-height: 32px;
-    min-width: 90px;
     border-radius: 100px;
     background: linear-gradient(180deg, #9b6cff 0%, #6a32e1 100%);
     color: white;
-    font-size: 12px;
-    font-weight: 600;
-    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
     border: none;
     cursor: pointer;
     margin-right: 16px;
     animation: logoImg 1s cubic-bezier(0.8, 0, 0.12, 0.99);
+    padding: 9px 20px;
+    letter-spacing: 1px;
   }
   .join_btn {
     background-color: #111 !important;
@@ -6646,7 +6666,7 @@ a {
     color: white;
     font-size: 12px;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: capitalize;
     border: none;
     cursor: pointer;
     margin-right: 10px;
@@ -6659,14 +6679,14 @@ a {
       align-items: flex-end;
     }
     .explore_btn {
-      /* min-height: 30px;
-      min-width: 80px; */
+      min-height: 30px;
+      min-width: 80px;
       border-radius: 100px;
       background: linear-gradient(180deg, #9b6cff 0%, #6a32e1 100%);
       color: white;
       font-size: 11px;
       font-weight: 600;
-      text-transform: uppercase;
+      text-transform: capitalize;
       border: none;
       cursor: pointer;
       margin-right: 16px;
@@ -6679,7 +6699,7 @@ a {
       color: white;
       font-size: 11px;
       font-weight: 600;
-      text-transform: uppercase;
+      text-transform: capitalize;
       border: none;
       cursor: pointer;
       margin-right: 6px;
@@ -6701,14 +6721,18 @@ a {
       align-items: flex-end;
     }
     .explore_btn {
-      /* min-height: 30px;
-      min-width: 80px; */
+      padding: 0 4%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 30px;
+      min-width: 80px;
       border-radius: 100px;
       background: linear-gradient(180deg, #9b6cff 0%, #6a32e1 100%);
       color: white;
       font-size: 11px;
       font-weight: 600;
-      text-transform: uppercase;
+      text-transform: capitalize;
       border: none;
       cursor: pointer;
       margin-right: 16px;
@@ -6721,7 +6745,7 @@ a {
       color: white;
       font-size: 11px;
       font-weight: 600;
-      text-transform: uppercase;
+      text-transform: capitalize;
       border: none;
       cursor: pointer;
       margin-right: 6px;

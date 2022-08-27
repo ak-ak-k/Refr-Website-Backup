@@ -67,6 +67,11 @@ img {
 /*  */
 
 /* changes */
+
+.logo svg {
+  width: 100px;
+}
+
 .get_free_demo {
   background-color: #8000ff;
   padding: 10px 16px;
@@ -1330,6 +1335,21 @@ video::-webkit-media-controls {
 /*small to large devices*/
 
 @media screen and (max-width: 900px) {
+  .logo svg {
+    max-width: 80px !important;
+    width: 80px !important;
+  }
+
+  .header-wrap .business-link {
+    display: none;
+  }
+
+  .media_btn {
+    color: white !important;
+    width: 54%;
+    margin: 0 5%;
+  }
+
   .card .card_img {
     margin: 10% auto;
   }

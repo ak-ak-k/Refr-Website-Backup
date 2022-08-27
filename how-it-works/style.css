@@ -9,6 +9,15 @@
 
 /* header */
 
+.header_btns .how_it_work {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #272727;
+  padding-right: 16px;
+}
+
 .logo {
   padding: 2% 0;
 }
@@ -129,6 +138,15 @@ header {
   /* max-width: 1000px;
   margin: auto;
   padding: 77px 0px; */
+}
+
+.banner_para p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem !important;
+  line-height: 60px;
+  text-align: center;
+  color: #000000;
 }
 
 /*  */
@@ -386,7 +404,14 @@ footer {
   }
 
   .banner img {
-    object-fit: contain;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  .banner_para p {
+    font-size: 1.5rem !important;
+    line-height: normal;
+    margin-top: 8%;
   }
 
   .para_left h6 {
@@ -410,7 +435,7 @@ footer {
   }
 
   .main_middle {
-    padding: 5%;
+    padding: 14% 6%;
   }
 
   .right_div {

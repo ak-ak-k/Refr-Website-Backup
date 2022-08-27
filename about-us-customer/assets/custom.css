@@ -23,6 +23,15 @@ a {
   }
 }
 
+.header_btns .how_it_work {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #272727;
+  padding-right: 16px;
+}
+
 /*-------------------Mobile---------------------------------*/
 
 @media (max-width: 768px) {
@@ -53,7 +62,7 @@ a {
     z-index: 5;
   }
 
-  .logo img {
+  .logo svg {
     width: 100px;
     animation: logoImg 0.8s cubic-bezier(0.8, 0, 0.12, 0.99);
   }
@@ -1182,14 +1191,14 @@ a {
     /* margin: 0px 160px 0px 160px; */
     background: linear-gradient(105.18deg, #fdb271 0%, #fe9ea1 78.54%, #ffbd81 90%, #ffa862 100%);
     width: 100%;
-    padding: 0 160px;
+    padding: 0 92px;
     display: flex;
     flex-direction: column;
     z-index: 5;
     width: -webkit-fill-available;
   }
 
-  .logo img {
+  .logo svg {
     width: 100px;
     animation: logoImg 0.8s cubic-bezier(0.8, 0, 0.12, 0.99);
   }
@@ -1203,17 +1212,18 @@ a {
   }
 
   .explore_btn {
-    padding: 15px 30px 15px 30px;
     border-radius: 100px;
     background: linear-gradient(180deg, #9b6cff 0%, #6a32e1 100%);
     color: white;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
     text-transform: capitalize;
     border: none;
     cursor: pointer;
     margin-right: 16px;
     animation: logoImg 1s cubic-bezier(0.8, 0, 0.12, 0.99);
+    padding: 9px 20px;
+    letter-spacing: 1px;
   }
   .join_btn {
     background-color: #111 !important;
@@ -2104,7 +2114,7 @@ a {
     z-index: 5;
   }
 
-  .logo img {
+  .logo svg {
     width: 7rem;
     animation: logoImg 0.8s cubic-bezier(0.8, 0, 0.12, 0.99);
   }
@@ -2118,17 +2128,18 @@ a {
   }
 
   .explore_btn {
-    padding: 15px 30px 15px 30px;
     border-radius: 100px;
     background: linear-gradient(180deg, #9b6cff 0%, #6a32e1 100%);
     color: white;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
     text-transform: capitalize;
     border: none;
     cursor: pointer;
     margin-right: 16px;
     animation: logoImg 1s cubic-bezier(0.8, 0, 0.12, 0.99);
+    padding: 9px 20px;
+    letter-spacing: 1px;
   }
   .join_btn {
     background-color: #111 !important;
@@ -2984,7 +2995,7 @@ a {
     text-transform: uppercase;
   } */
 
-  .logo img {
+  .logo svg {
     width: 130px;
     animation: logoImg 0.8s cubic-bezier(0.8, 0, 0.12, 0.99);
   }
@@ -2998,17 +3009,18 @@ a {
   }
 
   .explore_btn {
-    padding: 15px 30px 15px 30px;
     border-radius: 100px;
     background: linear-gradient(180deg, #9b6cff 0%, #6a32e1 100%);
     color: white;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
     text-transform: capitalize;
     border: none;
     cursor: pointer;
     margin-right: 16px;
     animation: logoImg 1s cubic-bezier(0.8, 0, 0.12, 0.99);
+    padding: 9px 20px;
+    letter-spacing: 1px;
   }
   .join_btn {
     background-color: #111 !important;
@@ -3840,7 +3852,7 @@ a {
     display: flex;
     flex-direction: column;
     z-index: 5;
-    padding: 15px 156px;
+    padding: 8px 102px;
   }
 
   /* .logo {
@@ -3849,7 +3861,7 @@ a {
     text-transform: uppercase;
   } */
 
-  .logo img {
+  .logo svg {
     width: 130px;
     animation: logoImg 0.8s cubic-bezier(0.8, 0, 0.12, 0.99);
   }
@@ -3863,17 +3875,18 @@ a {
   }
 
   .explore_btn {
-    padding: 15px 30px 15px 30px;
     border-radius: 100px;
     background: linear-gradient(180deg, #9b6cff 0%, #6a32e1 100%);
     color: white;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
     text-transform: capitalize;
     border: none;
     cursor: pointer;
     margin-right: 16px;
     animation: logoImg 1s cubic-bezier(0.8, 0, 0.12, 0.99);
+    padding: 9px 20px;
+    letter-spacing: 1px;
   }
   .join_btn {
     background-color: #111 !important;
@@ -4705,7 +4718,7 @@ a {
     /* margin: 0px 160px 0px 160px; */
     background: linear-gradient(105.18deg, #fdb271 0%, #fe9ea1 78.54%, #ffbd81 90%, #ffa862 100%);
     width: 100%;
-    padding: 0 160px;
+    padding: 0 114px;
     display: flex;
     flex-direction: column;
     z-index: 5;
@@ -4717,7 +4730,7 @@ a {
     text-transform: uppercase;
   } */
 
-  .logo img {
+  .logo svg {
     width: 150px;
     animation: logoImg 0.8s cubic-bezier(0.8, 0, 0.12, 0.99);
   }
@@ -4731,17 +4744,18 @@ a {
   }
 
   .explore_btn {
-    padding: 15px 30px 15px 30px;
     border-radius: 100px;
     background: linear-gradient(180deg, #9b6cff 0%, #6a32e1 100%);
     color: white;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
     text-transform: capitalize;
     border: none;
     cursor: pointer;
     margin-right: 16px;
     animation: logoImg 1s cubic-bezier(0.8, 0, 0.12, 0.99);
+    padding: 9px 20px;
+    letter-spacing: 1px;
   }
   .join_btn {
     background-color: #111 !important;
@@ -5559,6 +5573,7 @@ a {
     display: flex;
     flex-direction: column;
     z-index: 5;
+    padding: 8px 190px;
   }
 
   /* .logo {
@@ -5567,7 +5582,7 @@ a {
     text-transform: uppercase;
   } */
 
-  .logo img {
+  .logo svg {
     width: 130px;
     animation: logoImg 0.8s cubic-bezier(0.8, 0, 0.12, 0.99);
   }
@@ -5581,17 +5596,18 @@ a {
   }
 
   .explore_btn {
-    padding: 15px 30px 15px 30px;
     border-radius: 100px;
     background: linear-gradient(180deg, #9b6cff 0%, #6a32e1 100%);
     color: white;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
     text-transform: capitalize;
     border: none;
     cursor: pointer;
     margin-right: 16px;
     animation: logoImg 1s cubic-bezier(0.8, 0, 0.12, 0.99);
+    padding: 9px 20px;
+    letter-spacing: 1px;
   }
   .join_btn {
     background-color: #111 !important;
@@ -6396,7 +6412,7 @@ a {
   .sectionOne {
     background: linear-gradient(105.18deg, #fdb271 0%, #fe9ea1 78.54%, #ffbd81 90%, #ffa862 100%);
   }
-  .logo img {
+  .logo svg {
     animation: logoImg 0.8s cubic-bezier(0.8, 0, 0.12, 0.99);
   }
 
@@ -6613,7 +6629,7 @@ a {
     z-index: 5;
   }
 
-  .logo img {
+  .logo svg {
     width: 100px;
     /* transition: .8s cubic-bezier(0.25, 0.46, 0.45, 0.94); */
     animation: logoImg 0.8s cubic-bezier(0.8, 0, 0.12, 0.99);
@@ -6629,18 +6645,18 @@ a {
   }
 
   .explore_btn {
-    min-height: 32px;
-    min-width: 90px;
     border-radius: 100px;
     background: linear-gradient(180deg, #9b6cff 0%, #6a32e1 100%);
     color: white;
-    font-size: 12px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 500;
     text-transform: capitalize;
     border: none;
     cursor: pointer;
     margin-right: 16px;
     animation: logoImg 1s cubic-bezier(0.8, 0, 0.12, 0.99);
+    padding: 9px 20px;
+    letter-spacing: 1px;
   }
   .join_btn {
     background-color: #111 !important;

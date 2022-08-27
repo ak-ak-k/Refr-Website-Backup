@@ -2,12 +2,21 @@
   font-family: Inter, " sans-serif" !important;
 }
 
+.header_btns .how_it_work {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #272727;
+  padding-right: 16px;
+}
+
 .about_refr {
   margin: 8% 0 10% 0;
 }
 
 #aboutus_content {
-  padding: 0 12% !important;
+  margin: 4% 12% 5% 8%;
 }
 
 .about {

@@ -687,9 +687,22 @@ footer {
   width: 50px;
 }
 
+.logo svg {
+  width: 100px;
+}
+
 /* drop_down ends */
 
 @media screen and (max-width: 900px) {
+  .logo svg {
+    width: 80px;
+  }
+
+  .media_btn {
+    color: white !important;
+    width: 54%;
+    margin: 2% 3%;
+  }
   .linksX {
     display: none;
   }
@@ -699,8 +712,7 @@ footer {
   .main {
     flex-direction: column;
     gap: 20px;
-
-    margin: 111px 10px;
+    margin: 5% 10px;
   }
   .left_main {
     width: auto;
