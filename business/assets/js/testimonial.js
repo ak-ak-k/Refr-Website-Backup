@@ -5,7 +5,7 @@ var swiper = new Swiper(".mySwiper", {
     watchState: true,
   },
   pagination: {
-    el: ".swiper-pagination",
+    el: ".swiper-pagination1",
     clickable: true,
   },
   navigation: {
@@ -28,6 +28,6 @@ var swiper = new Swiper(".mySwiper1", {
     slideShadows: true,
   },
   pagination: {
-    el: ".swiper-pagination",
+    el: ".swiper-pagination1",
   },
 });

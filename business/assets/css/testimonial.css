@@ -60,7 +60,7 @@
   right: 6%;
 }
 
-.swiper-pagination1 {
+.swiper-pagination {
   display: none;
 }
 
@@ -70,7 +70,7 @@
     display: none;
   }
 
-  .swiper-pagination1 {
+  .swiper-pagination {
     display: block;
   }
 
