@@ -68,8 +68,12 @@ img {
 
 /* changes */
 
+.text_black {
+  color: #000000 !important;
+}
+
 .get_free_demo {
-  border: 1px solid #ffffff;
+  border: 1px solid #000000;
   padding: 10px 16px;
   border-radius: 8px;
 }
@@ -1258,7 +1262,7 @@ video::-webkit-media-controls {
   }
 
   .media_btn {
-    color: white !important;
+    color: white;
     width: 54%;
     margin: 2% 3%;
   }

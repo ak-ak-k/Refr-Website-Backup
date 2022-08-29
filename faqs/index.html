@@ -2212,6 +2212,160 @@
     <script src="../assets/js/public-script.js"></script-->
 
     <!-- Event snippet for Website traffic conversion page -->
+
+    <script>
+        var animation1 = lottie.loadAnimation({
+            container: document.getElementById('lootiecont'), // the dom element that will contain the animation
+            renderer: 'svg',
+            loop: true,
+            autoplay: true,
+            path: './assets/data.json' // the path to the animation json
+        });
+
+        var animation2 = lottie.loadAnimation({
+            container: document.getElementById('lootiecont2'), // the dom element that will contain the animation
+            renderer: 'svg',
+            loop: true,
+            autoplay: true,
+            path: './assets/data.json' // the path to the animation json
+        });
+
+
+
+        var istarted = false;
+
+        function step(startTime) {
+            console.log('inview');
+
+            // Array.from(text).forEach((el, idx) => {
+
+            //     box.forEach((el1, idx1) => {
+            //         bgwarp.id = "an-banner" + idx;
+            //         if (idx < 1) {
+            //             if (idx == idx1) {
+            //                 el1.classList.add("show");
+            //             } else {
+            //                 el1.classList.remove("show");
+            //             }
+            //         }
+            //         if (idx > 1) {
+            //             if (1 == idx1) {
+            //                 el1.classList.add("show");
+            //             } else {
+            //                 el1.classList.remove("show");
+            //             }
+            //         }
+            //     });
+
+            // });
+        }
+        // const isOnScreen = (element) => {
+        //     const w = window,
+        //         elBounds = element.getBoundingClientRect(),
+        //         scrollTop = w.pageYOffset,
+        //         elTop = elBounds.y + scrollTop + 300;
+
+        //     return (
+        //         elTop < w.innerHeight + scrollTop && elTop > scrollTop - elBounds.height
+        //     );
+        // };
+
+        const text = document.querySelectorAll(".content");
+        const box = document.querySelectorAll(".work-img");
+        const bgwarp = document.querySelector(".how-work");
+
+        document.addEventListener("scroll", function () {
+
+            var videoel = document.getElementById("nextcont");
+            elBounds = videoel.getBoundingClientRect();
+            console.log(elBounds);
+            if (0 >= elBounds.top) {
+                // if (istarted === false) {
+                var secondimage = document.getElementById('secondimg');
+                secondimage.classList.add("show");
+                animation1.pause();
+                animation2.pause();
+                // }
+            }
+            if (elBounds.top >= 0) {
+                // if (istarted === false) {
+                var secondimage = document.getElementById('secondimg');
+                secondimage.classList.remove("show");
+                animation1.play();
+                animation2.play();
+                // }
+            }
+        });
+
+
+
+
+
+        document.addEventListener('DOMContentLoaded', function () {
+
+            new Splide('#slider1', {
+                type: "loop",
+                drag: "free",
+                focus: "center",
+                direction: "rtl",
+                autoWidth: true,
+                pagination: false,
+                arrows: false,
+                perPage: 6,
+                autoScroll: {
+                    speed: 2,
+                    pauseOnHover: false,
+                    direction: "rtl",
+                },
+            }).mount(window.splide.Extensions);
+
+            new Splide('#slider2', {
+                type: "loop",
+                drag: "free",
+                focus: "center",
+                pagination: false,
+                autoWidth: true,
+                arrows: false,
+                direction: "ltr",
+                perPage: 6,
+                autoScroll: {
+                    speed: 2,
+                    pauseOnHover: false,
+                    direction: "ltr",
+                },
+            }).mount(window.splide.Extensions);
+        }
+        );
+        var myelemet = document.getElementById("myimg1"),
+            myimgs = [
+                "assets/images/mainslider/banner2.png",
+                "assets/images/mainslider/banner3.png",
+                "assets/images/mainslider/banner4.png",
+            ];
+        function changeImg(myelemet, myimgs) {
+            "use stict";
+            setInterval(function () {
+                var myRandomNum = Math.floor(Math.random() * myimgs.length);
+
+                myelemet.src = myimgs[myRandomNum];
+            }, 5000);
+        }
+        changeImg(myelemet, myimgs);
+        window.addEventListener('load', (event) => {
+            var myRandomNum = Math.floor(Math.random() * myimgs.length);
+
+            myelemet.src = myimgs[myRandomNum];
+        });
+        $("a.menulinks").click(function () {
+            $(this).next("ul").slideToggle(250);
+            return false;
+        });
+
+
+
+    </script>
+
+
     <script>
         gtag('event', 'conversion', { 'send_to': 'AW-10970341747/HcAOCNy3rtYDEPPCiO8o' });
     </script>
