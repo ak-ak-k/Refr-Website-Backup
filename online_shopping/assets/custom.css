@@ -7890,12 +7890,3 @@ a {
     transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
   }
 }
-
-.header_btns .how_it_work {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 19px;
-  color: #ffffff;
-  padding-right: 16px;
-}

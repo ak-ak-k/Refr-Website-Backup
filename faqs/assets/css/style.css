@@ -69,9 +69,9 @@ img {
 /* changes */
 
 .get_free_demo {
-  background-color: #8000ff;
+  border: 1px solid #ffffff;
   padding: 10px 16px;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 .header-wrap .menu ul {

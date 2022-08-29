@@ -68,9 +68,9 @@ img {
 
 /* changes */
 .get_free_demo {
-  background-color: #8000ff;
+  border: 1px solid #ffffff;
   padding: 10px 16px;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 .header-wrap .menu ul {
@@ -204,7 +204,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  padding: 20px 0px;
+  padding: 10px 0px;
   width: 100%;
   color: var(--whiteColor);
   z-index: 10;
@@ -1330,6 +1330,11 @@ video::-webkit-media-controls {
 /*small to large devices*/
 
 @media screen and (max-width: 900px) {
+  .media_btn {
+    color: white !important;
+    width: 54%;
+    margin: 3%;
+  }
   .card .card_img {
     margin: 10% auto;
   }

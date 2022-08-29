@@ -15,7 +15,7 @@
 
 .header {
   width: 100%;
-  background: #9130EB;
+  background: linear-gradient(90deg, rgba(183, 106, 226, 0.64) 0%, rgba(233, 122, 176, 0.64) 100%);
   /* background: white; */
 }
 
@@ -176,7 +176,7 @@ header {
 }
 
 .main_line {
-  color: #7F4AEE;
+  /* color: #7F4AEE; */
   font-style: normal;
   font-weight: 600;
   font-size: 2rem;
@@ -192,11 +192,11 @@ header {
   font-style: normal;
   font-weight: 400;
   font-size: 1.1rem !important;
-  line-height: 32px;
+  line-height: 22px;
   color: rgba(0, 0, 0, 0.7);
   width: 425px;
   height: auto;
-  margin-left: auto;
+  /* margin-left: auto; */
   padding-bottom: 4%;
 }
 
@@ -380,7 +380,8 @@ footer {
 }
 
 @media screen and (max-width: 900px) {
-  .media_dflex {}
+  .media_dflex {
+  }
 
   .banner {
     height: auto;
@@ -528,21 +529,25 @@ footer {
 }
 
 .white_txt {
-  color: #FFF !important;
+  color: #fff !important;
 }
 
 .gradient_bg {
-  background: linear-gradient(68.84deg, #AE67EC 7.37%, #F77EA2 54.13%, #FABBA4 94.54%);
+  background: linear-gradient(90deg, rgba(183, 106, 226, 0.64) 0%, rgba(233, 122, 176, 0.64) 100%);
 }
 
-.purple_bg{
-  background: #9130EB;
+.purple_bg {
+  background: #9130eb;
 }
 
 .c_align {
   text-align: center;
 }
 
-.xs_size{
+.xs_size {
   font-size: 12px !important;
+}
+
+.lightpurple_bg {
+  background-color: #d2a0eb;
 }
