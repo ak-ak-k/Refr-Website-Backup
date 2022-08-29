@@ -201,7 +201,7 @@ header .container-fluid {
 header.merchant-social .container-fluid {
   padding-left: 100px;
   padding-right: 100px;
-  position: fixed;
+  position: absolute;
   background: linear-gradient(86.39deg, #f0a6a6 7.44%, #c16568 92.33%);
   top: 0;
   z-index: 3;

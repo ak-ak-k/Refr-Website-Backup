@@ -157,7 +157,7 @@ header .container-fluid {
 header.merchant-social .container-fluid {
   padding-left: 100px;
   padding-right: 100px;
-  position: fixed;
+  position: absolute;
   background: #ffffff;
   z-index: 3;
   top: 0;
