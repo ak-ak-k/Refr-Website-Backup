@@ -16,6 +16,10 @@
   background: #564e5e;
 }
 
+:root {
+  font-family: "Poppins", sans-serif;
+}
+
 html,
 body {
   overscroll-behavior-x: none;
@@ -74,7 +78,6 @@ img {
 .cards {
   background: #f1f4f9;
   padding: 5% 10%;
-  margin-bottom: 5%;
 }
 
 .cards .d-flex {
@@ -110,6 +113,10 @@ img {
   line-height: 166.5%;
   color: #8d8d8d;
   padding: 0px 10px 12px 24px;
+}
+
+.sub_head b {
+  border-bottom: 1px dotted black;
 }
 
 .card_img {

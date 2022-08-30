@@ -47,7 +47,13 @@
 
 /*  */
 
-.d-flex {
+.left_img:last-child {
+  border: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.d-flex-gap {
   gap: 15%;
   align-items: center;
   justify-content: center;
@@ -402,7 +408,7 @@ ul.dashed li {
     margin: auto;
   }
   .secondary {
-    max-width: 100%;
+    max-width: 85%;
   }
   .main3 {
     padding: 5%;
@@ -412,7 +418,8 @@ ul.dashed li {
     font-size: 1.3rem;
   }
   .btns a {
-    padding: 5px 10px;
+    padding: 12px 14px !important;
+    font-size: 1em;
   }
   .question {
     padding: 7%;
@@ -422,7 +429,7 @@ ul.dashed li {
     text-align: center;
   }
   .ques .primary_ques {
-    font-size: 16px;
+    font-size: 14px;
     max-width: 90%;
     text-align: left;
   }

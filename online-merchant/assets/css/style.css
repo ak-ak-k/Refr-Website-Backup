@@ -1534,6 +1534,18 @@ video::-webkit-media-controls {
 /*small to large devices*/
 
 @media screen and (max-width: 900px) {
+  .media_demo {
+    padding: 10px !important;
+    font-size: 1rem !important;
+    margin: 4% auto !important;
+  }
+  .xxs {
+    font-size: 20px !important;
+  }
+  .padd-0 {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
   .media_btn {
     color: white !important;
     width: 54%;

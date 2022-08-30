@@ -5,7 +5,7 @@ var swiper = new Swiper(".mySwiper", {
     watchState: true,
   },
   pagination: {
-    el: ".swiper-pagination1",
+    el: ".swiper-pagination",
     clickable: true,
   },
   navigation: {
@@ -19,7 +19,7 @@ var swiper = new Swiper(".mySwiper1", {
   effect: "coverflow",
   grabCursor: true,
   centeredSlides: false,
-  slidesPerView: "auto",
+  slidesPerView: "3",
   coverflowEffect: {
     rotate: 50,
     stretch: 0,
@@ -29,5 +29,6 @@ var swiper = new Swiper(".mySwiper1", {
   },
   pagination: {
     el: ".swiper-pagination1",
+    clickable: true,
   },
 });

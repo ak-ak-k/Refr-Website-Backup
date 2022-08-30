@@ -20,6 +20,10 @@ body {
 
 /* header starts */
 
+.br:last-child {
+  border-bottom: none;
+}
+
 .header {
   display: grid;
   grid-template-areas: "header header header header header header";
@@ -253,7 +257,7 @@ body {
   .box_heading {
     padding: 17px 0 0px 0;
   }
-  .panel{
+  .panel {
     max-width: 65%;
   }
 }

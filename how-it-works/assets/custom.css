@@ -69,8 +69,6 @@ a {
     min-height: 32px;
     min-width: 90px;
     border-radius: 100px;
-    background: linear-gradient(180deg, #9b6cff 0%, #6a32e1 100%);
-    color: white;
     font-size: 12px;
     font-weight: 600;
     text-transform: capitalize;
@@ -78,6 +76,10 @@ a {
     cursor: pointer;
     margin-right: 16px;
     animation: logoImg 1s cubic-bezier(0.8, 0, 0.12, 0.99);
+    background: none;
+    color: black;
+    border: 1px solid black;
+    padding: 6px 18px;
   }
 
   .join_btn {
@@ -1242,8 +1244,6 @@ a {
   .explore_btn {
     padding: 15px 30px 15px 30px;
     border-radius: 100px;
-    background: linear-gradient(180deg, #9b6cff 0%, #6a32e1 100%);
-    color: white;
     font-size: 14px;
     font-weight: 600;
     text-transform: capitalize;
@@ -1251,6 +1251,10 @@ a {
     cursor: pointer;
     margin-right: 16px;
     animation: logoImg 1s cubic-bezier(0.8, 0, 0.12, 0.99);
+    background: none;
+    color: black;
+    border: 1px solid black;
+    padding: 6px 18px;
   }
 
   .join_btn {
@@ -1271,7 +1275,7 @@ a {
 
   header {
     width: 100%;
-    padding: 0 5%;
+    padding: 10px 5%;
     margin: 0;
     z-index: 3;
     /* text-transform: uppercase; */
@@ -2176,8 +2180,6 @@ a {
   .explore_btn {
     padding: 15px 30px 15px 30px;
     border-radius: 100px;
-    background: linear-gradient(180deg, #9b6cff 0%, #6a32e1 100%);
-    color: white;
     font-size: 14px;
     font-weight: 600;
     text-transform: capitalize;
@@ -2185,6 +2187,10 @@ a {
     cursor: pointer;
     margin-right: 16px;
     animation: logoImg 1s cubic-bezier(0.8, 0, 0.12, 0.99);
+    background: none;
+    color: black;
+    border: 1px solid black;
+    padding: 6px 18px;
   }
 
   .join_btn {
@@ -3941,8 +3947,6 @@ a {
   .explore_btn {
     padding: 15px 30px 15px 30px;
     border-radius: 100px;
-    background: linear-gradient(180deg, #9b6cff 0%, #6a32e1 100%);
-    color: white;
     font-size: 14px;
     font-weight: 600;
     text-transform: capitalize;
@@ -3950,6 +3954,10 @@ a {
     cursor: pointer;
     margin-right: 16px;
     animation: logoImg 1s cubic-bezier(0.8, 0, 0.12, 0.99);
+    background: none;
+    color: black;
+    border: 1px solid black;
+    padding: 6px 18px;
   }
 
   .join_btn {
@@ -3969,7 +3977,7 @@ a {
 
   header {
     width: 100%;
-    padding: 0 5%;
+    padding: 10px 5%;
     margin: 0;
 
     z-index: 3;
@@ -6865,7 +6873,7 @@ a {
   header {
     z-index: 3;
     /* text-transform: uppercase; */
-    padding-top: 20px;
+    padding: 10px 0;
     display: flex;
     color: #111;
     justify-content: space-between;

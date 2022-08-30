@@ -1952,6 +1952,7 @@ video::-webkit-media-controls {
 @media screen and (max-width: 768px) {
   .strip h2 {
     font-size: 2em;
+    color: #000000;
   }
 
   .refrclub-featurs-bottom-row {
@@ -1959,7 +1960,7 @@ video::-webkit-media-controls {
   }
 
   .refrclub-featurs-bottom-row .featurebox {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
 
   .grow-business.merchant-social .icon-refr-feature img {
@@ -2420,7 +2421,8 @@ video::-webkit-media-controls {
   }
 
   .refrclub-featurs-bottom p {
-    font-size: 1rem;
+    font-size: 0.9rem;
+    line-height: 24px;
   }
 
   .refrclub-featurs-bottom h4 {
@@ -4032,7 +4034,7 @@ i.bordicon {
 .l_box {
   position: absolute;
   top: -38%;
-  left: 46%;
+  left: 52%;
 }
 
 .r_box {
@@ -4063,7 +4065,7 @@ i.bordicon {
 
 .block_1 {
   background: #ffffff;
-  box-shadow: 0px -4px 13px rgb(162 162 162 / 25%);
+  box-shadow: 0px -4px 13px rgb(162 162 162 / 100%);
   border-radius: 18px;
   width: 271px;
   /* height: 271px; */
@@ -4099,10 +4101,25 @@ i.bordicon {
   line-height: 25px;
   color: #000000;
   margin: 0;
-  padding: 4% 0 16% 0;
+  padding: 4% 0 10% 0;
 }
 
 @media screen and (max-width: 900px) {
+  .media_demo {
+    padding: 10px !important;
+    font-size: 1rem !important;
+    margin: 4% auto !important;
+  }
+  .xxs {
+    font-size: 20px !important;
+  }
+  .padd-0 {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .block_1 {
+    height: 271px;
+  }
   .main_sol {
     flex-direction: column;
     padding: 5%;

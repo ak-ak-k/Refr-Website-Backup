@@ -16,9 +16,9 @@
     <!-- SHOULD BE DYNAMIC -->
     <link rel="canonical" href="" />
 
-    <title>Refr Business</title>
+    <title>Refr</title>
 
-    <link rel="icon" type="image/x-icon" href="../assets/merchant-favi.svg" />
+    <link rel="icon" type="image/x-icon" href="../assets/favi.png   " />
 
 
     <!-- OPEN GRAPH -->
@@ -92,6 +92,8 @@
     </link>
     <link rel="stylesheet" href="./assets/js/dist/css/splide-core.min.css">
     </link>
+    <link rel="stylesheet" href="../assets/cust_sidemenu/slidemenu.css">
+
 
 </head>
 
@@ -99,123 +101,87 @@
 
     <!-- header start -->
 
-    <header>
-        <div class="container">
-            <div class="row ">
-                <div class="col-md-12 col-sm-12 col-12" style="z-index: 10000;">
-                    <div class="header-wrap">
-                        <div class="logo">
-                            <!-- <a class="d-none d-sm-block business-link mt-1" href="javascript:void(0)">Businesses</a> -->
-                            <ul class=" mainmenu business-link">
-                                <li class="d-block d-sm-none"></li>
-                                <li class="drop">
-                                    <a class="d-none d-sm-block" href="javascript:void(0)">Businesses</a>
-                                    <div class="dropdownContain">
-                                        <div class="dropOut">
-                                            <div class="triangle"></div>
-                                            <ul class="myul d-flex flex-column">
-                                                <li class="d align-items-center gap-2">
-                                                    <a href="https://refr.club/offline-merchant" class="d-flex ">
-                                                        <img width="50px" class="mr-2"
-                                                            style="max-width:50px !important;"
-                                                            src="./assets/images/offlinestore.svg">
-                                                        <div>
-                                                            <h6 class="m-0">Offline</h6>
-                                                            <small class="text-dark " style="font-size:12px">Experience
-                                                                Refr for offline stores</small>
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                                <li class="d-flex align-items-center gap-2">
-                                                    <a href="https://refr.club/online-merchant" class="d-flex ">
-                                                        <img width="50px" class="mr-2"
-                                                            style="max-width:50px !important;"
-                                                            src="./assets/images/onlinestore.svg">
-                                                        <div>
-                                                            <h6 class="m-0">Online</h6>
-                                                            <small class="text-dark " style="font-size:12px">Experience
-                                                                Refr for online stores</small>
-                                                        </div>
-                                                    </a>
-                                                </li>
-
-
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </li>
-
-                            </ul>
-                            <a class="logo" href="https://refr.club">
-                                <svg width="117" height="62" viewBox="0 0 117 62" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M115.877 18.0744L114.778 19.0811L114.618 19.2413L115.877 18.0744ZM98 2.44805L98.5494 1.69305L98.8927 1.21259L98 2.44805ZM116.793 17.8914L110.91 23.2451H107.408L102.166 30.1088L103.631 23.2451H95.0244C94.6883 23.2451 94.3657 23.1133 94.126 22.878C93.8862 22.6426 93.7486 22.3226 93.7426 21.9867V8.03054C93.7069 7.72229 93.7886 7.41192 93.9714 7.16114L99.0072 0.29743C99.0723 0.206193 99.1581 0.131671 99.2576 0.0799715C99.357 0.0282724 99.4673 0.00086582 99.5794 0H116.289C116.477 0 116.658 0.0747255 116.791 0.207736C116.924 0.340746 116.999 0.521144 116.999 0.709249V17.4109C117.003 17.5048 116.987 17.5986 116.952 17.6855C116.916 17.7725 116.862 17.8506 116.793 17.9143V17.8914ZM107.957 18.0744L108.117 17.5711H99.6023C99.5416 17.5711 99.4834 17.547 99.4405 17.5041C99.3975 17.4612 99.3734 17.403 99.3734 17.3423V0.686373C99.3734 0.656328 99.3793 0.626576 99.3909 0.598817C99.4024 0.571059 99.4192 0.545838 99.4405 0.524593C99.4617 0.503348 99.4869 0.486496 99.5147 0.474998C99.5425 0.4635 99.5723 0.457582 99.6023 0.457582H116.266C116.298 0.454375 116.33 0.457911 116.361 0.467964C116.391 0.478016 116.419 0.494362 116.443 0.515935C116.467 0.537509 116.486 0.56383 116.498 0.593193C116.511 0.622555 116.518 0.654302 116.518 0.686373V17.3423C116.518 17.3744 116.511 17.4061 116.498 17.4355C116.486 17.4648 116.467 17.4912 116.443 17.5127C116.419 17.5343 116.391 17.5507 116.361 17.5607C116.33 17.5708 116.298 17.5743 116.266 17.5711H110.132L109.742 18.0744L109.056 18.9438L106.767 21.7122L107.614 18.9438L107.957 18.0744Z"
-                                        fill="white" />
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M8.65232 44.6871V61.7548H0V18.9253H15.771C19.9196 18.6543 24.0146 19.9804 27.2159 22.6317C28.5056 23.7784 29.5329 25.1894 30.2281 26.7686C30.9233 28.3478 31.2699 30.0582 31.2445 31.7833C31.24 34.498 30.3745 37.1413 28.7724 39.3334C26.8753 41.8304 24.1182 43.5344 21.0357 44.1151L31.9769 61.7319H21.7223L11.4678 44.6642L8.65232 44.6871ZM8.65232 25.5373V38.1665H15.771C17.5825 38.288 19.3684 37.6875 20.7381 36.4964C21.8642 35.238 22.4867 33.6089 22.4867 31.9206C22.4867 30.2323 21.8642 28.6032 20.7381 27.3448C19.372 26.1454 17.5857 25.5365 15.771 25.6517L8.65232 25.5373Z"
-                                        fill="white" />
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M43.977 61.8065C42.0056 61.8818 40.0403 61.5442 38.2073 60.8152C36.3743 60.0863 34.714 58.9822 33.3333 57.5738C31.9421 56.0738 30.8634 54.3121 30.16 52.3914C29.4566 50.4707 29.1425 48.4292 29.236 46.386C29.1388 44.3474 29.4535 42.3101 30.1614 40.3958C30.8693 38.4814 31.9558 36.7293 33.3562 35.2439C34.7545 33.8494 36.4254 32.7579 38.2646 32.0375C40.1037 31.3171 42.0717 30.9834 44.0457 31.0571C46.0235 30.9838 47.996 31.3063 49.8474 32.0057C51.6988 32.705 53.3917 33.7671 54.8267 35.1295C56.2435 36.5506 57.3495 38.2504 58.0745 40.1211C58.7995 41.9919 59.1278 43.9928 59.0384 45.9971C59.0473 46.978 58.9707 47.9579 58.8095 48.9256H37.0185C37.1404 50.6655 37.9077 52.2973 39.1701 53.5014C40.4727 54.7092 42.2015 55.351 43.977 55.2859C45.1535 55.3448 46.3229 55.0713 47.3511 54.4968C48.3794 53.9222 49.2249 53.0698 49.791 52.0371H58.0999C57.2347 54.8163 55.4717 57.2302 53.0871 58.9008C50.451 60.7497 47.2874 61.6968 44.0685 61.6006L43.977 61.8065ZM51.233 44.0066C51.2085 43.1002 50.9918 42.2094 50.5972 41.393C50.2026 40.5766 49.6392 39.8532 48.9441 39.2706C47.5946 38.08 45.8451 37.4427 44.0457 37.4861C42.2862 37.4357 40.577 38.0763 39.2846 39.2706C37.9716 40.5191 37.1579 42.2025 36.9956 44.0066H51.233Z"
-                                        fill="white" />
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M70.1674 39.2362V61.7492H61.5838V25.852C61.4372 24.2105 61.6522 22.5568 62.2137 21.0074C62.7753 19.4579 63.6697 18.0502 64.8341 16.8834C67.8115 14.7621 71.445 13.765 75.0887 14.0693H79.8497V21.2762H75.0887C73.7355 21.1449 72.3816 21.5199 71.289 22.3286C70.8701 22.8029 70.5542 23.3588 70.3611 23.9613C70.1681 24.5638 70.1021 25.1998 70.1674 25.8291V32.1666H75.5694V39.2133L70.1674 39.2362Z"
-                                        fill="white" />
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M85.5714 32.3672V34.6551C87.4484 32.7104 91.1107 32.3672 94.8646 32.3672V39.3682C91.8203 39.3682 85.7087 40.2604 85.7087 44.31V61.7438H78.1094V32.3672H85.5714Z"
-                                        fill="white" />
-                                </svg>
-                            </a>
-                        </div>
-                        <div class="menu" style="height:60px ;    display: flex;
-                            align-items: center;">
-                            <a class="menulinks" href="javascript:void(0)"><i></i></a>
-                            <ul class="mainmenu">
-                                <li class="d-block d-sm-none"><a href="https://refr.club/online-merchant">Online</a>
-                                </li>
-                                <li class="d-block d-sm-none"><a href="https://refr.club/offline-merchant">Ofline</a>
-                                </li>
-                                <li><a href="https://refr.club/how_it_works-merchant">How it
-                                        Works</a></li>
-                                <!-- <li><a class="download_app" href="https://biz.refr.club"> Download the app</a></li> -->
-                                <li class="d-block d-sm-none"><a href="https://biz.refr.club">Refr for customers</a>
-                                </li>
-                                <li><a class="get_free_demo media_btn text_black"
-                                        href="https://refr.club/contact-us-merchant">Get
-                                        a free
-                                        demo</a>
-                                <li><a class="media_btn" href="https://biz.refr.club">Login</a></li>
-                            </ul>
-                        </div>
-
-
-                    </div>
-                </div>
-            </div>
+    <div id="mySidebar" class="sidebar">
+        <div class="sidemenuheader">
+            <a href="https://refr.club/" class="logo">
+                <svg width="100" height="50" viewBox="0 0 80 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M79.235 12.3594L78.4837 13.0478L78.3741 13.1573L79.235 12.3594ZM67.0106 1.674L67.3863 1.15772L67.6211 0.829177L67.0106 1.674ZM79.8611 12.2343L75.8385 15.8952H73.4437L69.8593 20.5886L70.8611 15.8952H64.9759C64.7461 15.8952 64.5255 15.805 64.3615 15.6441C64.1976 15.4832 64.1034 15.2643 64.0993 15.0347V5.49134C64.075 5.28056 64.1308 5.06833 64.2559 4.89684L67.6993 0.203385C67.7439 0.140996 67.8025 0.0900373 67.8705 0.0546851C67.9386 0.0193329 68.014 0.000592054 68.0906 0H79.5167C79.6454 0 79.7688 0.0510978 79.8598 0.142051C79.9508 0.233004 80.0019 0.356362 80.0019 0.484989V11.9057C80.0052 11.9699 79.9942 12.034 79.9699 12.0935C79.9455 12.153 79.9084 12.2064 79.8611 12.2499V12.2343ZM73.8193 12.3594L73.9289 12.0152H68.1063C68.0648 12.0152 68.025 11.9988 67.9956 11.9694C67.9663 11.9401 67.9498 11.9003 67.9498 11.8588V0.469347C67.9498 0.448802 67.9538 0.428457 67.9617 0.409476C67.9696 0.390494 67.9811 0.373248 67.9956 0.35872C68.0101 0.344193 68.0274 0.332669 68.0464 0.324807C68.0654 0.316945 68.0857 0.312898 68.1063 0.312898H79.5011C79.5229 0.310705 79.545 0.313123 79.5658 0.319997C79.5866 0.326871 79.6058 0.338048 79.622 0.3528C79.6382 0.367552 79.6512 0.385551 79.66 0.405629C79.6688 0.425707 79.6733 0.447416 79.6732 0.469347V11.8588C79.6733 11.8807 79.6688 11.9024 79.66 11.9225C79.6512 11.9426 79.6382 11.9606 79.622 11.9753C79.6058 11.9901 79.5866 12.0013 79.5658 12.0081C79.545 12.015 79.5229 12.0174 79.5011 12.0152H75.3063L75.0402 12.3594L74.5706 12.9539L73.0054 14.847L73.5845 12.9539L73.8193 12.3594Z"
+                        fill="white" />
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M5.91652 30.5538V42.2249H0V12.9378H10.7843C13.6211 12.7524 16.4213 13.6593 18.6104 15.4722C19.4923 16.2564 20.1948 17.2212 20.6702 18.3011C21.1456 19.3809 21.3826 20.5505 21.3652 21.7302C21.3621 23.5865 20.7703 25.394 19.6748 26.893C18.3775 28.6004 16.4922 29.7657 14.3843 30.1627L21.8661 42.2093H14.8539L7.84173 30.5382L5.91652 30.5538ZM5.91652 17.4591V26.0951H10.7843C12.023 26.1781 13.2442 25.7675 14.1809 24.953C14.9509 24.0925 15.3766 22.9785 15.3766 21.824C15.3766 20.6695 14.9509 19.5556 14.1809 18.6951C13.2467 17.8749 12.0252 17.4586 10.7843 17.5373L5.91652 17.4591Z"
+                        fill="white" />
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M30.0683 42.2602C28.7203 42.3117 27.3764 42.0808 26.123 41.5824C24.8696 41.0839 23.7343 40.3289 22.7901 39.3659C21.8388 38.3402 21.1012 37.1355 20.6202 35.8221C20.1392 34.5087 19.9244 33.1128 19.9884 31.7156C19.9219 30.3216 20.1371 28.9284 20.6211 27.6194C21.1052 26.3104 21.8482 25.1122 22.8057 24.0965C23.7619 23.1429 24.9045 22.3965 26.1622 21.904C27.4198 21.4114 28.7655 21.1831 30.1153 21.2335C31.4678 21.1834 32.8166 21.404 34.0826 21.8822C35.3486 22.3604 36.5062 23.0867 37.4875 24.0183C38.4563 24.99 39.2126 26.1524 39.7083 27.4316C40.2041 28.7109 40.4286 30.0791 40.3675 31.4496C40.3735 32.1204 40.3211 32.7904 40.2109 33.4521H25.3101C25.3935 34.6419 25.9181 35.7577 26.7814 36.5811C27.6721 37.407 28.8542 37.8459 30.0683 37.8014C30.8729 37.8417 31.6725 37.6547 32.3756 37.2618C33.0787 36.8689 33.6569 36.286 34.044 35.5798H39.7257C39.134 37.4803 37.9285 39.1309 36.2979 40.2733C34.4954 41.5376 32.332 42.1852 30.131 42.1194L30.0683 42.2602ZM35.0301 30.0885C35.0133 29.4687 34.8651 28.8596 34.5953 28.3013C34.3255 27.743 33.9402 27.2484 33.4649 26.85C32.5421 26.0359 31.3458 25.6 30.1153 25.6297C28.9122 25.5953 27.7434 26.0333 26.8597 26.85C25.9618 27.7037 25.4054 28.8549 25.2944 30.0885H35.0301Z"
+                        fill="white" />
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M47.9782 26.832V42.2265H42.1087V17.6797C42.0084 16.5573 42.1555 15.4265 42.5395 14.3669C42.9235 13.3074 43.5351 12.3448 44.3313 11.5469C46.3673 10.0964 48.8519 9.41454 51.3435 9.62263H54.5991V14.5508H51.3435C50.4181 14.461 49.4924 14.7174 48.7452 15.2704C48.4588 15.5947 48.2427 15.9749 48.1107 16.3869C47.9787 16.7989 47.9336 17.2338 47.9782 17.6641V21.9977H51.6721V26.8163L47.9782 26.832Z"
+                        fill="white" />
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M58.5167 22.1328V23.6973C59.8001 22.3675 62.3045 22.1328 64.8714 22.1328V26.9201C62.7897 26.9201 58.6106 27.5303 58.6106 30.2994V42.2208H53.4141V22.1328H58.5167Z"
+                        fill="white" />
+                </svg>
+            </a>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
         </div>
-        <!--  -->
+        <a href="https://refr.club/how-it-works/">How it Work</a>
+        <a href="https://refr.club/business/">Refr For Business</a>
+        <a href="https://app.refr.club/">Explore BETA</a>
+    </div>
 
-        <div class="img_wrapper">
-            <div class="img_banner">
-                <div class="sec1">
-                    <img src="./assets/img/1.png" alt="">
-                    <img src="./assets/img/2.png" alt="">
-                    <img src="./assets/img/3.png" alt="">
-                </div>
-                <div class="sec2">
-                    <img src="./assets/img/4.png" alt="">
-                    <img src="./assets/img/5.png" alt="">
-                </div>
+    <div class="header">
+        <header>
+            <div class="dflex">
+                <button class="opensidebtn" onclick="openNav()">☰</button>
+                <a href="https://refr.club/" class="logo">
+                    <svg width="100" height="50" viewBox="0 0 80 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M79.235 12.3594L78.4837 13.0478L78.3741 13.1573L79.235 12.3594ZM67.0106 1.674L67.3863 1.15772L67.6211 0.829177L67.0106 1.674ZM79.8611 12.2343L75.8385 15.8952H73.4437L69.8593 20.5886L70.8611 15.8952H64.9759C64.7461 15.8952 64.5255 15.805 64.3615 15.6441C64.1976 15.4832 64.1034 15.2643 64.0993 15.0347V5.49134C64.075 5.28056 64.1308 5.06833 64.2559 4.89684L67.6993 0.203385C67.7439 0.140996 67.8025 0.0900373 67.8705 0.0546851C67.9386 0.0193329 68.014 0.000592054 68.0906 0H79.5167C79.6454 0 79.7688 0.0510978 79.8598 0.142051C79.9508 0.233004 80.0019 0.356362 80.0019 0.484989V11.9057C80.0052 11.9699 79.9942 12.034 79.9699 12.0935C79.9455 12.153 79.9084 12.2064 79.8611 12.2499V12.2343ZM73.8193 12.3594L73.9289 12.0152H68.1063C68.0648 12.0152 68.025 11.9988 67.9956 11.9694C67.9663 11.9401 67.9498 11.9003 67.9498 11.8588V0.469347C67.9498 0.448802 67.9538 0.428457 67.9617 0.409476C67.9696 0.390494 67.9811 0.373248 67.9956 0.35872C68.0101 0.344193 68.0274 0.332669 68.0464 0.324807C68.0654 0.316945 68.0857 0.312898 68.1063 0.312898H79.5011C79.5229 0.310705 79.545 0.313123 79.5658 0.319997C79.5866 0.326871 79.6058 0.338048 79.622 0.3528C79.6382 0.367552 79.6512 0.385551 79.66 0.405629C79.6688 0.425707 79.6733 0.447416 79.6732 0.469347V11.8588C79.6733 11.8807 79.6688 11.9024 79.66 11.9225C79.6512 11.9426 79.6382 11.9606 79.622 11.9753C79.6058 11.9901 79.5866 12.0013 79.5658 12.0081C79.545 12.015 79.5229 12.0174 79.5011 12.0152H75.3063L75.0402 12.3594L74.5706 12.9539L73.0054 14.847L73.5845 12.9539L73.8193 12.3594Z"
+                            fill="white" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M5.91652 30.5538V42.2249H0V12.9378H10.7843C13.6211 12.7524 16.4213 13.6593 18.6104 15.4722C19.4923 16.2564 20.1948 17.2212 20.6702 18.3011C21.1456 19.3809 21.3826 20.5505 21.3652 21.7302C21.3621 23.5865 20.7703 25.394 19.6748 26.893C18.3775 28.6004 16.4922 29.7657 14.3843 30.1627L21.8661 42.2093H14.8539L7.84173 30.5382L5.91652 30.5538ZM5.91652 17.4591V26.0951H10.7843C12.023 26.1781 13.2442 25.7675 14.1809 24.953C14.9509 24.0925 15.3766 22.9785 15.3766 21.824C15.3766 20.6695 14.9509 19.5556 14.1809 18.6951C13.2467 17.8749 12.0252 17.4586 10.7843 17.5373L5.91652 17.4591Z"
+                            fill="white" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M30.0683 42.2602C28.7203 42.3117 27.3764 42.0808 26.123 41.5824C24.8696 41.0839 23.7343 40.3289 22.7901 39.3659C21.8388 38.3402 21.1012 37.1355 20.6202 35.8221C20.1392 34.5087 19.9244 33.1128 19.9884 31.7156C19.9219 30.3216 20.1371 28.9284 20.6211 27.6194C21.1052 26.3104 21.8482 25.1122 22.8057 24.0965C23.7619 23.1429 24.9045 22.3965 26.1622 21.904C27.4198 21.4114 28.7655 21.1831 30.1153 21.2335C31.4678 21.1834 32.8166 21.404 34.0826 21.8822C35.3486 22.3604 36.5062 23.0867 37.4875 24.0183C38.4563 24.99 39.2126 26.1524 39.7083 27.4316C40.2041 28.7109 40.4286 30.0791 40.3675 31.4496C40.3735 32.1204 40.3211 32.7904 40.2109 33.4521H25.3101C25.3935 34.6419 25.9181 35.7577 26.7814 36.5811C27.6721 37.407 28.8542 37.8459 30.0683 37.8014C30.8729 37.8417 31.6725 37.6547 32.3756 37.2618C33.0787 36.8689 33.6569 36.286 34.044 35.5798H39.7257C39.134 37.4803 37.9285 39.1309 36.2979 40.2733C34.4954 41.5376 32.332 42.1852 30.131 42.1194L30.0683 42.2602ZM35.0301 30.0885C35.0133 29.4687 34.8651 28.8596 34.5953 28.3013C34.3255 27.743 33.9402 27.2484 33.4649 26.85C32.5421 26.0359 31.3458 25.6 30.1153 25.6297C28.9122 25.5953 27.7434 26.0333 26.8597 26.85C25.9618 27.7037 25.4054 28.8549 25.2944 30.0885H35.0301Z"
+                            fill="white" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M47.9782 26.832V42.2265H42.1087V17.6797C42.0084 16.5573 42.1555 15.4265 42.5395 14.3669C42.9235 13.3074 43.5351 12.3448 44.3313 11.5469C46.3673 10.0964 48.8519 9.41454 51.3435 9.62263H54.5991V14.5508H51.3435C50.4181 14.461 49.4924 14.7174 48.7452 15.2704C48.4588 15.5947 48.2427 15.9749 48.1107 16.3869C47.9787 16.7989 47.9336 17.2338 47.9782 17.6641V21.9977H51.6721V26.8163L47.9782 26.832Z"
+                            fill="white" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M58.5167 22.1328V23.6973C59.8001 22.3675 62.3045 22.1328 64.8714 22.1328V26.9201C62.7897 26.9201 58.6106 27.5303 58.6106 30.2994V42.2208H53.4141V22.1328H58.5167Z"
+                            fill="white" />
+                    </svg>
+                </a>
             </div>
-        </div>
-    </header>
-    <div>
+            <!-- <ul>
+                                <li>Home</li>
+                                <li>Gallery</li>
+                                <li>Products</li>
+                                <li>Review</li>
+                              </ul> -->
+            <div class="header_btns">
+
+                <a href="https://refr.club/how-it-works/" class="how_it_work">How it works</a>
+                <a href="https://refr.club/business/" class="how_it_work">Refr For Business</a>
+
+                <!-- <button class="download_btn">Download the app</button> -->
+
+                <a href="https://app.refr.club/" class="explore_btn">
+
+                    Explore&nbsp;<sup>BETA</sup></a>
+
+            </div>
+        </header>
+    </div>
+
+
+    <!-- <div>
         <div class="text_wrapper">
             <p>Take content monetisation to the next level</p>
             <button>get started</button>
         </div>
 
-    </div>
+    </div> -->
     <!-- header end -->
 
 
@@ -262,7 +228,7 @@
 
 
 
-                    <div class="feature">
+                    <!-- <div class="feature">
                         <div class="feature_headline">
                             <p>Features</p>
                         </div>
@@ -298,185 +264,646 @@
                                     you.</p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </main>
         </div>
     </div>
 
-    <!-- footer -->
-
-    <footer>
+    <!-- ---------------footer----------------->
+    
+    <!-- Desktop Screen start -->
+    
+    <footer class="footer-section d-md-block d-lg-block">
+    
         <div class="container">
-            <div class="footer-content pt-5 pb-5">
-                <div class="row">
-                    <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
-                        <div class="footer-widget">
-                            <div class="footer-widget-heading">
-                                <h3>Company</h3>
-                            </div>
-                            <ul>
-                                <li style="width: -webkit-fill-available;">
-                                    <a href="https://refr.club/about-us-merchant">About Us</a>
-                                </li>
-                                <li style="width: -webkit-fill-available;">
-                                    <a href="https://refr.club/carrer-merchant">Careers at Refr</a>
-                                    <span class="badge-list"> <a href="https://refr.club/carrer-merchant">
-                                            We're Hiring</a></span>
-                                </li>
-                                <li style="width: -webkit-fill-available;">
-                                    <a href="https://refr.club/blogs/Social_Commerce_is_at_the_Heart">Blogs</a>
-                                </li>
-                                <!-- <li style="width: -webkit-fill-available;">
-                                        <a href="https://refr.club">News &amp; PR articles</a>
-                                    </li> -->
-                            </ul>
-                        </div>
+    
+            <div class="division">
+    
+                <div class="division-section">
+    
+                    <div class="title">
+    
+                        <h1>Refr</h1>
+    
+                        <div class="decoration-line"></div>
+    
                     </div>
-                    <div class="col-xl-2 col-lg-2 col-md-6 mb-30">
-                        <div class="footer-widget">
-                            <div class="footer-widget-heading">
-                                <h3>Businesses</h3>
-                            </div>
-                            <ul>
-                                <li style="width: -webkit-fill-available;">
-                                    <a href="https://refr.club/online-merchant">Online stores</a>
-                                </li>
-                                <li style="width: -webkit-fill-available;">
-                                    <a href="https://refr.club/offline-merchant">Offline stores</a>
-                                </li>
-                                <!-- <li style="width: -webkit-fill-available;">
-                                        <a href="https://blogs.refr.club">Offline + online stores</a>
-                                    </li>
-                                    <li style="width: -webkit-fill-available;">
-                                        <a href="https://refr.club">Enterprise</a>
-                                    </li> -->
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-lg-2 col-md-6 mb-30">
-                        <div class="footer-widget">
-                            <div class="footer-widget-heading">
-                                <h3>Contact</h3>
-                            </div>
-                            <ul>
-                                <li style="width: -webkit-fill-available;">
-                                    <a href="https://refr.club/contact-us-merchant">Contact Us</a>
-                                </li>
-                                <li style="width: -webkit-fill-available;">
-                                    <a href="https://drive.google.com/file/d/1F7R60KNeuS-75n_Zq42nKUZM6Zepy5VV/view"
-                                        target="_blank">Watch The Demo</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-lg-2 col-md-6 mb-30">
-                        <div class="footer-widget">
-                            <div class="footer-widget-heading">
-                                <h3>Product</h3>
-                            </div>
-                            <ul>
-                                <li style="width: -webkit-fill-available;">
-                                    <a href="https://refr.club/faqs">FAQs</a>
-                                </li>
-                                <li style="width: -webkit-fill-available;">
-                                    <a href="https://refr.club/pricing">Pricing</a>
-                                </li>
-                                <li style="width: -webkit-fill-available;">
-                                    <a href="https://blogs.refr.club">Refer A Merchant</a>
-                                </li>
-                                <!-- <li style="width: -webkit-fill-available;">
-                                        <a href="https://refr.club">Testimonials</a>
-                                    </li> -->
-                                <!-- <li style="width: -webkit-fill-available;">
-                                    <a href="https://refr.club/returns-and-refunds">Return & Refund </a>
-                                </li>
-                                <li style="width: -webkit-fill-available;">
-                                    <a href="https://refr.club/shipping_and_delivery">Shipping & delivery</a>
-                                </li> -->
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6 mb-50">
-                        <div class="footer-widget">
-                            <div class="footer-widget-heading">
-                                <h3>Subscribe</h3>
-                            </div>
-                            <div class="footer-text mb-25">
-                                <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
-                            </div>
-                            <div class="subscribe-form">
-                                <form action="#">
-                                    <input type="text" placeholder="Email Address">
-                                    <button><i class="fab fa-telegram-plane"></i></button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
+    
+                    <ul>
+    
+                        <li><a href="https://refr.club/about-us-customer">Our Story</a></li>
+    
+                        <li>
+    
+                            <a href="https://refr.club/join-our-team-customer">Career
+    
+                                <!-- <strong class="footer_tags">WE'RE HIRING</strong> -->
+    
+                            </a>
+    
+                        </li>
+    
+                    </ul>
+    
                 </div>
-            </div>
-        </div>
-        <div class="social-area pb-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 text-center text-lg-left">
-                        <div class="footer-widget">
-                            <div class="footer-widget-heading">
-                                <h3>Follow Us</h3>
-                            </div>
-                        </div>
-                        <div class="social-media-box">
-                            <div class="mb_5">
-                                <a target="_BLANK" href="https://www.facebook.com/">
-                                    <img src="assets/images/facebook.svg" alt="refr facebook" />
-                                </a>
-                                <a target="_BLANK" href="https://www.instagram.com/">
-                                    <img src="assets/images/instagram.svg" alt="refr instagram" />
-                                </a>
-                                <a target="_BLANK" href="https://www.twitter.com/">
-                                    <img src="assets/images/twitter.svg" alt="refr twitter" />
-                                </a>
-                                <a target="_BLANK" href="https://www.linkedin.com/">
-                                    <svg width="56" height="56" viewBox="0 0 56 56" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <circle cx="28" cy="28" r="27.5" stroke="white" />
-                                        <path
-                                            d="M19.0696 35.5V21.3182H23.0028V35.5H19.0696ZM21.0455 19.4901C20.4607 19.4901 19.959 19.2962 19.5405 18.9084C19.1281 18.5144 18.9219 18.0436 18.9219 17.4957C18.9219 16.9541 19.1281 16.4893 19.5405 16.1016C19.959 15.7076 20.4607 15.5107 21.0455 15.5107C21.6302 15.5107 22.1288 15.7076 22.5412 16.1016C22.9598 16.4893 23.169 16.9541 23.169 17.4957C23.169 18.0436 22.9598 18.5144 22.5412 18.9084C22.1288 19.2962 21.6302 19.4901 21.0455 19.4901ZM30.0868 27.3011V35.5H26.1536V21.3182H29.9022V23.8203H30.0684C30.3823 22.9955 30.9086 22.343 31.6472 21.8629C32.3858 21.3767 33.2814 21.1335 34.334 21.1335C35.3188 21.1335 36.1775 21.349 36.91 21.7798C37.6425 22.2107 38.2118 22.8262 38.6181 23.6264C39.0243 24.4205 39.2275 25.3684 39.2275 26.4702V35.5H35.2942V27.1719C35.3004 26.304 35.0788 25.6269 34.6294 25.1406C34.1801 24.6482 33.5615 24.402 32.7736 24.402C32.2443 24.402 31.7765 24.5159 31.3702 24.7436C30.9701 24.9714 30.6562 25.3037 30.4284 25.7408C30.2069 26.1716 30.093 26.6918 30.0868 27.3011Z"
-                                            fill="white" />
-                                    </svg>
-
-                                </a>
-                            </div>
-                            <div>
-                                <a href="https://refr.club/" target="_blank" class="refr_customers">Refr For
-                                    Customers</a>
-                            </div>
-                        </div>
+    
+                <div class="division-section">
+    
+                    <div class="title">
+    
+                        <h1>Support</h1>
+    
+                        <div class="decoration-line"></div>
+    
                     </div>
+    
+                    <ul>
+    
+                        <li><a href="https://refr.club/contactus_customer">Contact</a></li>
+    
+                        <!-- <li><a href="">Support Center</a></li> -->
+    
+                    </ul>
+    
                 </div>
+    
             </div>
-        </div>
-        <div class="copyright-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
-                        <div class="copyright-text">
-                            <p>Copyright &copy; 2022, All Right Reserved</p>
-                        </div>
+    
+            <div class="division">
+    
+                <div class="division-section">
+    
+                    <div class="title">
+    
+                        <h1>Resources</h1>
+    
+                        <div class="decoration-line"></div>
+    
                     </div>
-                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
-                        <div class="footer-menu">
-                            <ul>
-                                <li><a href="https://refr.club/terms-of-service/">Terms of Service</a></li>
-                                <li><a href="https://refr.club/privacy-policy/">Privacy Policy</a></li>
-                            </ul>
-                        </div>
-                    </div>
+    
+                    <ul>
+    
+                        <li><a href="http://refr.tawk.help/category/faqs">FAQ's</a></li>
+    
+                        <li><a href="https://refr.club/how-it-works">How it Works</a></li>
+    
+                        <!-- <li><a href="">Articles & Press</a></li> -->
+    
+                        <li><a href="">Blogs</a></li>
+    
+                    </ul>
+    
                 </div>
+    
+                <div class="division-section">
+    
+                    <div class="title">
+    
+                        <h1>Policy</h1>
+    
+                        <div class="decoration-line"></div>
+    
+                    </div>
+    
+                    <ul>
+    
+                        <li><a href="">Terms & Conditions</a></li>
+    
+                        <li><a href="">Privacy Policy</a></li>
+    
+                        <li><a href="">Returns & Refunds</a></li>
+    
+                        <li><a href="">Shipping & Delivery</a></li>
+    
+                        <li><a href="">Payments & Fees Policy</a></li>
+    
+    
+                    </ul>
+    
+                </div>
+    
             </div>
+    
+            <div class="division">
+    
+                <div class="division-section">
+    
+                    <div class="title">
+    
+                        <h1>Products</h1>
+    
+                        <div class="decoration-line"></div>
+    
+                    </div>
+    
+                    <ul>
+    
+                        <li><a href="">Shop In-store</a></li>
+    
+                        <li><a href="">Shop online</a></li>
+    
+                        <li class="footer_cat_desk">Categories<span onclick="categoryList()"><svg width="10" height="6"
+                                    viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+    
+                                    <path
+                                        d="M1.4 9.77683e-05L4.9 3.5001L8.4 9.78518e-05L9.8 0.700098L4.9 5.6001L5.84319e-08 0.700098L1.4 9.77683e-05Z"
+                                        fill="white" />
+    
+                                </svg>
+    
+                            </span>
+    
+                        </li>
+    
+                        <div class="categories_lists_desk">
+    
+                            <li> <a href="">Food & Bev</a></li>
+    
+                            <li> <a href="">Fashion</a></li>
+    
+                            <li> <a href="">Beauty & Personal Care</a></li>
+    
+                            <li> <a href="">Salon & Sap</a></li>
+    
+                            <li> <a href="">Electronics</a></li>
+    
+                            <li> <a href="">Pet Store</a></li>
+    
+                            <li> <a href="">Home decore</a></li>
+    
+                            <li> <a href="">Health</a></li>
+    
+                            <li> <a href="">Professionals</a></li>
+    
+                            <li> <a href="">Fitness</a></li>
+    
+                        </div>
+    
+                        <li><a href="">Rewards</a></li>
+    
+                        <li><a href="">Support Local</a></li>
+    
+                        <li><a href="">Recommendation from friends</a></li>
+    
+                        <li><a href="">Invite a friend</a></li>
+    
+                        <li><a href="">Refr for Creator</a></li>
+    
+                    </ul>
+    
+                </div>
+    
+            </div>
+    
         </div>
-
+    
+        <div class="container-bottom">
+    
+            <div class="division">
+    
+                <!-- <svg
+        
+                    width="143"
+        
+                    height="184"
+        
+                    viewBox="0 0 143 184"
+        
+                    fill="none"
+        
+                    xmlns="http://www.w3.org/2000/svg"
+        
+                  >
+        
+                    <path
+        
+                      fill-rule="evenodd"
+        
+                      clip-rule="evenodd"
+        
+                      d="M67.8563 54.6941L74.463 61.3614L93.4284 80.5007C94.0789 81.1664 95.1475 81.1664 95.7979 80.5007L100.676 75.5775C101.336 74.9117 101.336 73.8427 100.676 73.1769L88.4013 60.7987C95.194 58.9233 100.221 52.6123 100.221 45.1854C100.221 43.1317 99.8401 41.1625 99.1431 39.3526H109.318C110.238 39.3526 111 38.5931 111 37.6553V30.6973C111 29.7689 110.247 29 109.318 29H84.192H65.6819C64.762 29 64 29.7596 64 30.6973V37.6553C64 38.5837 64.7527 39.3433 65.6633 39.3526H84.192H84.2199C87.3885 39.3714 89.9717 41.9877 89.9717 45.1854C89.9717 48.3925 87.3699 51.0181 84.192 51.0181H78.7096H69.5382C67.912 51.0931 66.7505 53.4656 67.8563 54.6941Z"
+        
+                      fill="white"
+        
+                    />
+        
+                    <path
+        
+                      fill-rule="evenodd"
+        
+                      clip-rule="evenodd"
+        
+                      d="M136.069 110.932L129.241 117.122L128.277 117.997L136.069 110.932ZM4.84524 138.782C4.68622 138.661 4.53656 138.54 4.39626 138.4L4.84524 138.782ZM4.31207 138.307C4.28401 138.279 4.25595 138.251 4.22789 138.223L4.31207 138.307ZM4.22789 138.223L3.83503 137.767C3.95663 137.935 4.08758 138.084 4.22789 138.223ZM2.94643 135.803C2.92772 135.692 2.90901 135.58 2.89031 135.468L2.94643 135.803ZM2.86224 135.198C2.85289 135.087 2.85289 134.966 2.84354 134.845L2.86224 135.198ZM2.84354 49.1089V49.0251V49.1089ZM26.0595 15.2465L29.4269 10.639L31.5128 7.77216L26.0595 15.2465ZM32.0366 108.652L32.0553 108.671L32.0366 108.652ZM141.475 109.871L105.361 142.598H83.9685L51.773 184L60.7806 142.598H7.81037C3.51701 142.598 0 139.098 0 134.826V49.4719C0 46.4002 0.22449 46.0652 1.45918 44.1849L32.3265 1.82436C33.1216 0.726022 34.4218 0 35.8903 0H138.622C141.036 0 143 1.96398 143 4.35613V106.586C143 107.814 142.476 108.931 141.644 109.732L141.475 109.871ZM87.2143 110.932L88.1684 107.87H36.0213C35.2355 107.87 34.5901 107.228 34.5901 106.446V4.48644C34.5901 3.70457 35.2355 3.06232 36.0213 3.06232H138.482C139.277 3.06232 139.913 3.70457 139.913 4.48644V106.437C139.913 107.219 139.268 107.861 138.482 107.861H100.749L98.2704 110.923L94.0332 116.173L80.3019 133.169L85.5867 116.173L87.2143 110.932Z"
+        
+                      fill="white"
+        
+                    />
+        
+                  </svg> -->
+    
+                <img class="footer_logo" src="/src/LogoWhite.png" alt="">
+    
+                <span class="badges">
+    
+                    <img src="/src/PlayStoreBadge.png" alt="" />
+    
+                    <img src="/src/AppleBadge.png" alt="" />
+    
+                </span>
+    
+            </div>
+    
+            <div class="division">
+    
+                <!-- <h1>Download the App</h1> -->
+    
+                <p>
+    
+                    © <span id="copyright-year">2022</span> Refr1 Tech Private Limited
+    
+                </p>
+    
+            </div>
+    
+            <div class="division">
+    
+                <!-- <h1>Social Links</h1> -->
+    
+                <span class="icons">
+    
+                    <img src="https://img.icons8.com/ios-glyphs/60/000000/facebook-new.png" />
+    
+                    <img src="https://img.icons8.com/ios-glyphs/60/000000/instagram-new.png" />
+    
+                    <img src="https://img.icons8.com/ios-glyphs/60/000000/twitter--v1.png" />
+    
+                    <img src="https://img.icons8.com/ios-glyphs/60/000000/linkedin-circled--v1.png" />
+    
+                </span>
+    
+            </div>
+    
+        </div>
+    
     </footer>
+    
+    <!-- Desktop Screen end -->
+    
+    
+    
+    <!-- Mobile Screen start -->
+    
+    <footer class="footer-sm-section d-sm-block">
+    
+        <div class="mob_footer_container">
+    
+            <div class="container">
+    
+                <div class="division">
+    
+                    <div class="division-section">
+    
+                        <div class="title">
+    
+                            <h1>Refr</h1>
+    
+                            <div class="decoration-line"></div>
+    
+                        </div>
+    
+                        <ul>
+    
+                            <li><a href="https://refr.club/about-us-customer">Our Story</a></li>
+    
+                            <li>
+    
+                                <a href="https://refr.club/join-our-team-customer">Career
+    
+                                    <!-- <strong class="footer_tags">WE'RE HIRING</strong> -->
+    
+                                </a>
+    
+                            </li>
+    
+                        </ul>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="division">
+    
+                    <div class="division-section">
+    
+                        <div class="title">
+    
+                            <h1>Resources</h1>
+    
+                            <div class="decoration-line"></div>
+    
+                        </div>
+    
+                        <ul>
+    
+                            <li><a href="http://refr.tawk.help/category/faqs">FAQ's</a></li>
+    
+                            <li><a href="https://refr.club/how-it-works">How it Works</a></li>
+    
+                            <!-- <li><a href="">Articles & Press</a></li> -->
+    
+                            <li><a href="">Blogs</a></li>
+    
+                        </ul>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="division">
+    
+                    <div class="division-section">
+    
+                        <div class="title">
+    
+                            <h1>Products</h1>
+    
+                            <div class="decoration-line"></div>
+    
+                        </div>
+    
+                        <ul>
+    
+                            <li><a href="#">Shop In-store</a></li>
+    
+                            <li><a href="#">Shop online</a></li>
+    
+                            <li class="footer_cat ">Categories<span onclick="categoryList()"><svg width="10" height="6"
+                                        viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+    
+                                        <path
+                                            d="M1.4 9.77683e-05L4.9 3.5001L8.4 9.78518e-05L9.8 0.700098L4.9 5.6001L5.84319e-08 0.700098L1.4 9.77683e-05Z"
+                                            fill="white" />
+    
+                                    </svg>
+    
+                                </span>
+    
+                            </li>
+    
+                            <div class="categories_lists">
+    
+                                <li> <a href="">Food & Bev</a></li>
+    
+                                <li> <a href="">Fashion</a></li>
+    
+                                <li> <a href="">Beauty & Personal Care</a></li>
+    
+                                <li> <a href="">Salon & Sap</a></li>
+    
+                                <li> <a href="">Electronics</a></li>
+    
+                                <li> <a href="">Pet Store</a></li>
+    
+                                <li> <a href="">Home decore</a></li>
+    
+                                <li> <a href="">Health</a></li>
+    
+                                <li> <a href="">Professionals</a></li>
+    
+                                <li> <a href="">Fitness</a></li>
+    
+                            </div>
+    
+                            <li><a href="#">Rewards</a></li>
+    
+                            <li><a href="#">Support Local</a></li>
+    
+                            <li><a href="#">Recommendation from friends</a></li>
+    
+                            <li><a href="#">Invite a friend</a></li>
+    
+                            <li><a href="#">Refr for Creator</a></li>
+    
+                        </ul>
+    
+                    </div>
+    
+                </div>
+    
+            </div>
+    
+            <div class="container">
+    
+                <div class="division">
+    
+                    <div class="division-section">
+    
+                        <div class="title">
+    
+                            <h1>Support</h1>
+    
+                            <div class="decoration-line"></div>
+    
+                        </div>
+    
+                        <ul>
+    
+                            <li><a href="https://refr.club/contact">Contact</a></li>
+    
+                            <!-- <li><a href="">Support Center</a></li> -->
+    
+                        </ul>
+    
+                    </div>
+    
+                </div>
+    
+    
+    
+                <div class="division">
+    
+                    <div class="division-section">
+    
+                        <div class="title">
+    
+                            <h1>Policy</h1>
+    
+                            <div class="decoration-line"></div>
+    
+                        </div>
+    
+                        <ul>
+    
+                            <li><a href="">Terms & Conditions</a></li>
+    
+                            <li><a href="">Privacy Policy</a></li>
+    
+                            <li><a href="">Returns & Refunds</a></li>
+    
+                            <li><a href="">Shipping & Delivery</a></li>
+    
+                            <li><a href="">Payments & Fees Policy</a></li>
+    
+                        </ul>
+    
+                    </div>
+    
+                </div>
+    
+            </div>
+    
+        </div>
+    
+    
+    
+        <div class="container-bottom">
+    
+            <div class="division">
+    
+                <!-- <svg
+        
+                    width="143"
+        
+                    height="184"
+        
+                    viewBox="0 0 143 184"
+        
+                    fill="none"
+        
+                    xmlns="http://www.w3.org/2000/svg"
+        
+                  >
+        
+                    <path
+        
+                      fill-rule="evenodd"
+        
+                      clip-rule="evenodd"
+        
+                      d="M67.8563 54.6941L74.463 61.3614L93.4284 80.5007C94.0789 81.1664 95.1475 81.1664 95.7979 80.5007L100.676 75.5775C101.336 74.9117 101.336 73.8427 100.676 73.1769L88.4013 60.7987C95.194 58.9233 100.221 52.6123 100.221 45.1854C100.221 43.1317 99.8401 41.1625 99.1431 39.3526H109.318C110.238 39.3526 111 38.5931 111 37.6553V30.6973C111 29.7689 110.247 29 109.318 29H84.192H65.6819C64.762 29 64 29.7596 64 30.6973V37.6553C64 38.5837 64.7527 39.3433 65.6633 39.3526H84.192H84.2199C87.3885 39.3714 89.9717 41.9877 89.9717 45.1854C89.9717 48.3925 87.3699 51.0181 84.192 51.0181H78.7096H69.5382C67.912 51.0931 66.7505 53.4656 67.8563 54.6941Z"
+        
+                      fill="white"
+        
+                    />
+        
+                    <path
+        
+                      fill-rule="evenodd"
+        
+                      clip-rule="evenodd"
+        
+                      d="M136.069 110.932L129.241 117.122L128.277 117.997L136.069 110.932ZM4.84524 138.782C4.68622 138.661 4.53656 138.54 4.39626 138.4L4.84524 138.782ZM4.31207 138.307C4.28401 138.279 4.25595 138.251 4.22789 138.223L4.31207 138.307ZM4.22789 138.223L3.83503 137.767C3.95663 137.935 4.08758 138.084 4.22789 138.223ZM2.94643 135.803C2.92772 135.692 2.90901 135.58 2.89031 135.468L2.94643 135.803ZM2.86224 135.198C2.85289 135.087 2.85289 134.966 2.84354 134.845L2.86224 135.198ZM2.84354 49.1089V49.0251V49.1089ZM26.0595 15.2465L29.4269 10.639L31.5128 7.77216L26.0595 15.2465ZM32.0366 108.652L32.0553 108.671L32.0366 108.652ZM141.475 109.871L105.361 142.598H83.9685L51.773 184L60.7806 142.598H7.81037C3.51701 142.598 0 139.098 0 134.826V49.4719C0 46.4002 0.22449 46.0652 1.45918 44.1849L32.3265 1.82436C33.1216 0.726022 34.4218 0 35.8903 0H138.622C141.036 0 143 1.96398 143 4.35613V106.586C143 107.814 142.476 108.931 141.644 109.732L141.475 109.871ZM87.2143 110.932L88.1684 107.87H36.0213C35.2355 107.87 34.5901 107.228 34.5901 106.446V4.48644C34.5901 3.70457 35.2355 3.06232 36.0213 3.06232H138.482C139.277 3.06232 139.913 3.70457 139.913 4.48644V106.437C139.913 107.219 139.268 107.861 138.482 107.861H100.749L98.2704 110.923L94.0332 116.173L80.3019 133.169L85.5867 116.173L87.2143 110.932Z"
+        
+                      fill="white"
+        
+                    />
+        
+                  </svg> -->
+    
+                <img class="footer_logo" src="/src/LogoWhite.png" alt="">
+    
+                <span class="badges">
+    
+                    <img src="/src/PlayStoreBadge.png" alt="" />
+    
+                    <img src="/src/AppleBadge.png" alt="" />
+    
+                </span>
+    
+            </div>
+    
+            <div class="division">
+    
+                <span class="icons">
+    
+                    <img src="https://img.icons8.com/ios-glyphs/60/000000/facebook-new.png" />
+    
+                    <img src="https://img.icons8.com/ios-glyphs/60/000000/instagram-new.png" />
+    
+                    <img src="https://img.icons8.com/ios-glyphs/60/000000/twitter--v1.png" />
+    
+                    <img src="https://img.icons8.com/ios-glyphs/60/000000/linkedin-circled--v1.png" />
+    
+    
+                </span>
+    
+            </div>
+    
+            <div class="division">
+    
+                <p>
+    
+                    © <span id="copyright-year">2022</span> Refr1 Tech Private Limited
+    
+                </p>
+    
+            </div>
+    
+        </div>
+    
+    
+    
+        <div class="bottom_getapp_card">
+    
+            <div class="placeholder">
+    
+                <div class="section">
+    
+                    <img src="./src/bottomNavLogo.png" alt="">
+    
+                    <div class="content">
+    
+                        <h1>Refr</h1>
+    
+                        <p>Shop more connected</p>
+    
+                        <div class="review">
+    
+                            <svg width="170" height="30" viewBox="0 0 170 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+    
+                                <path
+                                    d="M26.6046 10.3447L19.1661 9.26367L15.8409 2.52246C15.7501 2.33789 15.6007 2.18848 15.4161 2.09766C14.9532 1.86914 14.3907 2.05957 14.1593 2.52246L10.8341 9.26367L3.39561 10.3447C3.19053 10.374 3.00303 10.4707 2.85948 10.6172C2.68593 10.7956 2.59029 11.0355 2.59359 11.2844C2.59688 11.5333 2.69884 11.7706 2.87705 11.9443L8.25889 17.1914L6.98741 24.6006C6.95759 24.7729 6.97666 24.9502 7.04246 25.1123C7.10826 25.2743 7.21815 25.4147 7.35968 25.5175C7.5012 25.6203 7.6687 25.6814 7.84317 25.6938C8.01764 25.7063 8.1921 25.6696 8.34678 25.5879L15.0001 22.0898L21.6534 25.5879C21.8351 25.6846 22.046 25.7168 22.2482 25.6816C22.7579 25.5937 23.1007 25.1104 23.0128 24.6006L21.7413 17.1914L27.1231 11.9443C27.2696 11.8008 27.3663 11.6133 27.3956 11.4082C27.4747 10.8955 27.1173 10.4209 26.6046 10.3447V10.3447Z"
+                                    fill="orange" />
+    
+                                <path
+                                    d="M61.6046 10.3447L54.1661 9.26367L50.8409 2.52246C50.7501 2.33789 50.6007 2.18848 50.4161 2.09766C49.9532 1.86914 49.3907 2.05957 49.1593 2.52246L45.8341 9.26367L38.3956 10.3447C38.1905 10.374 38.003 10.4707 37.8595 10.6172C37.6859 10.7956 37.5903 11.0355 37.5936 11.2844C37.5969 11.5333 37.6988 11.7706 37.8771 11.9443L43.2589 17.1914L41.9874 24.6006C41.9576 24.7729 41.9767 24.9502 42.0425 25.1123C42.1083 25.2743 42.2182 25.4147 42.3597 25.5175C42.5012 25.6203 42.6687 25.6814 42.8432 25.6938C43.0176 25.7063 43.1921 25.6696 43.3468 25.5879L50.0001 22.0898L56.6534 25.5879C56.8351 25.6846 57.046 25.7168 57.2482 25.6816C57.7579 25.5937 58.1007 25.1104 58.0128 24.6006L56.7413 17.1914L62.1231 11.9443C62.2696 11.8008 62.3663 11.6133 62.3956 11.4082C62.4747 10.8955 62.1173 10.4209 61.6046 10.3447V10.3447Z"
+                                    fill="orange" />
+    
+                                <path
+                                    d="M96.6046 10.3447L89.1661 9.26367L85.8409 2.52246C85.7501 2.33789 85.6007 2.18848 85.4161 2.09766C84.9532 1.86914 84.3907 2.05957 84.1593 2.52246L80.8341 9.26367L73.3956 10.3447C73.1905 10.374 73.003 10.4707 72.8595 10.6172C72.6859 10.7956 72.5903 11.0355 72.5936 11.2844C72.5969 11.5333 72.6988 11.7706 72.8771 11.9443L78.2589 17.1914L76.9874 24.6006C76.9576 24.7729 76.9767 24.9502 77.0425 25.1123C77.1083 25.2743 77.2182 25.4147 77.3597 25.5175C77.5012 25.6203 77.6687 25.6814 77.8432 25.6938C78.0176 25.7063 78.1921 25.6696 78.3468 25.5879L85.0001 22.0898L91.6534 25.5879C91.8351 25.6846 92.046 25.7168 92.2482 25.6816C92.7579 25.5937 93.1007 25.1104 93.0128 24.6006L91.7413 17.1914L97.1231 11.9443C97.2696 11.8008 97.3663 11.6133 97.3956 11.4082C97.4747 10.8955 97.1173 10.4209 96.6046 10.3447V10.3447Z"
+                                    fill="orange" />
+    
+                                <path
+                                    d="M131.605 10.3447L124.166 9.26367L120.841 2.52246C120.75 2.33789 120.601 2.18848 120.416 2.09766C119.953 1.86914 119.391 2.05957 119.159 2.52246L115.834 9.26367L108.396 10.3447C108.191 10.374 108.003 10.4707 107.859 10.6172C107.686 10.7956 107.59 11.0355 107.594 11.2844C107.597 11.5333 107.699 11.7706 107.877 11.9443L113.259 17.1914L111.987 24.6006C111.958 24.7729 111.977 24.9502 112.042 25.1123C112.108 25.2743 112.218 25.4147 112.36 25.5175C112.501 25.6203 112.669 25.6814 112.843 25.6938C113.018 25.7063 113.192 25.6696 113.347 25.5879L120 22.0898L126.653 25.5879C126.835 25.6846 127.046 25.7168 127.248 25.6816C127.758 25.5937 128.101 25.1104 128.013 24.6006L126.741 17.1914L132.123 11.9443C132.27 11.8008 132.366 11.6133 132.396 11.4082C132.475 10.8955 132.117 10.4209 131.605 10.3447V10.3447Z"
+                                    fill="orange" />
+    
+                                <path
+                                    d="M166.605 10.3447L159.166 9.26367L155.841 2.52246C155.75 2.33789 155.601 2.18848 155.416 2.09766C154.953 1.86914 154.391 2.05957 154.159 2.52246L150.834 9.26367L143.396 10.3447C143.191 10.374 143.003 10.4707 142.859 10.6172C142.686 10.7956 142.59 11.0355 142.594 11.2844C142.597 11.5333 142.699 11.7706 142.877 11.9443L148.259 17.1914L146.987 24.6006C146.958 24.7729 146.977 24.9502 147.042 25.1123C147.108 25.2743 147.218 25.4147 147.36 25.5175C147.501 25.6203 147.669 25.6814 147.843 25.6938C148.018 25.7063 148.192 25.6696 148.347 25.5879L155 22.0898L161.653 25.5879C161.835 25.6846 162.046 25.7168 162.248 25.6816C162.758 25.5937 163.101 25.1104 163.013 24.6006L161.741 17.1914L167.123 11.9443C167.27 11.8008 167.366 11.6133 167.396 11.4082C167.475 10.8955 167.117 10.4209 166.605 10.3447V10.3447Z"
+                                    fill="orange" />
+    
+                            </svg>
+    
+                            <p>190k</p>
+    
+                        </div>
+    
+    
+    
+                    </div>
+    
+                </div>
+    
+                <button style="box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.35);">Get the app</button>
+    
+            </div>
+    
+        </div>
+    
+    </footer>
+    
+    <!-- Mobile Screen end -->
     <script>
         var animation = lottie.loadAnimation({
             container: document.getElementById('lootiecont'), // the dom element that will contain the animation
@@ -641,6 +1068,8 @@
 
         gtag('config', 'AW-10970341747');
     </script>
+
+    <script src="../assets/cust_sidemenu/sidemenu.js"></script>
 
 
 

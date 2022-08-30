@@ -147,6 +147,7 @@ header {
   line-height: 60px;
   text-align: center;
   color: #000000;
+  padding: 1% 0;
 }
 
 /*  */
@@ -275,8 +276,8 @@ header {
 .want_to {
   /* font-family: "Inter"; */
   font-style: normal;
-  font-weight: 700;
-  font-size: 2rem !important;
+  font-weight: 600;
+  font-size: 1.8rem !important;
   line-height: 48px;
   text-align: center;
 }
@@ -411,7 +412,8 @@ footer {
   .banner_para p {
     font-size: 1.5rem !important;
     line-height: normal;
-    margin-top: 8%;
+    margin-top: 4%;
+    padding: 0;
   }
 
   .para_left h6 {
@@ -547,4 +549,8 @@ footer {
   .shop_img {
     max-width: 75vw;
   }
+}
+
+.textC {
+  text-align: center;
 }

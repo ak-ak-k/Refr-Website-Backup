@@ -96,7 +96,7 @@
   display: flex;
   align-items: center;
   margin: 10% auto;
-  width: 82%;
+  width: 76%;
   /* padding: 5%; */
 }
 
@@ -105,14 +105,14 @@
 }
 
 .right_img img {
-  width: 64vw;
+  width: 26vw;
 }
 
 .primary {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 2rem !important;
   line-height: 118.5%;
   text-transform: capitalize;
   color: #1d1d1f;
