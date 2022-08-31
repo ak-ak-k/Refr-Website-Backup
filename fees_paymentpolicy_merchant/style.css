@@ -1,0 +1,63 @@
+* {
+  font-family: Inter, " sans-serif" !important;
+}
+
+.main_section {
+  margin: 10% 9%;
+}
+
+.secondary_color {
+  color: #272727;
+}
+
+.main_heading {
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 49px;
+}
+
+.ques_ans {
+  margin: 4% 0;
+}
+
+.list_ques {
+  padding-bottom: 4%;
+}
+
+.ques {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: normal;
+}
+
+.ans {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 28px;
+  /* margin: 0; */
+}
+
+.subpoints {
+  width: 70%;
+  margin: 1% auto;
+}
+
+.subpoints span {
+  white-space: pre-line;
+}
+
+.mb1 {
+  margin-bottom: 6px;
+}
+
+@media screen and (max-width: 900px) {
+  .main_heading {
+    font-size: 1.2rem;
+  }
+  .ques {
+    font-size: 1.1rem;
+  }
+  .subpoints {
+    width: 90%;
+  }
+}

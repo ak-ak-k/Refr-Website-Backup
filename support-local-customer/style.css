@@ -1,9 +1,9 @@
 * {
-  font-family: Inter, " sans-serif" !important;
+  font-family: "Poppins", sans-serif !important;
 }
 
 .about_refr {
-  margin: 8% 0 10% 0;
+  margin: 8% 0;
 }
 
 #aboutus_content {
@@ -24,7 +24,7 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 1rem !important;
+  font-size: 20px !important;
   line-height: 24px;
   text-transform: initial;
   color: #000000;
@@ -193,4 +193,144 @@
   border: none;
   color: #FFF;
   border-radius: 20px;
+}
+
+.gradian_bg {
+  background: linear-gradient(90deg, #F8668C 0%, #F9AC91 100%);
+}
+
+.main_div {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 5%;
+}
+
+.middle_align {
+  flex-direction: row-reverse;
+  padding: 70px 0;
+  color: white;
+}
+
+.main_line {
+  /* color: #7F4AEE; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 4rem;
+  line-height: 42px;
+  /* text-transform: uppercase; */
+  /* display: flex; */
+  align-items: center;
+  padding-bottom: 2%;
+}
+
+.shop_img {
+  max-width: 35vw;
+}
+
+.want_to {
+  /* font-family: "Inter"; */
+  /* font-style: normal;
+  font-weight: 700;
+  font-size: 2rem !important;
+  line-height: 48px; */
+  font-size: 28px;
+  text-align: center;
+}
+
+.want_to_sub {
+  font-size: 16px;
+  color: #4D4D4D;
+}
+
+.explore {
+  margin: 30px;
+}
+
+.explore a {
+  background: linear-gradient(180deg, #9b6cff 0%, #6a32e1 100%);
+  border-radius: 25px;
+  /* font-family: "Inter"; */
+  /* font-style: normal; */
+  /* font-weight: 600; */
+  font-size: 16px;
+  line-height: 0;
+  /* text-align: center; */
+  /* border: 1px solid #FFF; */
+  color: #ffffff;
+  text-transform: capitalize;
+  padding: 10px 40px;
+  /* border: none; */
+  /* margin: 20px 0; */
+  cursor: pointer;
+}
+
+.want_more {
+  background: #F5F8FA;
+  text-align: center;
+  padding: 6% 0;
+}
+
+.xs_size {
+  font-size: 12px !important;
+}
+
+.white_txt {
+  color: #FFF !important;
+}
+
+.b15padding {
+  padding-bottom: 15px;
+}
+
+.t10padding {
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .main_line {
+    text-align: center;
+    font-size: 2.4rem;
+    padding-bottom: 0;
+    line-height: 35px;
+  }
+
+  .want_to{
+    font-size: 20px;
+  }
+  .want_to_sub{
+    padding-left:10px;
+    padding-right:10px;
+    font-size: 14px;
+  }
+
+  .main_Sline {
+    text-align: center;
+  }
+
+  .shop_img {
+    max-width: 75vw;
+  }
+
+  .explore {
+    text-align: center;
+    margin-bottom: 9%;
+  }
+
+  .md_b20padding {
+    padding-bottom: 20px;
+  }
+
+  .reversed_md_col {
+    flex-direction: column-reverse;
+  }
+
+  .md_c_align {
+    text-align: center;
+  }
+
+  .about_desc {
+    font-size: 12px !important;
+  }
 }
