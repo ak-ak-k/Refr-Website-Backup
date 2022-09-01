@@ -31,11 +31,11 @@
 }
 
 .ques_ans {
-  margin: 4% 0;
+  margin: 3% 0;
 }
 
 .list_ques {
-  padding-bottom: 2%;
+  padding-bottom: 0.4%;
 }
 
 .b_text {
@@ -46,14 +46,14 @@
   font-weight: 500;
   font-size: 16px !important;
   line-height: 26px !important;
-  margin-bottom: 1rem;
+  margin-bottom: 0.2rem;
 }
 
 .ans {
   font-weight: 400;
   font-size: 1rem !important;
   line-height: 28px;
-  /* margin: 0; */
+  margin: 0;
 }
 
 .subpoints {
@@ -66,7 +66,7 @@
 }
 
 .pb-1 {
-  padding-bottom: 1%;
+  padding-bottom: 1% !important;
 }
 .mb1 {
   margin-bottom: 6px;
@@ -75,6 +75,10 @@
 .ans ol {
   width: 97%;
   margin: auto;
+}
+
+.circle {
+  padding: 0 2%;
 }
 
 @media screen and (max-width: 900px) {
