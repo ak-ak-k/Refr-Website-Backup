@@ -76,9 +76,9 @@ a {
     cursor: pointer;
     margin-right: 16px;
     animation: logoImg 1s cubic-bezier(0.8, 0, 0.12, 0.99);
-    background: none;
-    color: black;
-    border: 1px solid black;
+    background: linear-gradient(180deg, #9b6cff 0%, #6a32e1 100%);
+    color: #ffffff;
+
     padding: 6px 18px;
   }
 
@@ -1251,9 +1251,9 @@ a {
     cursor: pointer;
     margin-right: 16px;
     animation: logoImg 1s cubic-bezier(0.8, 0, 0.12, 0.99);
-    background: none;
-    color: black;
-    border: 1px solid black;
+    background: linear-gradient(180deg, #9b6cff 0%, #6a32e1 100%);
+    color: #ffffff;
+
     padding: 6px 18px;
   }
 
@@ -2187,9 +2187,8 @@ a {
     cursor: pointer;
     margin-right: 16px;
     animation: logoImg 1s cubic-bezier(0.8, 0, 0.12, 0.99);
-    background: none;
-    color: black;
-    border: 1px solid black;
+    background: linear-gradient(180deg, #9b6cff 0%, #6a32e1 100%);
+    color: #ffffff;
     padding: 6px 18px;
   }
 
@@ -3954,9 +3953,9 @@ a {
     cursor: pointer;
     margin-right: 16px;
     animation: logoImg 1s cubic-bezier(0.8, 0, 0.12, 0.99);
-    background: none;
-    color: black;
-    border: 1px solid black;
+    background: linear-gradient(180deg, #9b6cff 0%, #6a32e1 100%);
+    color: #ffffff;
+
     padding: 6px 18px;
   }
 

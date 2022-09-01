@@ -69,12 +69,11 @@ a {
     min-height: 32px;
     min-width: 90px;
     border-radius: 100px;
-    background: transparent;
+    background: linear-gradient(180deg, #9b6cff 0%, #6a32e1 100%);
     color: white;
     font-size: 12px;
     font-weight: 600;
     text-transform: capitalize;
-    border: 1px solid #FFF;
     cursor: pointer;
     margin-right: 0px;
     animation: logoImg 1s cubic-bezier(0.8, 0, 0.12, 0.99);
@@ -115,12 +114,12 @@ a {
       min-height: 30px;
       min-width: 80px;
       border-radius: 100px;
-      background: transparent;
+      background: linear-gradient(180deg, #9b6cff 0%, #6a32e1 100%);
       color: white;
       font-size: 11px;
       font-weight: 600;
       text-transform: capitalize;
-      border: 1px solid #FFF;
+
       cursor: pointer;
       margin-right: 0px;
     }
@@ -195,12 +194,12 @@ a {
       min-height: 30px;
       min-width: 80px;
       border-radius: 100px;
-      background: transparent;
+      background: linear-gradient(180deg, #9b6cff 0%, #6a32e1 100%);
       color: white;
       font-size: 11px;
       font-weight: 600;
       text-transform: capitalize;
-      border: 1px solid #FFF;
+
       cursor: pointer;
       margin-right: 0px;
     }
@@ -1242,12 +1241,12 @@ a {
   .explore_btn {
     padding: 9px 20px;
     border-radius: 100px;
-    background: transparent;
+    background: linear-gradient(180deg, #9b6cff 0%, #6a32e1 100%);
     color: white;
     font-size: 14px;
     font-weight: 600;
     text-transform: capitalize;
-    border: 1px solid #FFF;
+
     cursor: pointer;
     margin-right: 0px;
     animation: logoImg 1s cubic-bezier(0.8, 0, 0.12, 0.99);
@@ -2176,12 +2175,11 @@ a {
   .explore_btn {
     padding: 9px 20px;
     border-radius: 100px;
-    background: transparent;
+    background: linear-gradient(180deg, #9b6cff 0%, #6a32e1 100%);
     color: white;
     font-size: 14px;
     font-weight: 600;
     text-transform: capitalize;
-    border: 1px solid #FFF;
     cursor: pointer;
     margin-right: 0px;
     animation: logoImg 1s cubic-bezier(0.8, 0, 0.12, 0.99);
@@ -3067,12 +3065,11 @@ a {
   .explore_btn {
     padding: 9px 20px;
     border-radius: 100px;
-    background: transparent;
+    background: linear-gradient(180deg, #9b6cff 0%, #6a32e1 100%);
     color: white;
     font-size: 14px;
     font-weight: 600;
     text-transform: capitalize;
-    border: 1px solid #FFF;
     cursor: pointer;
     margin-right: 0px;
     animation: logoImg 1s cubic-bezier(0.8, 0, 0.12, 0.99);
@@ -3941,12 +3938,11 @@ a {
   .explore_btn {
     padding: 9px 20px;
     border-radius: 100px;
-    background: transparent;
+    background: linear-gradient(180deg, #9b6cff 0%, #6a32e1 100%);
     color: white;
     font-size: 14px;
     font-weight: 600;
     text-transform: capitalize;
-    border: 1px solid #FFF;
     cursor: pointer;
     margin-right: 0px;
     animation: logoImg 1s cubic-bezier(0.8, 0, 0.12, 0.99);
@@ -4819,12 +4815,11 @@ a {
   .explore_btn {
     padding: 9px 20px;
     border-radius: 100px;
-    background: transparent;
+    background: linear-gradient(180deg, #9b6cff 0%, #6a32e1 100%);
     color: white;
     font-size: 14px;
     font-weight: 600;
     text-transform: capitalize;
-    border: 1px solid #FFF;
     cursor: pointer;
     margin-right: 0px;
     animation: logoImg 1s cubic-bezier(0.8, 0, 0.12, 0.99);
@@ -5677,12 +5672,11 @@ a {
   .explore_btn {
     padding: 9px 20px;
     border-radius: 100px;
-    background: transparent;
+    background: linear-gradient(180deg, #9b6cff 0%, #6a32e1 100%);
     color: white;
     font-size: 14px;
     font-weight: 600;
     text-transform: capitalize;
-    border: 1px solid #FFF;
     cursor: pointer;
     margin-right: 0px;
     animation: logoImg 1s cubic-bezier(0.8, 0, 0.12, 0.99);
@@ -6736,12 +6730,11 @@ a {
     min-height: 32px;
     min-width: 90px;
     border-radius: 100px;
-    background: transparent;
+    background: linear-gradient(180deg, #9b6cff 0%, #6a32e1 100%);
     color: white;
     font-size: 12px;
     font-weight: 600;
     text-transform: capitalize;
-    border: 1px solid #FFF;
     cursor: pointer;
     margin-right: 0px;
     animation: logoImg 1s cubic-bezier(0.8, 0, 0.12, 0.99);
@@ -6772,12 +6765,11 @@ a {
       min-height: 30px;
       min-width: 80px;
       border-radius: 100px;
-      background: transparent;
+      background: linear-gradient(180deg, #9b6cff 0%, #6a32e1 100%);
       color: white;
       font-size: 11px;
       font-weight: 600;
       text-transform: capitalize;
-      border: 1px solid #FFF;
       cursor: pointer;
       margin-right: 0px;
     }
@@ -6828,7 +6820,7 @@ a {
       font-size: 11px;
       font-weight: 600;
       text-transform: uppercase;
-      border: 1px solid #FFF;
+      border: 1px solid #fff;
       cursor: pointer;
       margin-right: 0px;
     }

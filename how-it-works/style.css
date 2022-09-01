@@ -14,7 +14,7 @@
   font-weight: 600;
   font-size: 16px;
   line-height: 19px;
-  color: #272727;
+  color: #ffffff;
   padding-right: 16px;
 }
 
@@ -24,8 +24,8 @@
 
 .header {
   width: 100%;
-  background: linear-gradient(105.18deg, #fdb271 0%, #fe9ea1 78.54%, #ffbd81 90%, #ffa862 100%);
   background: white;
+  background: linear-gradient(90deg, #db7a4e 2%, #d16d61 21%, #bf5385 51%, #b55289 62%, #9a5193 82%, #7c4f9e 100%) !important;
 }
 
 header {
