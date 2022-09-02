@@ -4,6 +4,7 @@
   --blackColor: #000000;
   --whiteColor: #ffffff;
   --transition: all 300ms linear;
+  --customColor: #272727;
 }
 
 *,
@@ -75,6 +76,42 @@ img {
   max-width: 100%;
 }
 
+/* easy steps */
+
+.gap4 {
+  gap: 4%;
+}
+
+.width_margin {
+  margin: auto;
+  width: 81%;
+}
+.width-33 {
+  width: 33.33%;
+}
+
+.left_number {
+  color: var(--customColor);
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.25);
+  font-size: 3rem !important;
+}
+
+.purple_gradient {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #8111e8;
+}
+
+.right_text {
+  font-size: 14px;
+  width: 84%;
+  color: #717171;
+}
+
+/*  */
+
 .Getdemotitle {
   font-size: 32px;
   padding-bottom: 40px;
@@ -83,11 +120,9 @@ img {
 
 .active_btn {
   background-color: #333 !important;
-  color: #FFF !important;
+  color: #fff !important;
   border-color: #333;
-
 }
-
 
 .contact_div {
   background-image: url(../images/Refrlogo.png);
@@ -122,7 +157,7 @@ img {
 }
 
 .gray_bg {
-  background: #F8F8F8
+  background: #f8f8f8;
 }
 
 .A5radious {
@@ -132,7 +167,6 @@ img {
 .A5padding {
   padding: 5px;
 }
-
 
 .ld_A5margin {
   margin: 5px;
@@ -159,7 +193,7 @@ img {
 .demobtm {
   font-size: 14px;
   color: white;
-  background: #8111E8;
+  background: #8111e8;
   padding: 5px 30px;
   border-radius: 5px;
   margin: 10px 20px;
@@ -174,8 +208,6 @@ img {
   font-size: 14px;
 }
 
-
-
 .t5margin {
   margin-top: 5px;
 }
@@ -186,7 +218,7 @@ img {
 
 .contact_btn {
   padding: 2px 15px;
-  border: 2px solid #BABABA;
+  border: 2px solid #bababa;
   background: transparent;
   border-radius: 5px;
   font-size: 12px;
@@ -1170,7 +1202,7 @@ section.for-everyone .title {
   flex-direction: column;
 }
 
-.footer-top-wrap .footer-link ul li+li {
+.footer-top-wrap .footer-link ul li + li {
   margin-top: 8px;
 }
 
@@ -1703,8 +1735,26 @@ video::-webkit-media-controls {
 /*small to large devices*/
 
 @media screen and (max-width: 900px) {
+  .flex-direction {
+    flex-direction: column;
+  }
+  .width-33 {
+    width: 100%;
+    margin-bottom: 6%;
+  }
 
-  .sd_r5margin{
+  .left_number {
+    font-size: 2rem !important;
+  }
+
+  .purple_gradient {
+    font-size: 1.5rem;
+  }
+
+  .right_text {
+    width: 100%;
+  }
+  .sd_r5margin {
     margin-right: 5px;
   }
 
@@ -1787,7 +1837,6 @@ video::-webkit-media-controls {
 }
 
 @media (max-width: 706px) {
-
   .container,
   .container-sm {
     max-width: 95%;
@@ -1882,7 +1931,6 @@ video::-webkit-media-controls {
 }
 
 @media screen and (min-width: 1600px) {
-
   .container,
   .container-lg,
   .container-md,
@@ -2401,7 +2449,8 @@ video::-webkit-media-controls {
     min-width: 300px;
   }
 
-  .menu .dropOut {}
+  .menu .dropOut {
+  }
 
   .menu li {
     width: 100%;
@@ -2653,7 +2702,7 @@ video::-webkit-media-controls {
     width: auto;
   }
 
-  .store-icon ul li+li {
+  .store-icon ul li + li {
     margin-left: 10px;
   }
 
@@ -2792,7 +2841,7 @@ video::-webkit-media-controls {
     width: 100%;
   }
 
-  .store-icon ul li+li {
+  .store-icon ul li + li {
     margin-left: 0;
     margin-bottom: 0;
   }
@@ -2844,7 +2893,8 @@ section.topsection {
   background: linear-gradient(86.39deg, #f0a6a6 7.44%, #c16568 92.33%) !important;
 }
 
-@media screen and (max-width: 2000px) {}
+@media screen and (max-width: 2000px) {
+}
 
 @media screen and (min-width: 800px) {
   .banner.merchant-social .banner-content h1 {
@@ -2870,7 +2920,6 @@ section.topsection {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1600px) {
-
   .featurebox:nth-child(1) p,
   .featurebox:nth-child(3) p {
     width: 100% !important;
@@ -3893,7 +3942,7 @@ section.refrclub-featurs-top {
   position: relative;
 }
 
-.dropdownContain ul>li.drop {
+.dropdownContain ul > li.drop {
   display: inline-block;
 }
 
@@ -4140,27 +4189,27 @@ ul.mainmenu.business-link li:hover .dropOut {
   display: none;
 }
 
-.top-nav .menu-btn:checked~.menu {
+.top-nav .menu-btn:checked ~ .menu {
   max-height: 100%;
   min-height: 100vh;
   transform: translateX(0vw);
   transition: all 0.23s linear;
 }
 
-.top-nav .menu-btn:checked~.menu-icon .navicon {
+.top-nav .menu-btn:checked ~ .menu-icon .navicon {
   background: transparent;
 }
 
-.top-nav .menu-btn:checked~.menu-icon .navicon:before {
+.top-nav .menu-btn:checked ~ .menu-icon .navicon:before {
   transform: rotate(-45deg);
 }
 
-.top-nav .menu-btn:checked~.menu-icon .navicon:after {
+.top-nav .menu-btn:checked ~ .menu-icon .navicon:after {
   transform: rotate(45deg);
 }
 
-.top-nav .menu-btn:checked~.menu-icon:not(.steps) .navicon:before,
-.top-nav .menu-btn:checked~.menu-icon:not(.steps) .navicon:after {
+.top-nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.top-nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   top: 0;
 }
 
