@@ -251,6 +251,19 @@ header {
   padding: 40px;
 }
 
+.ld_t70padding {
+  padding-top: 70px;
+}
+
+.ld_b70padding {
+  padding-bottom: 70px;
+}
+
+.d_flex {
+  display: flex;
+  justify-content: center;
+}
+
 .shop_right {
   text-align: right;
 }
@@ -265,7 +278,8 @@ header {
 
 .want_more {
   /* font-family: ; */
-  background: linear-gradient(105.18deg, #FDB271 0%, #FE9EA1 38.54%, #FFBD81 66.15%, #FFA862 100%);;
+  background: linear-gradient(105.18deg, #FDB271 0%, #FE9EA1 38.54%, #FFBD81 66.15%, #FFA862 100%);
+  ;
   text-align: center;
   padding: 6% 0;
 }
@@ -404,7 +418,9 @@ footer {
 }
 
 @media screen and (max-width: 900px) {
-  .media_dflex {}
+
+
+
 
   .reversed_md_col {
     flex-direction: column-reverse;
@@ -413,6 +429,7 @@ footer {
   .md_t15padding {
     padding-top: 15px;
   }
+
   .explore {
     text-align: center;
     margin-bottom: 9%;
@@ -470,7 +487,7 @@ footer {
     line-height: 35px;
   }
 
-  
+
 
   .mainsubheader {
     font-size: 12px !important;
@@ -494,12 +511,13 @@ footer {
     margin-bottom: 9%;
   }
 
-  .want_to{
+  .want_to {
     font-size: 20px;
   }
-  .want_to_sub{
-    padding-left:10px;
-    padding-right:10px;
+
+  .want_to_sub {
+    padding-left: 10px;
+    padding-right: 10px;
     font-size: 14px;
   }
 
@@ -596,7 +614,8 @@ footer {
 }
 
 .purple_bg {
-  background: linear-gradient(90deg, #894BCA 2.06%, rgba(129, 17, 232, 0.64) 96.59%);;
+  background: linear-gradient(90deg, #894BCA 2.06%, rgba(129, 17, 232, 0.64) 96.59%);
+  ;
 }
 
 .c_align {

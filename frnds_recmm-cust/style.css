@@ -19,6 +19,11 @@
   /* background: white; */
 }
 
+.d_flex {
+  display: flex;
+  justify-content: center;
+}
+
 
 .tb70padding{
   padding: 70px 0 !important;

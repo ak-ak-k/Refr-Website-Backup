@@ -19,6 +19,11 @@
   /* background: white; */
 }
 
+.d_flex {
+  display: flex;
+  justify-content: center;
+}
+
 .AScenter {
   align-self: center;
 }
@@ -26,7 +31,6 @@
 .tb70padding {
   padding: 70px 0 !important;
 }
-
 
 header {
   display: flex;
@@ -214,7 +218,7 @@ header {
 }
 
 .main_line {
-  color: #7F4AEE;
+  color: #7f4aee;
   font-style: normal;
   font-weight: 600;
   font-size: 45px;
@@ -266,7 +270,7 @@ header {
   line-height: 0;
   /* text-align: center; */
   /* border: 1px solid #FFF; */
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: capitalize;
   padding: 10px 40px;
   /* border: 1px solid #272727; */
@@ -310,7 +314,7 @@ header {
 }
 
 .shop_img {
-  max-width: 35vw;
+  max-width: 30vw;
 }
 
 .want_more {
@@ -318,7 +322,7 @@ header {
   /* background: linear-gradient(105.18deg, #FDB271 0%, #FE9EA1 38.54%, #FFBD81 66.15%, #FFA862 100%);; */
   text-align: center;
   padding: 6% 0;
-  background-color: #F5F8FA;
+  background-color: #f5f8fa;
 }
 
 .want_to {
@@ -460,7 +464,8 @@ footer {
 }
 
 @media screen and (max-width: 900px) {
-  .media_dflex {}
+  .media_dflex {
+  }
 
   .spenicondImg {
     height: 60px;
@@ -487,7 +492,6 @@ footer {
 
   .earnsubfont {
     font-size: 20px;
-
   }
 
   .left_div1 {
@@ -551,16 +555,12 @@ footer {
     font-size: 2rem;
   }
 
-
-
   .main_line {
     text-align: center;
     font-size: 24px;
     padding-bottom: 0;
     line-height: 35px;
   }
-
-
 
   .mainsubheader {
     font-size: 12px !important;
@@ -669,13 +669,12 @@ footer {
     width: 17rem;
   }
 
-
   header a img {
     width: 100px;
   }
 
   .shop_img {
-    max-width: 75vw;
+    max-width: 70vw;
   }
 
   .qestitle {
@@ -685,16 +684,16 @@ footer {
 }
 
 .white_txt {
-  color: #FFF !important;
+  color: #fff !important;
 }
 
 .gradient_bg {
-  background: #F5EBFF;
+  background: #f5ebff;
   margin-bottom: 0;
 }
 
 .purple_bg {
-  background: linear-gradient(90deg, #ae67ec 7.37%, #f77ea2 54.13%, #fabba4 94.54%)
+  background: linear-gradient(90deg, #ae67ec 7.37%, #f77ea2 54.13%, #fabba4 94.54%);
 }
 
 .c_align {

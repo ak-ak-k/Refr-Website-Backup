@@ -173,7 +173,7 @@
 .discover {
   text-align: center;
   padding: 5% 0;
-  background: #F5F8FA;
+  background: #f5f8fa;
 }
 
 .discover_title {
@@ -183,20 +183,20 @@
 
 .discover_subtit {
   font-size: 0.8rem;
-  color: #4D4D4D;
+  color: #4d4d4d;
   padding: 0 0 2% 0;
 }
 
 .purple_btn {
-  background: linear-gradient(180deg, #9B6CFF 0%, #6A32E1 100%);
+  background: linear-gradient(180deg, #9b6cff 0%, #6a32e1 100%);
   padding: 10px 20px;
   border: none;
-  color: #FFF;
+  color: #fff;
   border-radius: 20px;
 }
 
 .gradian_bg {
-  background: linear-gradient(90deg, #F8668C 0%, #F9AC91 100%);
+  background: linear-gradient(90deg, #f8668c 0%, #f9ac91 100%);
 }
 
 .main_div {
@@ -226,7 +226,7 @@
 }
 
 .shop_img {
-  max-width: 35vw;
+  max-width: 20vw;
 }
 
 .want_to {
@@ -241,7 +241,7 @@
 
 .want_to_sub {
   font-size: 16px;
-  color: #4D4D4D;
+  color: #4d4d4d;
 }
 
 .explore {
@@ -267,7 +267,7 @@
 }
 
 .want_more {
-  background: #F5F8FA;
+  background: #f5f8fa;
   text-align: center;
   padding: 6% 0;
 }
@@ -277,7 +277,7 @@
 }
 
 .white_txt {
-  color: #FFF !important;
+  color: #fff !important;
 }
 
 .b15padding {
@@ -296,12 +296,12 @@
     line-height: 35px;
   }
 
-  .want_to{
+  .want_to {
     font-size: 20px;
   }
-  .want_to_sub{
-    padding-left:10px;
-    padding-right:10px;
+  .want_to_sub {
+    padding-left: 10px;
+    padding-right: 10px;
     font-size: 14px;
   }
 
@@ -310,7 +310,7 @@
   }
 
   .shop_img {
-    max-width: 75vw;
+    max-width: 60vw;
   }
 
   .explore {

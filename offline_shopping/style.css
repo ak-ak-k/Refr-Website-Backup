@@ -13,6 +13,20 @@
   padding: 2% 0;
 }
 
+.ld_t70padding {
+  padding-top: 70px;
+}
+
+.ld_b70padding {
+  padding-bottom: 70px;
+}
+
+
+.d_flex {
+  display: flex;
+  justify-content: center;
+}
+
 .header {
   width: 100%;
   background: linear-gradient(90deg, #894BCA 2.06%, rgba(129, 17, 232, 0.64) 96.59%);
@@ -417,7 +431,13 @@ footer {
 }
 
 @media screen and (max-width: 900px) {
-  .media_dflex {}
+  .sd_t0padding {
+    padding-top: 0px;
+  }
+
+  .sd_b0padding {
+    padding-bottom: 0px;
+  }
 
   .left_div1{
     width: 100%;
