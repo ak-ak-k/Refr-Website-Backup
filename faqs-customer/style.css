@@ -212,7 +212,7 @@ body {
 .faqs_primary {
   font-family: var(--font-family);
   font-style: var(--font-style);
-  font-weight: 500;
+  font-weight: 400;
   color: var(--black);
   font-size: 1.3rem !important;
   text-align: left;
