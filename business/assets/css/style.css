@@ -332,6 +332,15 @@ img {
 .img_sections img {
   width: 120px;
   padding-bottom: 4%;
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all 0.8s ease-in-out;
+}
+
+.img_sections img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
 }
 
 /* networks end */
