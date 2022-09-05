@@ -25,13 +25,7 @@ gsap.set(scenes, { position: "absolute", top: 0 });
 // Loop over scenes
 scenes.forEach(function (elem, i) {
   // Vid start / pause logic
-  pinTl.add(
-    () =>
-      pinTl.scrollTrigger.direction > 0
-        ? startVideo(elem, i)
-        : stopVideo(elem, i),
-    i + 0.001
-  );
+  pinTl.add(() => (pinTl.scrollTrigger.direction > 0 ? startVideo(elem, i) : stopVideo(elem, i)), i + 0.001);
 
   if (i != 0) {
     // Scene Enter animations
@@ -73,13 +67,7 @@ scenes.forEach(function (elem, i) {
   }
 
   // Vid start / pause logic
-  pinTl.add(
-    () =>
-      pinTl.scrollTrigger.direction > 0
-        ? stopVideo(elem, i)
-        : startVideo(elem, i),
-    i + 1.25
-  );
+  pinTl.add(() => (pinTl.scrollTrigger.direction > 0 ? stopVideo(elem, i) : startVideo(elem, i)), i + 1.25);
 });
 
 // add a tiny amount of empty space at the end of the timeline so that the playhead trips the final callback in both directions
@@ -132,3 +120,12 @@ ScrollTrigger.create({
   toggleClass: "psudo",
   scrub: 2,
 });
+
+// form
+
+function myFunction() {
+  document.getElementById("myDIV").style.display = "block";
+}
+function closeForm() {
+  document.getElementById("myDIV").style.display = "none";
+}

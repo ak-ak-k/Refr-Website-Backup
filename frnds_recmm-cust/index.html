@@ -15,10 +15,122 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="../assets/cust_sidemenu/slidemenu.css">
     <link rel="stylesheet" href="./assets/custom.css">
+    <script src="./assets/form.js"></script>
     <title>Refr</title>
 </head>
 
 <body id="bodytag">
+
+    <!-- ----------------PopUp Start-------------->
+    <main id="myDIV">
+        <div class="container_form">
+            <div class="row">
+                <div class="col col-100">
+                    <div class="popup_screen">
+
+                        <div class="close_header">
+                            <button id="hide" onclick="closeForm()">
+                                <svg width="48" height="48" viewBox="0 0 48 48" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="24" cy="24" r="24" fill="black" />
+                                    <path d="M32 15L16 31" stroke="white" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M16 15L32 31" stroke="white" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+
+                            </button>
+                        </div>
+
+
+                        <div class="all_details">
+                            <div class="col_100">
+                                <p>Can’t wait to start <strong><em>#TheRefrLife?</em></strong>
+                                </p>
+                                <div class="p_tert">
+                                    <p>Fill this form to get early access</p>
+                                </div>
+                                <div class="details">
+                                    <div class="contacts_details">
+                                        <form action="" class="form_details">
+                                            <input type="text" placeholder="Name" required>
+                                            <input type="number" placeholder="Contact Number" required>
+                                            <input type="email" placeholder="Email ID" required>
+                                            <div class="d-flex-form">
+                                                <select name="cars" id="cars">
+                                                    <option value="Location">Location</option>
+                                                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                                    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                                                    <option value="Assam">Assam</option>
+                                                    <option value="Chhattisgarh">Chhattisgarh</option>
+                                                    <option value="Goa">Goa</option>
+                                                    <option value="Gujarat">Gujarat</option>
+                                                    <option value="Haryana">Haryana</option>
+                                                    <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                                    <option value="Jharkhand">Jharkhand</option>
+                                                    <option value="Karnataka">Karnataka</option>
+                                                    <option value="Kerala">Kerala</option>
+                                                    <option value="Madhya Pradesh">Madhya Pradesh</option>
+                                                    <option value="Maharashtra">Maharashtra</option>
+                                                    <option value="Manipur">Manipur</option>
+                                                    <option value="Meghalaya">Meghalaya</option>
+                                                    <option value="Mizoram">Mizoram</option>
+                                                    <option value="Nagaland">Nagaland</option>
+                                                    <option value="Odisha">Odisha</option>
+                                                    <option value="Punjab">Punjab</option>
+                                                    <option value="Rajasthan">Rajasthan</option>
+                                                    <option value="Sikkim">Sikkim</option>
+                                                    <option value="Tamil Nadu">Tamil Nadu</option>
+                                                    <option value="Telangana">Telangana</option>
+                                                    <option value="Tripura">Tripura</option>
+                                                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                                    <option value="Uttarakhand">Uttarakhand</option>
+                                                    <option value="West Bengal">West Bengal</option>
+
+
+                                                </select>
+                                                <input type="number" placeholder="Pincode" required>
+
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="right_svg">
+
+                                <img src="../assets/shiba.png" alt="">
+                            </div>
+
+                        </div>
+
+
+                        <div>
+                            <div class="btn_form">
+                                <button>enter</button>
+                            </div>
+                            <div class="alter">
+                                <p>alternatively, <span>visit a store listed on Refr.</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+    </main>
+    <!------------------PopUp end-------------->
+
+
     <div class="container">
         <div id="mySidebar" class="sidebar">
             <div class="sidemenuheader">
@@ -45,7 +157,7 @@
             </div>
             <a href="https://refr.club/how-it-works/">How it Work</a>
             <a href="https://refr.club/business/">Refr For Business</a>
-            <a href="https://app.refr.club/">Explore BETA</a>
+            <a onclick="myFunction()">Explore BETA</a>
         </div>
         <div class="row">
             <div class="header">
@@ -83,7 +195,7 @@
                         <a href="https://refr.club/how-it-works/" class="how_it_work">How it works</a>
                         <a href="https://refr.club/business/" class="how_it_work">Refr For Business</a>
                         <!-- <button class="download_btn">Download the app</button> -->
-                        <a href="https://app.refr.club/" class="explore_btn">
+                        <a onclick="myFunction()" class="explore_btn">
                             explore <sup>BETA</sup>
                         </a>
                     </div>
