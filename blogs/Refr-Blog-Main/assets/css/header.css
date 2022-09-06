@@ -1050,6 +1050,7 @@ footer .subscribe-form input {
   color: #fff;
   border-radius: 5px;
   outline: #ffffff;
+  margin: 10px 0;
 }
 footer .subscribe-form input::-webkit-input-placeholder {
   color: var(--whiteColor);
@@ -1067,7 +1068,7 @@ footer .subscribe-form button {
   position: absolute;
   right: 0;
   background: transparent;
-  padding: 13px 10px;
+  padding: 24px 10px;
   border: none;
   top: 0;
 }
@@ -1723,6 +1724,7 @@ video::-webkit-media-controls {
   }
   .header-wrap .business-link {
     left: 25vw !important;
+    display: none;
   }
   .row ul.mainmenu.business-link li:hover .dropdownContain {
     max-height: 50vh !important;
@@ -3297,5 +3299,13 @@ i.bordicon {
   .header-wrap .logo a img {
     max-width: 20.8vw !important;
     width: 14.8vw !important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .social-area .social-media-box {
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
   }
 }

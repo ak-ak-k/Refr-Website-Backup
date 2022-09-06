@@ -461,7 +461,7 @@ nav {
 footer {
   background-color: black;
   color: white;
-  padding: 50px;
+  /* padding: 50px; */
 }
 
 .footer_heading {

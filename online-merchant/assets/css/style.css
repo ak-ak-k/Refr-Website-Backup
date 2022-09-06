@@ -335,7 +335,7 @@ header.merchant-social .menulinks {
 
 header.merchant-social {
   background: linear-gradient(86.39deg, #f0a6a6 7.44%, #c16568 92.33%);
-  padding: 10px 0px;
+  padding: 0px;
 }
 
 .header-wrap .menu ul li a:hover,
