@@ -7851,7 +7851,8 @@ a {
 
 .all_details {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
+  /* flex-direction: row-reverse; */
   margin: -5% 0 0 0;
   position: relative;
 }
@@ -7866,10 +7867,17 @@ a {
   font-family: poppins;
   font-style: normal;
   font-weight: 600;
-  font-size: 1.4rem !important;
+  font-size: 1.5rem !important;
   line-height: normal;
+  color: #272727;
+}
 
-  color: #000000;
+.gradient_form {
+  background: linear-gradient(78.12deg, #ae67ec 9.91%, #f77ea2 51.73%, #fabba4 87.87%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 
 .form_details input {
