@@ -147,7 +147,7 @@ nav {
 /*  */
 
 .main {
-  margin: 9rem 11rem;
+  margin: 9rem 11rem 0 11rem;
   display: flex;
   justify-content: space-between;
 }
@@ -209,17 +209,18 @@ nav {
   display: flex;
   align-items: center;
   color: #7e7e7e;
-  margin-top: 13px;
+  /* margin-top: 13px; */
+  margin-bottom: 8px;
 }
 
 .author {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 30px;
 }
 
 .get_updates {
-  font-family: "Roboto";
+  /* font-family: "Roboto"; */
   font-style: normal;
   font-weight: 500;
   font-size: 1rem;
@@ -228,7 +229,7 @@ nav {
   margin: 30px 0 10px 0;
   display: flex;
   flex-direction: column;
-  gap: 17px;
+  gap: 0;
 }
 
 .search_field {
@@ -242,12 +243,12 @@ nav {
   padding: 0 40px 0 15px;
   outline: none;
   height: 50px;
-  width: 233px;
+  width: 100%;
 }
 
 .search_field button {
   position: absolute;
-  left: 192px;
+  right: 5%;
   top: 11px;
   border: none;
   outline: none;
@@ -275,7 +276,7 @@ nav {
 }
 
 .writeup p {
-  font-family: "Roboto";
+  /* font-family: "Roboto"; */
   font-style: normal;
   font-weight: 400;
   font-size: 1.3rem;
@@ -363,7 +364,7 @@ nav {
   font-weight: 700;
   font-size: 1.2rem;
   line-height: 155.52%;
-  color: #8a8a8a;
+  color: #656565;
 }
 
 .cards {
@@ -377,7 +378,7 @@ nav {
 .card {
   width: 500px;
   max-width: 300px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
   cursor: pointer;
 }
 
@@ -396,6 +397,8 @@ nav {
 .content p {
   text-align: left;
   padding: 10px 0;
+  font-size: 0.9rem !important;
+  font-weight: 400;
 }
 
 .refr_news {
@@ -411,8 +414,8 @@ nav {
 .h3 {
   font-family: var(--primaryFont);
   font-style: normal;
-  font-weight: 600;
-  font-size: 0.9rem;
+  font-weight: 700;
+  font-size: 1rem;
   line-height: 22px;
   text-transform: capitalize;
 }

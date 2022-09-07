@@ -5,6 +5,9 @@
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+* {
   font-family: Inter, "sans-serif";
 }
 ::-webkit-scrollbar {
@@ -324,7 +327,6 @@ nav {
   font-weight: 600;
   font-size: 16px;
   line-height: 23px;
-
   color: #737373;
 }
 
@@ -335,6 +337,7 @@ nav {
   font-size: 2rem;
   line-height: 48px;
   text-transform: capitalize;
+  margin-bottom: 1rem;
 }
 
 /* team */
@@ -379,7 +382,6 @@ nav {
 }
 
 .auth_team {
-  margin-left: -15px;
   display: flex;
   flex-direction: column;
   gap: 5px;
@@ -390,7 +392,7 @@ nav {
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 35px;
+  line-height: 28px;
   color: #767676;
   display: -webkit-box;
   -webkit-line-clamp: 3;
@@ -411,7 +413,7 @@ nav {
   /* font-family: "Jost"; */
   font-style: normal;
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   line-height: 29px;
   text-transform: uppercase;
   display: flex;
