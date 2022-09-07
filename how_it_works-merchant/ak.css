@@ -357,6 +357,9 @@ ul.dashed li {
 .anchor a {
   color: #8111e8 !important;
 }
+.faqs:last-child {
+  border: none;
+}
 
 @media screen and (max-width: 900px) {
   .power_getstarted {

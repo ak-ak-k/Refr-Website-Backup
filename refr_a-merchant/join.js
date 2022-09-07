@@ -1,20 +1,21 @@
-let fileInput = document.getElementById("file-upload-input");
-let fileSelect = document.getElementsByClassName("file-upload-select")[0];
-fileSelect.onclick = function () {
-  fileInput.click();
-};
-fileInput.onchange = function () {
-  let filename = fileInput.files[0].name;
-  let selectName = document.getElementsByClassName("file-select-name")[0];
-  selectName.innerText = filename;
-};
+//
 
-function myFunction(y) {
-  var x = document.getElementById("myLinks");
-  y.classList.toggle("change");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
+var acc = document.getElementsByClassName("ques");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function () {
+    this.classList.toggle("active");
+    console.log;
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
 }
+
+$(".primary_ques").click(function () {
+  $(this).toggleClass("activeFilter").next(".filter-option-content").stop().slideToggle(500);
+});
