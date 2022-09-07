@@ -8,10 +8,14 @@
   /* display: inline-block; */
   font-size: 0;
   overflow: hidden;
-  z-index: -1;
+  z-index: 0;
 }
 
-.sec1::after {
+.dflex {
+  z-index: 3;
+}
+
+/* .sec1::after {
   content: "";
   display: block;
   position: absolute;
@@ -23,9 +27,8 @@
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.623);
   background: linear-gradient(1deg, #00000099, transparent);
-  /* opacity: 0.3; */
   z-index: 2;
-}
+} */
 
 .img_banner {
   display: flex;
@@ -62,13 +65,14 @@
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
+  width: 50%;
+  max-width: 50%;
 }
 
 .text_wrapper p {
-  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 3.1rem !important;
+  font-size: 2.8rem !important;
   line-height: normal;
   text-align: center;
   color: #ffffff;
@@ -80,7 +84,7 @@
   padding: 18px 25px;
   background: #8111e8;
   border-radius: 8px;
-  font-family: "Inter";
+
   font-style: normal;
   font-weight: 700;
   font-size: 1.5rem;
@@ -93,7 +97,7 @@
   color: #ffffff;
   border: none;
   margin: auto;
-  width: 20%;
+  width: 30%;
   cursor: pointer;
 }
 
@@ -127,7 +131,6 @@
 }
 
 .secondary {
-  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 1rem !important;
@@ -175,7 +178,6 @@
 }
 
 .right_sec p {
-  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 1rem !important;
@@ -230,7 +232,6 @@
 }
 
 .feature_list h6 {
-  font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -241,7 +242,6 @@
 }
 
 .feature_list p {
-  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
