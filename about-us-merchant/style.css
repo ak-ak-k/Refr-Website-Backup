@@ -35,8 +35,8 @@
 .what_we p {
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 600;
-  font-size: 1rem !important;
+  font-weight: 700;
+  font-size: 2rem !important;
   line-height: 24px;
   text-transform: capitalize;
   color: #000000;
@@ -143,9 +143,14 @@
     font-size: 1rem !important;
     line-height: 30px;
   }
+
+  .about_desc {
+    font-size: 0.9rem !important;
+  }
+
   .refr_platform {
-    font-size: 0.8rem !important;
-    padding: 10px 0;
+    font-size: 0.9rem !important;
+    padding: 26px 0;
     max-width: 300px;
   }
   .center_div {
@@ -157,6 +162,9 @@
     font-size: 1.3rem !important;
     line-height: 30px;
     text-align: center;
+  }
+  .what_we p {
+    margin: 10% 0 0 0;
   }
 }
 

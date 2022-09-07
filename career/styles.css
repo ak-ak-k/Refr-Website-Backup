@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   list-style: none;
+  font-family: Poppins, " sans-serif" !important;
 }
 ::-webkit-scrollbar {
   width: 8px;

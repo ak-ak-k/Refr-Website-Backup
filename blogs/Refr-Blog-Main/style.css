@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   list-style: none;
+  font-family: Inter, "sans-serif";
 }
 ::-webkit-scrollbar {
   width: 8px;
@@ -318,7 +319,7 @@ nav {
 }
 
 .refr_news {
-  font-family: "Jost";
+  /* font-family: "Jost"; */
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -385,7 +386,7 @@ nav {
 }
 
 .about_team p {
-  font-family: "Jost";
+  /* font-family: "Jost"; */
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
@@ -407,7 +408,7 @@ nav {
 /* read more */
 
 .read_more a {
-  font-family: "Jost";
+  /* font-family: "Jost"; */
   font-style: normal;
   font-weight: 600;
   font-size: 1.2rem;

@@ -34,7 +34,7 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 1rem !important;
+  font-size: 0.9rem !important;
   line-height: 24px;
   text-transform: initial;
   color: #000000;
@@ -45,8 +45,8 @@
 .what_we p {
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 600;
-  font-size: 1rem !important;
+  font-weight: 700;
+  font-size: 2rem !important;
   line-height: 24px;
   text-transform: capitalize;
   color: #000000;
@@ -137,24 +137,33 @@
 
 @media screen and (max-width: 1024px) {
   #aboutus_content {
-    padding: 0 8% !important;
+    padding: 0;
   }
 
   .about_refr {
-    margin: 18% 0 5% 0;
+    margin: 0;
+  }
+  .about_desc {
+    font-size: 0.9rem !important;
   }
 }
 
 @media screen and (max-width: 768px) {
+  .about {
+    padding: 0;
+  }
   .emp_mil {
     max-width: 400px;
     font-size: 1rem !important;
     line-height: 30px;
   }
+  .about_desc {
+    font-size: 0.9rem !important;
+  }
 
   .refr_platform {
-    font-size: 0.8rem !important;
-    padding: 10px 0;
+    font-size: 0.9rem !important;
+    padding: 26px 0;
     max-width: 300px;
   }
 
@@ -167,6 +176,9 @@
     font-size: 1.3rem !important;
     line-height: 30px;
     text-align: center;
+  }
+  .what_we p {
+    margin: 10% 0 0 0;
   }
 }
 
