@@ -42,12 +42,16 @@
   margin: 0;
   width: 74%;
   max-width: 74%;
+  margin-right: auto;
 }
 
 .banner_secondarytext {
   color: white;
   margin: 0;
   font-size: 1.2rem;
+  width: 74%;
+  max-width: 74%;
+  margin-right: auto;
 }
 
 .left {
@@ -304,7 +308,8 @@ ul.dashed li {
     padding: 6% 0 2% 0;
   }
   .sign_heading {
-    font-size: 1.8rem !important;
+    font-size: 1.5rem !important;
+    margin-bottom: 8%;
   }
 
   .auto {
@@ -329,5 +334,31 @@ ul.dashed li {
   }
   .banner_head img {
     height: 350px;
+  }
+  .question {
+    padding: 7%;
+  }
+  .question p {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .ques .primary_ques {
+    font-size: 14px;
+    max-width: 90%;
+    text-align: left;
+  }
+  ul.dashed li {
+    font-size: 14px;
+    padding-bottom: 10px;
+  }
+  .ques {
+    margin: 6% 0;
+  }
+  .sign_in {
+    padding: 6%;
+  }
+  .sign_in_btn {
+    font-size: 1rem;
+    padding: 4% 10%;
   }
 }
