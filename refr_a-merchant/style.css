@@ -7,31 +7,29 @@
 } */
 
 .dflex {
-  position: relative;
+  /* position: relative; */
 }
 
-.banner_head img {
+.banner_head {
   width: 100%;
   object-fit: cover;
-  height: 610px;
+  background: linear-gradient(98.06deg, #112a61 5.12%, #060d20 46.32%, #432247 98.85%);
 }
 
 .banner0 {
-  position: absolute;
-  top: 0;
   display: flex;
   align-items: center;
-  width: 90%;
-  transform: translate(10%, 15%);
+  width: 81%;
+  margin: auto;
 }
 
 .banner_img {
   /* text-align: right; */
-  width: 64%;
+  width: 50%;
 }
 
 .banner_img img {
-  width: 90%;
+  width: 100%;
 }
 
 .banner_primarytext {
@@ -318,22 +316,23 @@ ul.dashed li {
   }
   .banner0 {
     flex-direction: column-reverse;
+    width: 100%;
+    padding: 8% 0;
   }
   .banner_primarytext {
-    width: 90%;
-    max-width: 90%;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    margin: 4% auto;
   }
   .banner_secondarytext {
     font-size: 1rem;
+    width: 100%;
+    margin: auto;
   }
   .banner_head img {
   }
   .dflex {
-    /* position: static; */
   }
   .banner_head img {
-    height: 350px;
   }
   .question {
     padding: 7%;
