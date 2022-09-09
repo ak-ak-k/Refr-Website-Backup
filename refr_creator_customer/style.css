@@ -105,17 +105,19 @@
 
 .d-flex_main {
   display: flex;
+  justify-content: space-around;
   align-items: center;
   margin: 0% auto 5% auto;
-  width: 76%;
+  width: 100%;
 }
 
 .refr_democratises {
-  max-width: 100%;
+  max-width: 25%;
+  width: 25%;
 }
 
 .right_img img {
-  width: 26vw;
+  width: 30vw;
 }
 
 .primary {
@@ -299,7 +301,7 @@
   }
   .primary {
     max-width: 100%;
-    font-size: 1.5rem;
+    font-size: 1.5rem !important;
   }
   .secondary {
     max-width: 100%;
@@ -353,5 +355,9 @@
   }
   .sec2 img {
     width: 100%;
+  }
+  .refr_democratises {
+    max-width: 72%;
+    width: 72%;
   }
 }
