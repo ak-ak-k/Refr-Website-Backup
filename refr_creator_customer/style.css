@@ -287,13 +287,17 @@
 
   .text_wrapper p {
     font-size: 1.5rem !important;
-    line-height: 40px;
+    line-height: 28px;
+    width: 90%;
+    margin: 4% auto;
+    font-weight: 600;
   }
 
   .text_wrapper a {
     padding: 8px 20px;
     font-size: 1rem !important;
     width: 40%;
+    font-weight: 500;
   }
   .d-flex_main {
     gap: 30px;
@@ -348,7 +352,16 @@
   .feature_headline p {
     font-size: 2rem;
   }
-  .sec1 {
+  .sec1::after {
+    content: "";
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
   }
   .sec1 img {
     width: 100%;
