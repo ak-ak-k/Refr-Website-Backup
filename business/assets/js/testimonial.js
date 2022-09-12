@@ -18,8 +18,8 @@ var swiper = new Swiper(".mySwiper", {
 var swiper = new Swiper(".mySwiper1", {
   effect: "coverflow",
   grabCursor: true,
-  centeredSlides: false,
-  slidesPerView: "3",
+  centeredSlides: true,
+  slidesPerView: "auto",
   coverflowEffect: {
     rotate: 50,
     stretch: 0,

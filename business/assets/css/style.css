@@ -123,7 +123,8 @@ img {
 /*  */
 
 .Getdemotitle {
-  font-size: 32px;
+  font-size: 1.7em;
+  color: #000000;
   padding-bottom: 40px;
   font-weight: 700;
 }
@@ -1783,7 +1784,7 @@ video::-webkit-media-controls {
   }
 
   .Getdemotitle {
-    font-size: 22px;
+    font-size: 1.4em;
   }
 
   .sd_lr0margin {
@@ -2754,7 +2755,7 @@ video::-webkit-media-controls {
 
 @media screen and (max-width: 425px) {
   .joinrefr_title h2 {
-    font-size: 18px;
+    font-size: 1.4em;
   }
 
   .banner.merchant-social .banner-wrap .banner-img {
@@ -2767,7 +2768,7 @@ video::-webkit-media-controls {
   }
 
   section .title h2 {
-    font-size: 20px;
+    font-size: 1.4em;
   }
 
   section .title {

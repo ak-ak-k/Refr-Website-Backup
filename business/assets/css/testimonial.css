@@ -66,6 +66,12 @@
 }
 
 @media screen and (max-width: 900px) {
+  .swiper-slide img {
+    width: 100%;
+  }
+  .testimonials_content img {
+    width: auto;
+  }
   .swiper-button-next,
   .swiper-button-prev {
     display: none;
@@ -143,7 +149,7 @@
 .swiper-slide img {
   display: block;
   object-fit: cover;
-  height: -webkit-fill-available;
+  height: 100%;
 }
 
 .swiper {
