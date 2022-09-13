@@ -228,15 +228,15 @@
                             <div class="banner-badge-wrap">
                                 <img id='myimg1' src="assets/images/mainslider/noimage.png" alt="banner"
                                     class="main-img" />
-                                <div class="single-badge second">
+                                <div class="single-badge second" id="one">
                                     <label>Discovers store on</label>
                                     <img src="assets/images/pill-icon-white.png" alt="icon" />
                                 </div>
-                                <div class="single-badge d-none d-md-block">
+                                <div class="single-badge d-md-block" id="two">
                                     <label>Purchases and recommends on social</label>
                                 </div>
 
-                                <div class="single-badge third d-none d-md-block">
+                                <div class="single-badge third d-md-block" id="three">
                                     <label>Friends visit store and shop</label>
                                 </div>
                             </div>
@@ -1001,7 +1001,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide ">
+                <div class="swiper-slide active">
                     <div class="card">
                         <div class="card_img">
                             <svg width="91" height="91" viewBox="0 0 91 91" fill="none"
@@ -1137,7 +1137,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide ">
+                <div class="swiper-slide active">
                     <div class="card">
                         <div class="card_img">
                             <img src="./assets/images/brands/direct.png" alt="">
@@ -1149,7 +1149,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide ">
+                <div class="swiper-slide active">
                     <div class="card">
                         <div class="card_img">
                             <svg width="91" height="91" viewBox="0 0 91 91" fill="none"
@@ -1196,7 +1196,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide ">
+                <div class="swiper-slide active">
                     <div class="card">
                         <div class="card_img">
                             <svg width="91" height="91" viewBox="0 0 91 91" fill="none"
@@ -1718,7 +1718,7 @@
 
             var videoel = document.getElementById("nextcont");
             elBounds = videoel.getBoundingClientRect();
-            console.log(elBounds);
+            // console.log(elBounds);
             if (0 >= elBounds.top) {
                 // if (istarted === false) {
                 var secondimage = document.getElementById('secondimg');
@@ -1776,19 +1776,34 @@
             }).mount(window.splide.Extensions);
         }
         );
+        var one = document.getElementById("one");
+        var two = document.getElementById("two");
+        var three = document.getElementById("three");
+        var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+        let i = 1;
+        addEventListener('resize', (event) => {
+            var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+            // console.log("asdasdasd" + width)
+            showalternative();
+        });
         var myelemet = document.getElementById("myimg1"),
             myimgs = [
                 "assets/images/mainslider/banner2.png",
                 "assets/images/mainslider/banner3.png",
                 "assets/images/mainslider/banner4.png",
             ];
+        showalternative();
         function changeImg(myelemet, myimgs) {
             "use stict";
             setInterval(function () {
-                var myRandomNum = Math.floor(Math.random() * myimgs.length);
-
-                myelemet.src = myimgs[myRandomNum];
-            }, 5000);
+                if (i == myimgs.length) {
+                    i = 0;
+                }
+                console.log("width = " + width)
+                showalternative();
+                myelemet.src = myimgs[i];
+                i++;
+            }, 4000);
         }
         changeImg(myelemet, myimgs);
         window.addEventListener('load', (event) => {
@@ -1801,6 +1816,30 @@
             return false;
         });
 
+        function showalternative() {
+            if (width <= 700) {
+                if (i == 0) {
+                    one.classList.remove("d-none");
+                    two.classList.add("d-none");
+                    three.classList.add("d-none");
+                }
+                else if (i == 1) {
+                    one.classList.add("d-none");
+                    two.classList.remove("d-none");
+                    three.classList.add("d-none");
+                }
+                else {
+                    one.classList.add("d-none");
+                    two.classList.add("d-none");
+                    three.classList.remove("d-none");
+                }
+            }
+            else {
+                one.classList.remove("d-none");
+                two.classList.remove("d-none");
+                three.classList.remove("d-none");
+            }
+        }
 
 
     </script>
