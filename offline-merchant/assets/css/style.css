@@ -1261,6 +1261,7 @@ footer .subscribe-form input {
   color: #fff;
   border-radius: 5px;
   outline: #ffffff;
+  margin: 0 0 5% 0;
 }
 
 footer .subscribe-form input::-webkit-input-placeholder {
@@ -1282,7 +1283,7 @@ footer .subscribe-form button {
   position: absolute;
   right: 0;
   background: transparent;
-  padding: 13px 10px;
+  padding: 14px 10px;
   border: none;
   top: 0;
 }

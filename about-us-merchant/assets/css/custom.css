@@ -1059,7 +1059,7 @@ footer .subscribe-form input {
   color: #fff;
   border-radius: 5px;
   outline: #ffffff;
-  margin: 10px 0;
+  margin: 0 0 5% 0;
 }
 footer .subscribe-form input::-webkit-input-placeholder {
   color: var(--whiteColor);
@@ -1077,7 +1077,7 @@ footer .subscribe-form button {
   position: absolute;
   right: 0;
   background: transparent;
-  padding: 24px 10px;
+  padding: 14px 10px;
   border: none;
   top: 0;
 }

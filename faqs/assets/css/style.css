@@ -1051,6 +1051,7 @@ footer .subscribe-form input {
   color: #fff;
   border-radius: 5px;
   outline: #ffffff;
+  margin: 0 0 5% 0;
 }
 footer .subscribe-form input::-webkit-input-placeholder {
   color: var(--whiteColor);
@@ -3313,5 +3314,13 @@ i.bordicon {
   .header-wrap .logo a img {
     max-width: 20.8vw !important;
     width: 14.8vw !important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .social-area .social-media-box {
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
   }
 }
