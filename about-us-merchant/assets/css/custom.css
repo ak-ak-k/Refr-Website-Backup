@@ -1022,14 +1022,15 @@ footer .footer-widget-heading h3 {
   color: #fff;
   font-size: 1.25em;
   font-weight: 600;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  margin-top: 30px;
   position: relative;
 }
 footer .footer-widget-heading h3::before {
   content: "";
   position: absolute;
   left: 0;
-  bottom: -15px;
+  bottom: -8px;
   height: 4px;
   width: 75px;
   background: #ffffff;
