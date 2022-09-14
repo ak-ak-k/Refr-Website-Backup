@@ -255,14 +255,14 @@ header.merchant-social.offline-seller .header-wrap .menu ul.mainmenu li:last-chi
   font-weight: 500;
 }
 
-.header-wrap .menu ul li a:hover,
+/* .header-wrap .menu ul li a:hover,
 .header-wrap .menu ul li a:focus {
   color: #8492af;
-}
-
+} */
+/* 
 .header-wrap .menu ul li a:hover i {
   border-color: #8492af;
-}
+} */
 
 .header-wrap .menu ul li:last-child a {
   background-color: #8000ff;
@@ -340,20 +340,20 @@ header.merchant-social {
   padding: 0px;
 }
 
-.header-wrap .menu ul li a:hover,
+/* .header-wrap .menu ul li a:hover,
 .header-wrap .menu ul li a:focus {
   color: var(--blackColor);
-}
+} */
 
-.header-wrap .menu ul li a:hover i,
+/* .header-wrap .menu ul li a:hover i,
 .header-wrap .menu ul li a:focus i {
   color: var(--blackColor);
-}
+} */
 
-.header-wrap .menu ul li a:hover i,
+/* .header-wrap .menu ul li a:hover i,
 .header-wrap .menu ul li a:focus i {
   border-color: #000000;
-}
+} */
 
 header.merchant-social .header-wrap .menu ul.mainmenu li:last-child a i {
   border-color: #000000;

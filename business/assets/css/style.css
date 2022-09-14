@@ -80,6 +80,10 @@ img {
 
 /* easy steps */
 
+.get_free_demo:hover {
+  border: 1px solid #8000ff;
+}
+
 .gap4 {
   gap: 4%;
 }
@@ -2572,7 +2576,7 @@ video::-webkit-media-controls {
 
   .banner .banner-wrap .banner-img img.main-img {
     height: auto;
-    margin-top: 20px;
+    margin-top: 44px;
   }
 
   .m-work-img {
