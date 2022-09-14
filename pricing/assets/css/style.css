@@ -125,7 +125,7 @@ section.banner {
 header {
   background: linear-gradient(98.06deg, #112a61 5.12%, #060d20 46.32%, #432247 98.85%);
 
-  padding: 20px 0px;
+  padding: 10px 0px;
   width: 100%;
   color: var(--whiteColor);
   position: static;
@@ -1057,6 +1057,7 @@ footer .subscribe-form input {
   color: #fff;
   border-radius: 5px;
   outline: #ffffff;
+  margin: 0 0 5% 0;
 }
 footer .subscribe-form input::-webkit-input-placeholder {
   color: var(--whiteColor);
@@ -1074,7 +1075,7 @@ footer .subscribe-form button {
   position: absolute;
   right: 0;
   background: transparent;
-  padding: 13px 10px;
+  padding: 14px 10px;
   border: none;
   top: 0;
 }

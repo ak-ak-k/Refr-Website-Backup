@@ -1058,6 +1058,7 @@ footer .subscribe-form input {
   color: #fff;
   border-radius: 5px;
   outline: #ffffff;
+  margin: 0 0 5% 0;
 }
 footer .subscribe-form input::-webkit-input-placeholder {
   color: var(--whiteColor);
@@ -1083,6 +1084,7 @@ footer .subscribe-form button i {
   color: #fff;
   font-size: 22px;
   transform: rotate(-6deg);
+  font-family: "Font Awesome 5 Brands" !important;
 }
 footer .copyright-area {
   padding: 10px 0;

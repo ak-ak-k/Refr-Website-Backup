@@ -70,6 +70,10 @@ img {
 
 /* changes */
 
+.logo svg {
+  width: 100px;
+}
+
 .get_free_demo {
   border: 1px solid #ffffff;
   padding: 10px 16px;
@@ -126,10 +130,10 @@ header {
   background: linear-gradient(98.06deg, rgb(17, 42, 97) 5.12%, rgb(6, 13, 32) 46.32%, rgb(67, 34, 71) 98.85%);
   top: 0px;
   left: 0px;
-  padding: 20px 0px;
+  padding: 10px 0px;
   width: 100%;
   color: var(--whiteColor);
-  position: fixed;
+  position: absolute;
   z-index: 3;
 }
 header .container-fluid {
@@ -1054,6 +1058,7 @@ footer .subscribe-form input {
   color: #fff;
   border-radius: 5px;
   outline: #ffffff;
+  margin: 0 0 5% 0;
 }
 footer .subscribe-form input::-webkit-input-placeholder {
   color: var(--whiteColor);
