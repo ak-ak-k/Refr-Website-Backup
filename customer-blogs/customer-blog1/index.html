@@ -19,6 +19,9 @@
 
     <link rel="icon" type="image/x-icon" href="../../assets/favi.png" />
     <link rel="stylesheet" href="../../assets/cust_sidemenu/slidemenu.css">
+
+    <link rel="stylesheet" href="./assets/cust_sidemenu/slidemenu.css">
+    <link rel="stylesheet" href="../../Customer_footer/Customer_footer.css" />
     <title>Refr</title>
 </head>
 
@@ -737,6 +740,7 @@
 
     <!-- Global site tag (gtag.js) - Google Ads: 10970341747 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10970341747"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
@@ -755,6 +759,12 @@
 
     <script src="./join.js"></script>
     <script src="../assets/cust_sidemenu/sidemenu.js"></script>
+    <script>
+        $(function () {
+            // $("#header").load("header.html"); 
+            $("#footer").load("../Customer_footer/Customer_footer.html");
+        });
+    </script>
 
 </body>
 

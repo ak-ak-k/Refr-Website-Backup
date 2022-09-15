@@ -25,7 +25,7 @@
 }
 
 .padd_content {
-  /* margin: 5% 10% 0 10%; */
+  margin-bottom: -16%;
 }
 
 .primary_heading {
@@ -155,19 +155,24 @@
   margin-bottom: 4%;
 }
 
+.content {
+  width: 100%;
+}
+
 @media screen and (max-width: 900px) {
   .bg_black {
     padding: 5%;
-    height: auto;
+    height: 220px;
   }
   .primary_heading {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   .secondary_heading {
     margin: 3% 0;
+    font-size: 0.8rem;
   }
   .blog_contents {
-    bottom: 40px;
+    bottom: 85px;
     padding: 5%;
   }
   .blog_img {

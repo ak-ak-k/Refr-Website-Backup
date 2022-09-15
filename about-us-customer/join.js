@@ -28,9 +28,9 @@ function closeForm() {
   document.getElementById("myDIV").style.display = "none";
 }
 
-function categoryList() {
-  let categoryList = document.querySelector(".categories_lists");
-  let categoryListDesk = document.querySelector(".categories_lists_desk");
-  categoryList.classList.toggle("active");
-  categoryListDesk.classList.toggle("active");
-}
+// function categoryList() {
+//   let categoryList = document.querySelector(".categories_lists");
+//   let categoryListDesk = document.querySelector(".categories_lists_desk");
+//   categoryList.classList.toggle("active");
+//   categoryListDesk.classList.toggle("active");
+// }
