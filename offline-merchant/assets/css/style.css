@@ -4024,26 +4024,29 @@ i.bordicon {
   margin: 4% auto;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   position: relative;
-  padding: 8% 0 12% 0;
+  padding: 17% 0 8% 0;
 }
 
 .sol_boxes {
   display: flex;
   gap: 5%;
+  margin: 0 10% 0 0;
+  position: absolute;
+  right: 0;
+}
+
+.divide {
+  flex: 1 1 auto;
 }
 
 .l_box {
-  position: absolute;
-  top: -38%;
-  left: 52%;
+  margin: 0 0 5% 0;
 }
 
 .r_box {
-  position: absolute;
-  top: 7%;
-  right: 4%;
+  margin: 35% 0 0 0;
 }
 
 .sol_text {
@@ -4052,8 +4055,11 @@ i.bordicon {
   font-size: 34px;
   line-height: 41px;
   color: #ffffff;
-  margin: 0;
-  max-width: 45%;
+  /* margin: 0;
+  max-width: 45%; */
+  white-space: pre-line;
+  margin-left: 28%;
+  width: 100%;
 }
 
 .d_flex {
@@ -4133,10 +4139,15 @@ i.bordicon {
     max-width: 100%;
     font-size: 20px;
     line-height: 30px;
+    white-space: inherit;
+    text-align: center;
+    margin: 10% 0;
   }
 
   .sol_boxes {
     flex-direction: column;
+    position: static;
+    margin: auto;
   }
 
   .l_box {
@@ -4145,6 +4156,7 @@ i.bordicon {
 
   .r_box {
     position: static;
+    margin: 0;
   }
 }
 
