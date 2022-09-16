@@ -3,7 +3,9 @@
 }
 
 .main_section {
-  margin: 10% 9%;
+  /* margin: 10% 9%; */
+  width: 85%;
+  margin: 10% auto 0 auto;
 }
 
 .secondary_color {

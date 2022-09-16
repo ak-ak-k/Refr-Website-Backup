@@ -1213,7 +1213,7 @@ section.for-everyone .title {
   filter: invert(1);
 }
 
-.footer-top-wrap .footer-link label {
+/* .footer-top-wrap .footer-link label {
   font-size: 22px;
   margin-bottom: 20px;
 }
@@ -1271,7 +1271,7 @@ section.for-everyone .title {
   width: 100%;
   margin-bottom: 0;
   font-size: 14px;
-}
+} */
 
 .btn {
   padding: 10px 25px;
@@ -1442,7 +1442,7 @@ section.for-everyone .title {
   margin-bottom: 20px;
 }
 
-footer ul {
+/* footer ul {
   margin: 0px;
   padding: 0px;
 }
@@ -1529,7 +1529,6 @@ footer .subscribe-form input {
   color: #fff;
   border-radius: 5px;
   outline: #ffffff;
-  margin: 0 0 5% 0;
 }
 
 footer .subscribe-form input::-webkit-input-placeholder {
@@ -1596,7 +1595,7 @@ footer .footer-menu li:hover a {
 footer .footer-menu li a {
   font-size: 0.75em;
   color: var(--whiteColor);
-}
+} */
 
 span.badge-list {
   background: linear-gradient(90deg, #ff4160 4.4%, #ff7d35 97.6%);
@@ -1611,28 +1610,28 @@ span.badge-list {
   z-index: 1;
 }
 
-.social-area .social-media-box {
+/* .social-area .social-media-box {
   width: 75%;
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
   align-items: center;
   justify-content: space-between;
-}
+} */
 
-.refr_customers {
+/* .refr_customers {
   color: var(--whiteColor);
   font-family: var(--primaryFont);
   font-weight: 700;
   font-size: 20px;
   gap: 24px;
-}
+} */
 
-.social-area .social-media-box a {
+/* .social-area .social-media-box a {
   height: 50px;
   width: 50px;
   margin: 0 20px 0 0;
-}
+} */
 
 .social-area .footer-widget-heading h3 {
   margin-bottom: 20px;
@@ -1835,14 +1834,14 @@ video::-webkit-media-controls {
     gap: 9px;
   }
 
-  .social-media-box .mb_5 {
+  /* .social-media-box .mb_5 {
     margin-bottom: 5%;
-  }
+  } */
 
-  .social-area .social-media-box {
+  /* .social-area .social-media-box {
     width: 100%;
     justify-content: center;
-  }
+  } */
 
   .banner.merchant-social .banner-wrap .banner-content .btn-primary {
     font-size: 1em !important;
@@ -2047,6 +2046,7 @@ video::-webkit-media-controls {
 
   .header-wrap .logo a {
     font-size: 1.2em;
+    color: #ffffff;
   }
 
   .header-wrap .business-link {
@@ -2573,7 +2573,7 @@ video::-webkit-media-controls {
 
   .banner .banner-wrap .banner-img img.main-img {
     height: auto;
-    margin-top: 44px;
+    margin-top: 20px;
   }
 
   .m-work-img {

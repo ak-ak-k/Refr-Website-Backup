@@ -121,7 +121,7 @@ section .title h2 {
 }
 header {
   background: linear-gradient(98.06deg, #112a61 5.12%, #060d20 46.32%, #432247 98.85%);
-  padding: 20px 0px;
+  padding: 10px 0px;
   width: 100%;
   color: var(--whiteColor);
 }

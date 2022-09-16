@@ -352,7 +352,7 @@ nav {
 }
 
 .cards {
-  margin: 2rem 13rem;
+  margin: 2rem 12rem 7rem 12rem;
 
   display: flex;
   flex-wrap: wrap;
@@ -382,6 +382,8 @@ nav {
 .content p {
   text-align: left;
   padding: 10px 0;
+  font-size: 0.9rem !important;
+  font-weight: 400;
 }
 
 .refr_news {
@@ -397,9 +399,9 @@ nav {
 .h3 {
   font-family: var(--primaryFont);
   font-style: normal;
-  font-weight: 600;
-  font-size: 0.9rem;
-  line-height: 22px;
+  font-weight: 600 !important;
+  font-size: 0.9rem !important;
+  line-height: 22px !important;
   text-transform: capitalize;
 }
 
