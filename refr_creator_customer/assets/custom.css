@@ -21,6 +21,11 @@ a {
   z-index: 3;
 }
 
+.header_btns {
+  width: 100%;
+  text-align: right;
+}
+
 .header_btns .how_it_work {
   font-style: normal;
   font-weight: 600;
@@ -254,7 +259,7 @@ a {
 
   header {
     z-index: 3;
-    /* padding: 20px 0; */
+    /* padding: 20px; */
     display: flex;
     color: #111;
     justify-content: space-between;
@@ -7916,7 +7921,7 @@ a {
   /* box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.25); */
   border-radius: 40px;
   outline: none;
-  width: 100%;
+  width: 90%;
   height: 40px;
   padding: 0 15px;
   margin: 5px auto;
@@ -7996,7 +8001,7 @@ select.select_arrow:focus {
 
 @media screen and (max-width: 900px) {
   .all_details {
-    margin: -40px 0 0 0;
+    margin: 5% 10% 0 6%;
   }
   .col_100 p {
     font-size: 1.3rem;
@@ -8027,12 +8032,15 @@ select.select_arrow:focus {
     flex-direction: column;
   }
   .d-flex-form select {
-    width: 250px;
+    width: 280px;
     height: 35px;
     margin: 0;
     margin: 0 0 4% 0;
   }
   .form_details input {
     margin: 0 0 4% 0;
+  }
+  .btn_form button {
+    padding: 4%;
   }
 }

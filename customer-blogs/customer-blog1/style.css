@@ -56,8 +56,8 @@
 
 .blog_img {
   width: 100%;
-  background: gray;
-  height: 486px;
+  /* background: gray; */
+  height: auto;
   border-radius: 10px;
 }
 
@@ -113,7 +113,7 @@
 .img-container {
   width: 150px;
   height: 80px;
-  background: gray;
+  /* background: gray; */
   min-width: 150px;
   position: relative;
   margin-right: 3%;
@@ -129,9 +129,13 @@
   margin: 6% 0;
 }
 
-.divide {
+/* .divide {
   flex: 1 1 auto;
 }
+
+.w-100 {
+  width: 100%;
+} */
 
 .side_heading {
   font-style: normal;
@@ -176,7 +180,7 @@
     padding: 5%;
   }
   .blog_img {
-    height: 130px;
+    height: 150px;
   }
   .d-block-none {
     display: block;

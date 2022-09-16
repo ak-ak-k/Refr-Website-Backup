@@ -28,6 +28,11 @@ a {
   }
 }
 
+.header_btns {
+  width: 100%;
+  text-align: right;
+}
+
 .header_btns .how_it_work {
   font-style: normal;
   font-weight: 600;
@@ -255,7 +260,7 @@ a {
 
   header {
     z-index: 3;
-    padding: 20px 0;
+    padding: 20px;
     display: flex;
     color: #111;
     justify-content: space-between;
@@ -7996,7 +8001,7 @@ select.select_arrow:focus {
     display: none;
   }
   .all_details {
-    margin: -40px 0 0 0;
+    margin: 5% 10% 0 6%;
   }
   .col_100 p {
     font-size: 1.3rem;
@@ -8020,8 +8025,9 @@ select.select_arrow:focus {
     display: none;
   }
   .popup_screen {
-    width: 100%;
-    max-width: 80%;
+    width: 80%;
+    max-width: 100%;
+    margin: auto;
   }
   .d-flex-form {
     flex-direction: column;
@@ -8034,5 +8040,8 @@ select.select_arrow:focus {
   }
   .form_details input {
     margin: 0 0 4% 0;
+  }
+  .btn_form button {
+    padding: 4%;
   }
 }

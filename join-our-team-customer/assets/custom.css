@@ -17,6 +17,11 @@ a {
   -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
 }
 
+.header_btns {
+  width: 100%;
+  text-align: right;
+}
+
 .header_btns .how_it_work {
   font-style: normal;
   font-weight: 600;
@@ -250,7 +255,7 @@ a {
 
   header {
     z-index: 3;
-    padding: 20px 0;
+    padding: 20px;
     display: flex;
     color: #111;
     justify-content: space-between;
@@ -7766,7 +7771,6 @@ a {
   }
 }
 
-
 /* -----------------form_Section_CSS------------------ */
 
 #myDIV {
@@ -7991,7 +7995,7 @@ select.select_arrow:focus {
 
 @media screen and (max-width: 900px) {
   .all_details {
-    margin: -40px 0 0 0;
+    margin: 5% 10% 0 6%;
   }
   .col_100 p {
     font-size: 1.3rem;
@@ -8029,5 +8033,8 @@ select.select_arrow:focus {
   }
   .form_details input {
     margin: 0 0 4% 0;
+  }
+  .btn_form button {
+    padding: 4%;
   }
 }

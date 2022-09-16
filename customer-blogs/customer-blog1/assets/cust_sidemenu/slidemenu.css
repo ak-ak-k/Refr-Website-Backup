@@ -2,6 +2,13 @@
   display: flex;
 }
 
+.w-100 {
+  width: 100% !important;
+}
+.divide {
+  flex: 1 1 auto !important;
+}
+
 .opensidebtn {
   display: none;
   align-self: center;
@@ -18,7 +25,7 @@
   position: fixed;
   z-index: 1;
   top: 0;
-  left: 0;
+  right: 0;
   background-color: #fff;
   overflow-x: hidden;
   transition: 0.5s;
@@ -27,13 +34,14 @@
 }
 
 .sidebar a {
-  padding: 12px 8px 12px 32px;
+  padding: 12px 35px 12px 14px;
   text-decoration: none;
   font-size: 16px;
-  color: #818181;
+  color: #000000;
+  font-weight: 500;
   display: block;
   transition: 0.3s;
-  border-bottom: 1px solid #9130eb;
+  /* border-bottom: 1px solid #9130eb; */
 }
 
 .logo {
@@ -45,11 +53,11 @@
 }
 
 .sidebar .closebtn {
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   right: 25px;
   font-size: 36px;
-  color: white;
+  color: black;
   /* margin-left: 50px; */
 }
 
@@ -73,9 +81,9 @@
 
 .sidemenuheader {
   display: flex;
-  background: #9130eb;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  background: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 @media screen and (max-width: 900px) {
