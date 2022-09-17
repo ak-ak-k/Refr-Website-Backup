@@ -432,7 +432,7 @@ footer {
 
   .secondary_line {
     width: 100%;
-    /* text-align: center; */
+    text-align: center !important;
     padding-bottom: 5%;
   }
 
@@ -549,8 +549,15 @@ footer {
   .shop_img {
     max-width: 75vw;
   }
+  .textC-dnone {
+    display: block;
+  }
 }
 
 .textC {
   text-align: center;
+}
+
+.textL {
+  text-align: left;
 }
