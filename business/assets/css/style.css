@@ -236,6 +236,11 @@ img {
   color: #888888;
   margin: 4px 2px;
 }
+.contact_btn:focus-within {
+  color: white;
+  background: #8111e8;
+  border: none;
+}
 
 .contact_input {
   background-color: transparent !important;
