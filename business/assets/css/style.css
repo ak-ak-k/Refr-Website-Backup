@@ -337,15 +337,15 @@ img {
   max-width: 64%;
 }
 
-.img_sections img {
+.splide__slide img {
   width: 120px;
   padding-bottom: 4%;
   filter: gray;
   -webkit-filter: grayscale(1);
-  -webkit-transition: all 0.8s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
 }
 
-.img_sections img:hover {
+.splide__slide img:hover {
   filter: none;
   -webkit-filter: grayscale(0);
   -webkit-transform: scale(1.01);

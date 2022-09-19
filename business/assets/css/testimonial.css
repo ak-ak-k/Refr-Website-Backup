@@ -155,7 +155,7 @@
 .swiper {
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 10%;
+  padding-bottom: 0;
 }
 
 .swiper-button-prev,
