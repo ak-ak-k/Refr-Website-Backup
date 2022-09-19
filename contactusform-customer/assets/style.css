@@ -73,6 +73,9 @@ img {
 
 .contact_form {
   width: 52%;
+  min-height: max-content;
+  height: max-content;
+
   margin: 2% auto 0 auto;
   background: #ffffff;
   border-radius: 5px;
@@ -189,6 +192,8 @@ input[type="submit"] {
   .contact_form {
     margin: 5% auto;
     width: 94%;
+    min-height: max-content;
+    height: max-content;
   }
 
   .header_bg {
