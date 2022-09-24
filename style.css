@@ -38,7 +38,7 @@ a {
   font-weight: 600;
   font-size: 16px;
   line-height: 19px;
-  color: #ffffff;
+  color: #000000;
   padding-right: 16px;
 }
 
@@ -1238,6 +1238,9 @@ a {
     padding: 9px 20px;
     letter-spacing: 1px;
   }
+  .explore_btn sup {
+    font-size: 10px;
+  }
   .join_btn {
     background-color: #111 !important;
     padding: 15px 30px 15px 30px;
@@ -2154,6 +2157,9 @@ a {
     padding: 9px 20px;
     letter-spacing: 1px;
   }
+  .explore_btn sup {
+    font-size: 10px;
+  }
   .join_btn {
     background-color: #111 !important;
     padding: 15px 30px 15px 30px;
@@ -3036,6 +3042,9 @@ a {
     padding: 9px 20px;
     letter-spacing: 1px;
   }
+  .explore_btn sup {
+    font-size: 10px;
+  }
   .join_btn {
     background-color: #111 !important;
     padding: 15px 30px 15px 30px;
@@ -3877,8 +3886,8 @@ a {
   } */
 
   .logo svg {
-    width: 130px;
-    height: 60px;
+    width: 140px;
+    height: 65px;
     animation: logoImg 0.8s cubic-bezier(0.8, 0, 0.12, 0.99);
   }
   @keyframes logoImg {
@@ -3903,6 +3912,9 @@ a {
     animation: logoImg 1s cubic-bezier(0.8, 0, 0.12, 0.99);
     padding: 9px 20px;
     letter-spacing: 1px;
+  }
+  .explore_btn sup {
+    font-size: 10px;
   }
   .join_btn {
     background-color: #111 !important;
@@ -4775,6 +4787,9 @@ a {
     padding: 9px 20px;
     letter-spacing: 1px;
   }
+  .explore_btn sup {
+    font-size: 10px;
+  }
   .join_btn {
     background-color: #111 !important;
     padding: 15px 30px 15px 30px;
@@ -5627,6 +5642,9 @@ a {
     animation: logoImg 1s cubic-bezier(0.8, 0, 0.12, 0.99);
     padding: 9px 20px;
     letter-spacing: 1px;
+  }
+  .explore_btn sup {
+    font-size: 10px;
   }
   .join_btn {
     background-color: #111 !important;
@@ -6677,6 +6695,9 @@ a {
     animation: logoImg 1s cubic-bezier(0.8, 0, 0.12, 0.99);
     padding: 9px 20px;
     letter-spacing: 1px;
+  }
+  .explore_btn sup {
+    font-size: 10px;
   }
   .join_btn {
     background-color: #111 !important;
