@@ -2130,7 +2130,8 @@ a {
   }
 
   .logo svg {
-    width: 7rem;
+    width: 140px;
+    height: 80px;
     animation: logoImg 0.8s cubic-bezier(0.8, 0, 0.12, 0.99);
   }
   @keyframes logoImg {
@@ -3014,7 +3015,8 @@ a {
   } */
 
   .logo svg {
-    width: 130px;
+    width: 140px;
+    height: 80px;
     animation: logoImg 0.8s cubic-bezier(0.8, 0, 0.12, 0.99);
   }
   @keyframes logoImg {
@@ -3880,7 +3882,8 @@ a {
   } */
 
   .logo svg {
-    width: 130px;
+    width: 140px;
+    height: 80px;
     animation: logoImg 0.8s cubic-bezier(0.8, 0, 0.12, 0.99);
   }
   @keyframes logoImg {
@@ -4752,7 +4755,8 @@ a {
   } */
 
   .logo svg {
-    width: 150px;
+    width: 140px;
+    height: 80px;
     animation: logoImg 0.8s cubic-bezier(0.8, 0, 0.12, 0.99);
   }
   @keyframes logoImg {
@@ -5605,7 +5609,8 @@ a {
   } */
 
   .logo svg {
-    width: 130px;
+    width: 140px;
+    height: 80px;
     animation: logoImg 0.8s cubic-bezier(0.8, 0, 0.12, 0.99);
   }
   @keyframes logoImg {

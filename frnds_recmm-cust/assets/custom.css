@@ -55,8 +55,9 @@ a {
     z-index: 5;
   }
 
-  .logo img {
-    width: 100px;
+  .logo svg {
+    width: 140px;
+    height: auto;
     animation: logoImg 0.8s cubic-bezier(0.8, 0, 0.12, 0.99);
   }
 
@@ -1228,8 +1229,9 @@ a {
     z-index: 5;
   }
 
-  .logo img {
-    width: 100px;
+  .logo svg {
+    width: 140px;
+    height: 80px;
     animation: logoImg 0.8s cubic-bezier(0.8, 0, 0.12, 0.99);
   }
 
@@ -2162,8 +2164,9 @@ a {
     z-index: 5;
   }
 
-  .logo img {
-    width: 7rem;
+  .logo svg {
+    width: 140px;
+    height: 80px;
     animation: logoImg 0.8s cubic-bezier(0.8, 0, 0.12, 0.99);
   }
 
@@ -3053,8 +3056,9 @@ a {
     text-transform: uppercase;
   } */
 
-  .logo img {
-    width: 130px;
+  .logo svg {
+    width: 140px;
+    height: 80px;
     animation: logoImg 0.8s cubic-bezier(0.8, 0, 0.12, 0.99);
   }
 
@@ -3927,8 +3931,9 @@ a {
     text-transform: uppercase;
   } */
 
-  .logo img {
-    width: 150px;
+  .logo svg {
+    width: 140px;
+    height: 80px;
     animation: logoImg 0.8s cubic-bezier(0.8, 0, 0.12, 0.99);
   }
 
@@ -4805,8 +4810,9 @@ a {
     text-transform: uppercase;
   } */
 
-  .logo img {
-    width: 150px;
+  .logo svg {
+    width: 140px;
+    height: 80px;
     animation: logoImg 0.8s cubic-bezier(0.8, 0, 0.12, 0.99);
   }
 
@@ -5663,8 +5669,9 @@ a {
     text-transform: uppercase;
   } */
 
-  .logo img {
-    width: 150px;
+  .logo svg {
+    width: 140px;
+    height: 80px;
     animation: logoImg 0.8s cubic-bezier(0.8, 0, 0.12, 0.99);
   }
 
@@ -6505,7 +6512,7 @@ a {
     background: linear-gradient(105.18deg, #fdb271 0%, #fe9ea1 78.54%, #ffbd81 90%, #ffa862 100%);
   }
 
-  .logo img {
+  .logo svg {
     animation: logoImg 0.8s cubic-bezier(0.8, 0, 0.12, 0.99);
   }
 
@@ -6720,8 +6727,9 @@ a {
     z-index: 5;
   }
 
-  .logo img {
-    width: 100px;
+  .logo svg {
+    width: 140px;
+    height: auto;
     /* transition: .8s cubic-bezier(0.25, 0.46, 0.45, 0.94); */
     animation: logoImg 0.8s cubic-bezier(0.8, 0, 0.12, 0.99);
   }
@@ -8127,6 +8135,9 @@ select.select_arrow:focus {
 }
 
 @media screen and (max-width: 900px) {
+  .header_btns {
+    display: none;
+  }
   .all_details {
     margin: 5% 10% 0 6%;
   }

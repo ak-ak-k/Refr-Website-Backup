@@ -4,7 +4,7 @@
 
 body {
   width: 100vw;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 ::-webkit-scrollbar {
@@ -51,6 +51,7 @@ a {
   * {
     padding: 0;
     margin: 0;
+    font-family: Poppins, " sans-serif" !important;
   }
 
   .d-sm-block {
@@ -76,7 +77,8 @@ a {
   }
 
   .logo svg {
-    width: 100px;
+    width: 140px;
+    height: auto;
     animation: logoImg 0.8s cubic-bezier(0.8, 0, 0.12, 0.99);
   }
 
@@ -336,7 +338,7 @@ a {
     color: #111;
     font-size: 50px;
     line-height: 55px;
-    font-weight: 800;
+    font-weight: 700;
     margin-top: -250px;
     animation: headerText 0.8s cubic-bezier(0.8, 0, 0.12, 0.99);
   }
@@ -1349,7 +1351,7 @@ a {
     color: #111;
     font-size: 60px;
     line-height: 65px;
-    font-weight: 800;
+    font-weight: 700;
   }
 
   /* .headerTitleText span {
@@ -2275,7 +2277,7 @@ a {
     color: #111;
     font-size: 70px;
     line-height: 75px;
-    font-weight: 800;
+    font-weight: 700;
   }
 
   /* .headerTitleText span {
@@ -3161,7 +3163,7 @@ a {
     color: #111;
     font-size: 80px;
     line-height: 90px;
-    font-weight: 800;
+    font-weight: 700;
   }
 
   /* .headerTitleText span {
@@ -3898,7 +3900,7 @@ a {
 
   .logo svg {
     width: 140px;
-    height: 65px;
+    height: 80px;
     animation: logoImg 0.8s cubic-bezier(0.8, 0, 0.12, 0.99);
   }
   @keyframes logoImg {
@@ -4034,7 +4036,7 @@ a {
     color: #111;
     font-size: 80px;
     line-height: 90px;
-    font-weight: 800;
+    font-weight: 700;
   }
 
   /* .headerTitleText span {
@@ -4909,7 +4911,7 @@ a {
     color: #111;
     font-size: 80px;
     line-height: 90px;
-    font-weight: 800;
+    font-weight: 700;
   }
 
   /* .headerTitleText span {
@@ -5768,7 +5770,7 @@ a {
     color: #111;
     font-size: 80px;
     line-height: 90px;
-    font-weight: 800;
+    font-weight: 700;
   }
 
   /* .headerTitleText span {
@@ -6501,7 +6503,7 @@ a {
   .headerTitleText {
     width: 60%;
     animation: headerText 0.8s cubic-bezier(0.8, 0, 0.12, 0.99);
-    font-weight: 800;
+    font-weight: 700;
   }
 
   @keyframes headerText {
@@ -6686,7 +6688,8 @@ a {
   }
 
   .logo svg {
-    width: 100px;
+    width: 140px;
+    height: 50px;
     /* transition: .8s cubic-bezier(0.25, 0.46, 0.45, 0.94); */
     animation: logoImg 0.8s cubic-bezier(0.8, 0, 0.12, 0.99);
   }
@@ -6899,7 +6902,7 @@ a {
     color: #111;
     font-size: 65px;
     line-height: 75px;
-    font-weight: 800;
+    font-weight: 700;
     margin-top: -200px;
     animation: headerText 0.8s cubic-bezier(0.8, 0, 0.12, 0.99);
   }
@@ -8088,10 +8091,3 @@ select.select_arrow:focus {
     padding: 4%;
   }
 }
-
-/* @media only screen and (orientation: landscape) {
-  body {
-    height: 100vw;
-    transform: rotate(90deg);
-  }
-} */
