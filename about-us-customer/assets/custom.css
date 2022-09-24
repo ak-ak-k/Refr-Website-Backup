@@ -4,7 +4,7 @@
 
 body {
   width: 100vw;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 ::-webkit-scrollbar {
@@ -15,7 +15,6 @@ body {
 a {
   text-decoration: none;
 }
-
 
 ::-webkit-scrollbar-thumb {
   border-radius: 0px;
@@ -33,7 +32,7 @@ a {
   font-weight: 600;
   font-size: 16px;
   line-height: 19px;
-  color: #ffffff;
+  color: #000000;
   padding-right: 16px;
 }
 
@@ -1238,6 +1237,9 @@ a {
     padding: 9px 20px;
     letter-spacing: 1px;
   }
+  .explore_btn sup {
+    font-size: 10px;
+  }
   .join_btn {
     background-color: #111 !important;
     padding: 15px 30px 15px 30px;
@@ -2157,6 +2159,9 @@ a {
     padding: 9px 20px;
     letter-spacing: 1px;
   }
+  .explore_btn sup {
+    font-size: 10px;
+  }
   .join_btn {
     background-color: #111 !important;
     padding: 15px 30px 15px 30px;
@@ -3039,6 +3044,9 @@ a {
     margin-right: 16px;
     animation: logoImg 1s cubic-bezier(0.8, 0, 0.12, 0.99);
   }
+  .explore_btn sup {
+    font-size: 10px;
+  }
   .join_btn {
     background-color: #111 !important;
     padding: 15px 30px 15px 30px;
@@ -3880,7 +3888,8 @@ a {
   } */
 
   .logo svg {
-    width: 130px;
+    width: 140px;
+    height: 65px;
     animation: logoImg 0.8s cubic-bezier(0.8, 0, 0.12, 0.99);
   }
   @keyframes logoImg {
@@ -3906,6 +3915,9 @@ a {
     animation: logoImg 1s cubic-bezier(0.8, 0, 0.12, 0.99);
     padding: 9px 20px;
     letter-spacing: 1px;
+  }
+  .explore_btn sup {
+    font-size: 10px;
   }
   .join_btn {
     background-color: #111 !important;
@@ -4778,6 +4790,9 @@ a {
     animation: logoImg 1s cubic-bezier(0.8, 0, 0.12, 0.99);
     padding: 9px 20px;
   }
+  .explore_btn sup {
+    font-size: 10px;
+  }
   .join_btn {
     background-color: #111 !important;
     padding: 15px 30px 15px 30px;
@@ -5629,6 +5644,9 @@ a {
     cursor: pointer;
     margin-right: 16px;
     animation: logoImg 1s cubic-bezier(0.8, 0, 0.12, 0.99);
+  }
+  .explore_btn sup {
+    font-size: 10px;
   }
   .join_btn {
     background-color: #111 !important;
@@ -6667,18 +6685,21 @@ a {
   }
 
   .explore_btn {
-    min-height: 32px;
-    min-width: 90px;
     border-radius: 100px;
     background: linear-gradient(180deg, #9b6cff 0%, #6a32e1 100%);
     color: white;
-    font-size: 12px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 500;
     text-transform: capitalize;
     border: none;
     cursor: pointer;
     margin-right: 16px;
     animation: logoImg 1s cubic-bezier(0.8, 0, 0.12, 0.99);
+    padding: 9px 20px;
+    letter-spacing: 1px;
+  }
+  .explore_btn sup {
+    font-size: 10px;
   }
   .join_btn {
     background-color: #111 !important;
@@ -8000,6 +8021,9 @@ select.select_arrow:focus {
 }
 
 @media screen and (max-width: 900px) {
+  .header_btns {
+    display: none;
+  }
   .all_details {
     margin: 5% 10% 0 6%;
   }

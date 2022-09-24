@@ -125,11 +125,10 @@
   font-style: normal;
   font-weight: 500;
   font-size: 2rem !important;
-  line-height: 118.5%;
+  line-height: 22px;
   text-transform: capitalize;
   color: #1d1d1f;
   max-width: 50%;
-  margin-bottom: 2%;
 }
 
 .secondary {
@@ -138,6 +137,7 @@
   font-size: 1rem !important;
   color: #1d1d1f;
   max-width: 51%;
+  margin-bottom: 50%;
 }
 
 /*  */

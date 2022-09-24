@@ -154,3 +154,21 @@ img {
     width: -webkit-fill-available;
   }
 }
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 640px) and (orientation: landscape) {
+  body {
+    background-color: red;
+  }
+  .card_block {
+    width: 50%;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  .cards .d-flex {
+    align-items: center;
+  }
+  .card_block {
+    width: 50%;
+  }
+}

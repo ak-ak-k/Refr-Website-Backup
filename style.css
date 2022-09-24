@@ -31,6 +31,9 @@ a {
 .header_btns {
   width: 100%;
   text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: end;
 }
 
 .header_btns .how_it_work {
@@ -441,6 +444,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    box-shadow: rgb(0 0 0 / 20%) 0px 5px 15px;
   }
 
   .card img {
@@ -1441,6 +1446,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    box-shadow: rgb(0 0 0 / 20%) 0px 5px 15px;
   }
 
   .card img {
@@ -2177,7 +2184,7 @@ a {
   header {
     z-index: 3;
     /* text-transform: uppercase; */
-    padding-top: 60px;
+    padding-top: 50px;
     display: flex;
     color: #111;
     justify-content: space-between;
@@ -2366,6 +2373,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    box-shadow: rgb(0 0 0 / 20%) 0px 5px 15px;
   }
 
   .card img {
@@ -3250,6 +3259,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    box-shadow: rgb(0 0 0 / 20%) 0px 5px 15px;
   }
 
   .card img {
@@ -4121,6 +4132,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: rgb(0 0 0 / 20%) 0px 5px 15px;
   }
 
   .card img {
@@ -4994,6 +5006,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    box-shadow: rgb(0 0 0 / 20%) 0px 5px 15px;
   }
 
   .card img {
@@ -5602,12 +5616,13 @@ a {
     /* margin: 0px 160px 0px 160px; */
     background: transparent;
 
-    width: 100%;
+    /* width: 100%; */
     padding: 0 160px;
     display: flex;
     flex-direction: column;
     z-index: 5;
     padding: 8px 190px;
+    width: -webkit-fill-available;
   }
 
   /* .logo {
@@ -5851,6 +5866,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    box-shadow: rgb(0 0 0 / 20%) 0px 5px 15px;
   }
 
   .card img {
@@ -6665,6 +6682,7 @@ a {
     display: flex;
     flex-direction: column;
     z-index: 5;
+    width: -webkit-fill-available;
   }
 
   .logo svg {
@@ -6989,6 +7007,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    box-shadow: rgb(0 0 0 / 20%) 0px 5px 15px;
   }
 
   .card img {
@@ -7649,6 +7669,8 @@ a {
   .card {
     height: 83px;
     width: 110px;
+
+    box-shadow: rgb(0 0 0 / 20%) 0px 5px 15px;
   }
   .wrapperOne {
     gap: 10px;
@@ -8066,3 +8088,10 @@ select.select_arrow:focus {
     padding: 4%;
   }
 }
+
+/* @media only screen and (orientation: landscape) {
+  body {
+    height: 100vw;
+    transform: rotate(90deg);
+  }
+} */
