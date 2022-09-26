@@ -464,6 +464,9 @@ footer {
 }
 
 @media screen and (max-width: 900px) {
+  .header_btns {
+    display: none;
+  }
   .media_dflex {
   }
 
