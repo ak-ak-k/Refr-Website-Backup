@@ -3924,7 +3924,7 @@ a {
     justify-content: space-between;
     align-items: center;
     background: linear-gradient(105.18deg, #fdb271 0%, #fe9ea1 38.54%, #ffbd81 66.15%, #ffa862 100%);
-    padding: 1% 8% 1% 6%;
+    padding: 0.5% 8% 0% 6%;
   }
 
   ul {
@@ -7996,6 +7996,11 @@ input::-webkit-inner-spin-button {
 }
 
 select.select_arrow:focus {
+}
+
+.header_btns {
+  width: 100%;
+  text-align: right;
 }
 
 @media screen and (max-width: 900px) {
