@@ -92,6 +92,7 @@ img {
   margin: auto;
   width: 81%;
 }
+
 .width-33 {
   width: 33.33%;
 }
@@ -236,10 +237,16 @@ img {
   color: #888888;
   margin: 4px 2px;
 }
+
 .contact_btn:focus-within {
   color: white;
   background: #8111e8;
-  border: none;
+  border: 1px solid #8111e8;
+}
+
+.error_txt {
+  color: #ff2d2d;
+  font-size: 14px;
 }
 
 .contact_input {
@@ -337,7 +344,7 @@ img {
   max-width: 64%;
 }
 
-.splide__slide img {
+.brand_logo {
   width: 120px;
   padding-bottom: 4%;
   filter: gray;
@@ -345,7 +352,7 @@ img {
   -webkit-transition: all 0.5s ease-in-out;
 }
 
-.splide__slide img:hover {
+.brand_logo:hover {
   filter: none;
   -webkit-filter: grayscale(0);
   -webkit-transform: scale(1.01);
@@ -1763,6 +1770,7 @@ video::-webkit-media-controls {
   .flex-direction {
     flex-direction: column;
   }
+
   .width-33 {
     width: 100%;
     margin-bottom: 6%;
@@ -1779,6 +1787,7 @@ video::-webkit-media-controls {
   .right_text {
     width: 100%;
   }
+
   .sd_r5margin {
     margin-right: 5px;
   }
@@ -1862,6 +1871,7 @@ video::-webkit-media-controls {
 }
 
 @media (max-width: 706px) {
+
   .container,
   .container-sm {
     max-width: 95%;
@@ -1956,6 +1966,7 @@ video::-webkit-media-controls {
 }
 
 @media screen and (min-width: 1600px) {
+
   .container,
   .container-lg,
   .container-md,
@@ -2475,8 +2486,7 @@ video::-webkit-media-controls {
     min-width: 300px;
   }
 
-  .menu .dropOut {
-  }
+  .menu .dropOut {}
 
   .menu li {
     width: 100%;
@@ -2728,7 +2738,7 @@ video::-webkit-media-controls {
     width: auto;
   }
 
-  .store-icon ul li + li {
+  .store-icon ul li+li {
     margin-left: 10px;
   }
 
@@ -2867,7 +2877,7 @@ video::-webkit-media-controls {
     width: 100%;
   }
 
-  .store-icon ul li + li {
+  .store-icon ul li+li {
     margin-left: 0;
     margin-bottom: 0;
   }
@@ -2919,8 +2929,7 @@ section.topsection {
   background: linear-gradient(86.39deg, #f0a6a6 7.44%, #c16568 92.33%) !important;
 }
 
-@media screen and (max-width: 2000px) {
-}
+@media screen and (max-width: 2000px) {}
 
 @media screen and (min-width: 800px) {
   .banner.merchant-social .banner-content h1 {
@@ -2946,6 +2955,7 @@ section.topsection {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1600px) {
+
   .featurebox:nth-child(1) p,
   .featurebox:nth-child(3) p {
     width: 100% !important;
@@ -3968,7 +3978,7 @@ section.refrclub-featurs-top {
   position: relative;
 }
 
-.dropdownContain ul > li.drop {
+.dropdownContain ul>li.drop {
   display: inline-block;
 }
 
@@ -4215,27 +4225,27 @@ ul.mainmenu.business-link li:hover .dropOut {
   display: none;
 }
 
-.top-nav .menu-btn:checked ~ .menu {
+.top-nav .menu-btn:checked~.menu {
   max-height: 100%;
   min-height: 100vh;
   transform: translateX(0vw);
   transition: all 0.23s linear;
 }
 
-.top-nav .menu-btn:checked ~ .menu-icon .navicon {
+.top-nav .menu-btn:checked~.menu-icon .navicon {
   background: transparent;
 }
 
-.top-nav .menu-btn:checked ~ .menu-icon .navicon:before {
+.top-nav .menu-btn:checked~.menu-icon .navicon:before {
   transform: rotate(-45deg);
 }
 
-.top-nav .menu-btn:checked ~ .menu-icon .navicon:after {
+.top-nav .menu-btn:checked~.menu-icon .navicon:after {
   transform: rotate(45deg);
 }
 
-.top-nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
-.top-nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+.top-nav .menu-btn:checked~.menu-icon:not(.steps) .navicon:before,
+.top-nav .menu-btn:checked~.menu-icon:not(.steps) .navicon:after {
   top: 0;
 }
 
@@ -4329,4 +4339,8 @@ i.bordicon {
 
 .logo svg {
   width: 100px;
+}
+
+.align_self_center {
+  align-self: center !important;
 }
