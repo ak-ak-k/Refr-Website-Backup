@@ -136,8 +136,8 @@
   font-weight: 400;
   font-size: 1rem !important;
   color: #1d1d1f;
-  max-width: 51%;
-  margin-bottom: 50%;
+  /* max-width: 51%; */
+  /* margin-bottom: 50%; */
 }
 
 /*  */
@@ -255,8 +255,17 @@
   max-width: 100%;
   width: 85%;
 }
-
 @media screen and (max-width: 900px) {
+  .mt-5 {
+    margin: 24% 0;
+  }
+
+  .padding-10 {
+    padding: 14px 8px 0 8px;
+  }
+  .header_btns {
+    display: none;
+  }
   .img_banner {
     flex-direction: column;
   }
