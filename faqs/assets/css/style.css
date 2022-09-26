@@ -245,7 +245,7 @@ header.merchant-social {
 }
 .header-wrap .menu ul li a:hover,
 .header-wrap .menu ul li a:focus {
-  color: var(--blackColor);
+  color: var(--whiteColor) !important;
 }
 .header-wrap .menu ul li a:hover i,
 .header-wrap .menu ul li a:focus i {

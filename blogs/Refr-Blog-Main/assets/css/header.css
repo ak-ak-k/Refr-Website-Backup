@@ -46,7 +46,7 @@ a {
   transition: var(--transition);
 }
 a:hover {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 .h1,
 .h2,
@@ -246,7 +246,8 @@ header.merchant-social {
 }
 .header-wrap .menu ul li a:hover,
 .header-wrap .menu ul li a:focus {
-  color: var(--blackColor);
+  /* color: var(--blackColor); */
+  color: var(--whiteColor);
 }
 .header-wrap .menu ul li a:hover i,
 .header-wrap .menu ul li a:focus i {
@@ -1428,6 +1429,8 @@ video::-webkit-media-controls {
   }
   .header-wrap .logo a {
     font-size: 1.2em;
+    color: #ffffff;
+    text-decoration: none;
   }
   .header-wrap .business-link {
     top: 50%;
