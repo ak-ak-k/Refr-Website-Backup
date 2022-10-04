@@ -77,21 +77,39 @@ header {
   width: 100%;
 }
 
-/* .col_1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-
 .banner {
-  position: relative;
-  width: 100%;
+  background: linear-gradient(90deg, #db7a4e 2%, #d16d61 21%, #bf5385 51%, #b55289 62%, #9a5193 82%, #7c4f9e 100%);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* padding: 0px 5%; */
+  color: white;
 }
 
-.banner img {
-  width: 100%;
-  height: 500px;
-  object-fit: cover;
+.banner_contentright img {
+  max-width: 28vw;
+}
+
+.main_head {
+  font-size: 20px;
+  padding-bottom: 4%;
+}
+
+.middle_text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 56px;
+  color: #ffffff !important;
+  padding-bottom: 2%;
+  max-width: 70%;
+}
+
+.sse {
+  font-size: 22px;
+  line-height: 56px;
+  padding-bottom: 2%;
 }
 
 .para_left {
@@ -142,12 +160,12 @@ header {
 
 .banner_para p {
   font-style: normal;
-  font-weight: 500;
-  font-size: 2rem !important;
+  /* font-weight: 500; */
   line-height: 60px;
   text-align: center;
   color: #000000;
-  padding: 1% 0;
+  font-size: 40px !important;
+  padding-bottom: 2%;
 }
 
 /*  */
@@ -195,12 +213,12 @@ header {
 .main_line {
   font-style: normal;
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 42px;
   text-transform: uppercase;
   display: flex;
   align-items: center;
-  padding-bottom: 2%;
+  padding-bottom: 4%;
 }
 
 .secondary_line {
@@ -208,7 +226,7 @@ header {
   font-style: normal;
   font-weight: 400;
   font-size: 1.1rem !important;
-  line-height: 32px;
+  line-height: 22px;
   color: rgba(0, 0, 0, 0.7);
   width: 425px;
   height: auto;
@@ -396,21 +414,38 @@ footer {
 }
 
 @media screen and (max-width: 900px) {
-  .media_dflex {
+  .main_head {
+    text-align: center;
+    font-size: 16px !important;
+  }
+  .middle_text {
+    font-size: 24px;
+    line-height: 30px;
+    width: 70%;
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 0 !important;
+  }
+  .sse {
+    text-align: center;
+    font-size: 18px !important;
+    padding-bottom: 0 !important;
+  }
+  .banner_contentright {
+    text-align: center;
+    width: 44%;
+  }
+  .banner_contentright img {
+    /* width: 70%; */
+    max-width: 100%;
   }
 
   .banner {
-    height: auto;
-    background-color: #ffffff;
-  }
-
-  .banner img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
+    flex-direction: column;
   }
   .banner_para p {
-    font-size: 1.5rem !important;
+    font-size: 1.3rem !important;
     line-height: normal;
     margin-top: 4%;
     padding: 0;
