@@ -212,7 +212,7 @@ header {
 
 .main_line {
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 1.8rem;
   line-height: 42px;
   text-transform: uppercase;
@@ -414,6 +414,9 @@ footer {
 }
 
 @media screen and (max-width: 900px) {
+  .main_div {
+    margin-bottom: 15%;
+  }
   .main_head {
     text-align: center;
     font-size: 16px !important;
@@ -434,7 +437,7 @@ footer {
   }
   .banner_contentright {
     text-align: center;
-    width: 44%;
+    width: 50%;
   }
   .banner_contentright img {
     /* width: 70%; */
@@ -467,8 +470,8 @@ footer {
 
   .secondary_line {
     width: 100%;
-    text-align: center !important;
-    padding-bottom: 5%;
+    text-align: left !important;
+    padding-top: 4%;
   }
 
   .main_middle {
@@ -480,14 +483,14 @@ footer {
   }
 
   .number {
-    font-size: 2rem;
+    font-size: 30px;
   }
 
   .main_line {
     text-align: left;
-    font-size: 1.4rem;
+    font-size: 24px;
     padding-bottom: 0;
-    line-height: 35px;
+    line-height: 30px;
   }
 
   .shop_product_text {
@@ -499,12 +502,12 @@ footer {
 
   .explore {
     text-align: center;
-    margin-bottom: 9%;
+    margin: 6% 0;
   }
 
   .want_to {
     font-size: 1.4rem !important;
-    padding: 5% 0;
+    /* padding: 5% 0; */
   }
 
   .shop_right {
@@ -524,9 +527,9 @@ footer {
 
   /*  */
 
-  /* .want_more {
-    padding: 20px 0;
-  } */
+  .want_more {
+    margin: 6% 0 10% 0;
+  }
   .main_footer_section {
     display: flex;
     flex-direction: column;
@@ -572,9 +575,13 @@ footer {
     margin-right: 6px;
     padding: 10px;
   }
+  .left_div {
+    text-align: center;
+  }
 
   .main_img {
-    width: 8rem;
+    width: 50%;
+    max-width: 100%;
   }
 
   header a img {
@@ -582,7 +589,11 @@ footer {
   }
 
   .shop_img {
-    max-width: 75vw;
+    width: 80%;
+    max-width: 100%;
+  }
+  .shop_left {
+    padding: 6%;
   }
   .textC-dnone {
     display: block;
