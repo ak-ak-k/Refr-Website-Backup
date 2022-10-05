@@ -21,7 +21,6 @@
   padding-bottom: 70px;
 }
 
-
 .d_flex {
   display: flex;
   justify-content: center;
@@ -29,7 +28,7 @@
 
 .header {
   width: 100%;
-  background: linear-gradient(90deg, #894BCA 2.06%, rgba(129, 17, 232, 0.64) 96.59%);
+  background: linear-gradient(90deg, #894bca 2.06%, rgba(129, 17, 232, 0.64) 96.59%);
   /* background: white; */
 }
 
@@ -190,7 +189,7 @@ header {
 }
 
 .main_line {
-  color: #7F4AEE;
+  color: #7f4aee;
   font-style: normal;
   font-weight: 600;
   font-size: 60px;
@@ -287,7 +286,7 @@ header {
 
 .want_more {
   /* font-family: ; */
-  background: linear-gradient(105.18deg, #FDB271 0%, #FE9EA1 38.54%, #FFBD81 66.15%, #FFA862 100%);;
+  background: linear-gradient(105.18deg, #fdb271 0%, #fe9ea1 38.54%, #ffbd81 66.15%, #ffa862 100%);
   text-align: center;
   padding: 6% 0;
 }
@@ -417,7 +416,7 @@ footer {
   padding: 70px 0;
 }
 
-.left_div1{
+.left_div1 {
   align-self: flex-end;
 }
 
@@ -439,7 +438,7 @@ footer {
     padding-bottom: 0px;
   }
 
-  .left_div1{
+  .left_div1 {
     width: 100%;
     text-align: center;
   }
@@ -482,7 +481,7 @@ footer {
     width: 100%;
     text-align: center;
     padding-bottom: 5%;
-    font-size: 12px !important;
+    font-size: 14px !important;
   }
 
   .main_middle {
@@ -498,16 +497,12 @@ footer {
     font-size: 2rem;
   }
 
-
-
   .main_line {
     text-align: center;
     font-size: 24px;
     padding-bottom: 0;
     line-height: 35px;
   }
-
-  
 
   .mainsubheader {
     font-size: 12px !important;
@@ -531,12 +526,12 @@ footer {
     margin-bottom: 9%;
   }
 
-  .want_to{
+  .want_to {
     font-size: 20px;
   }
-  .want_to_sub{
-    padding-left:10px;
-    padding-right:10px;
+  .want_to_sub {
+    padding-left: 10px;
+    padding-right: 10px;
     font-size: 14px;
   }
 
@@ -610,10 +605,10 @@ footer {
     width: 8rem;
   }
 
-  .main_img2,.main_img1 {
+  .main_img2,
+  .main_img1 {
     width: 15rem;
   }
-
 
   header a img {
     width: 100px;
@@ -630,15 +625,15 @@ footer {
 }
 
 .white_txt {
-  color: #FFF !important;
+  color: #fff !important;
 }
 
 .gradient_bg {
-  background: #F5EBFF;
+  background: #f5ebff;
 }
 
 .purple_bg {
-  background: linear-gradient(90deg, #894BCA 2.06%, rgba(129, 17, 232, 0.64) 96.59%);;
+  background: linear-gradient(90deg, #894bca 2.06%, rgba(129, 17, 232, 0.64) 96.59%);
 }
 
 .c_align {
