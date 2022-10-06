@@ -1358,12 +1358,12 @@
                         <button class="contact_btn" onclick="changecat('Fitness')">Fitness</button>
                     </div>
                     <div>
-                        <button class="demobtm" onclick="getVdemo()">Get demo</button>
-                        <!-- <a href="https://refr.club/contact-us-merchant" class="demobtm"
-                            class="btn btn-primary w-50 mx-auto mt-4"> Get demo</a> -->
+                        <span id="error" class="error_txt"></span>
                     </div>
                     <div>
-                        <span id="error" class="error_txt"></span>
+                        <button class="demobtm" id="submitGetDemo" onclick="saveGetDemo()">Get demo</button>
+                        <!-- <a href="https://refr.club/contact-us-merchant" class="demobtm"
+                                            class="btn btn-primary w-50 mx-auto mt-4"> Get demo</a> -->
                     </div>
                 </div>
             </div>
@@ -1611,6 +1611,8 @@
     <script src="./assets/js/effect.js"></script>
     <script src="assets/js/infinite-slide.min.js"></script>
     <script src="assets/js/public-script.js"></script>
+    <script src="assets/js/forms-script.js"></script>
+
     <script src="./assets/js/testimonial.js"></script>
 </body>
 
