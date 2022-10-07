@@ -17,24 +17,6 @@ var swiper = new Swiper(".mySwiper", {
 var width = window.innerWidth > 0 ? window.innerWidth : screen.width;
 console.log("width = " + width);
 changeswiper();
-// swiper
-// var swiper = new Swiper(".mySwiper1", {
-//   effect: "coverflow",
-//   grabCursor: true,
-//   centeredSlides: true,
-//   slidesPerView: "auto",
-//   coverflowEffect: {
-//     rotate: 50,
-//     stretch: 0,
-//     depth: 100,
-//     modifier: 1,
-//     slideShadows: true,
-//   },
-//   pagination: {
-//     el: ".swiper-pagination1",
-//     clickable: true,
-//   },
-// });
 
 addEventListener("resize", (event) => {
   width = window.innerWidth > 0 ? window.innerWidth : screen.width;
