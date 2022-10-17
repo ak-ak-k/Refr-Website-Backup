@@ -274,7 +274,7 @@ a {
 
   ul {
     display: flex;
-    list-style: none;
+    /* list-style: none; */
     gap: 80px;
     text-transform: uppercase;
   }
@@ -8093,3 +8093,9 @@ select.select_arrow:focus {
     padding: 4%;
   }
 }
+
+.mb_0 {
+  margin-bottom: 0 !important;
+}
+
+
