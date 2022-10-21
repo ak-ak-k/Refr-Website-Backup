@@ -238,36 +238,38 @@
                     <div class="dflex sd_normaldisplay">
                         <div
                             class="gray_bg ld_M45width A5padding ld_A5margin sd_lr0margin tb5margin A5radious sd_M100width">
-                            <input class="contact_input A5padding" placeholder="First Name">
+                            <input class="contact_input A5padding" id="vFName" placeholder="First Name">
                         </div>
                         <div
                             class="gray_bg ld_M45width A5padding ld_A5margin sd_lr0margin tb5margin A5radious sd_M100width">
-                            <input class="contact_input A5padding" placeholder="Last Name">
+                            <input class="contact_input A5padding" id="vLName" placeholder="Last Name">
                         </div>
                     </div>
                     <div class="dflex sd_normaldisplay">
                         <div
                             class="gray_bg ld_M45width A5padding ld_A5margin sd_lr0margin tb5margin A5radious sd_M100width">
-                            <input class="contact_input A5padding" placeholder="Email ID">
+                            <input class="contact_input A5padding" id="vemailid" placeholder="Email ID">
                         </div>
                         <div
                             class="gray_bg ld_M45width A5padding ld_A5margin sd_lr0margin tb5margin A5radious sd_M100width">
-                            <input class="contact_input A5padding" type="tel" maxlength="10" placeholder="Contact no">
+                            <input class="contact_input A5padding" id="Vmobile" type="tel" maxlength="10"
+                                placeholder="Contact no">
                         </div>
                     </div>
                     <div class="gray_bg btn_cont sd_lr0margin l_align A5radious">
                         <div class="gray_txt s_size b5padding">Select your business</div>
-                        <button class="contact_btn">Food</button>
-                        <button class="contact_btn">Fashion</button>
-                        <button class="contact_btn">Salon & Spa</button>
-                        <button class="contact_btn">Electronics</button>
-                        <button class="contact_btn">Beauty</button>
-                        <button class="contact_btn">Pet Store</button>
-                        <button class="contact_btn">Healthcare</button>
-                        <button class="contact_btn">Fitness</button>
+                        <button class="contact_btn" onclick="changecat('Food')">Food</button>
+                        <button class="contact_btn" onclick="changecat('Fashion')">Fashion</button>
+                        <button class="contact_btn" onclick="changecat('Salon & Spa')">Salon & Spa</button>
+                        <button class="contact_btn" onclick="changecat('Electronics')">Electronics</button>
+                        <button class="contact_btn" onclick="changecat('Beauty')">Beauty</button>
+                        <button class="contact_btn" onclick="changecat('Pet Store')">Pet Store</button>
+                        <button class="contact_btn" onclick="changecat('Healthcare')">Healthcare</button>
+                        <button class="contact_btn" onclick="changecat('Fitness')">Fitness</button>
                     </div>
+                    <div id="error" class="error_txt"></div>
                     <div>
-                        <button class="demobtm">Get demo</button>
+                        <button class="demobtm" id="submitGetDemo" onclick="saveGetDemo()">Get demo</button>
                         <!-- <a href="https://refr.club/contact-us-merchant" class="demobtm"
                                 class="btn btn-primary w-50 mx-auto mt-4"> Get demo</a> -->
                     </div>
@@ -312,6 +314,8 @@
 
 
     <script src="./join.js"></script>
+
+    <script src="./assets/js/form.js"></script>
 
 </body>
 

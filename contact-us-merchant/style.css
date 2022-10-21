@@ -178,6 +178,12 @@ img {
   margin: 4px 2px;
 }
 
+.contact_btn:focus-within {
+  color: white;
+  background: #8111e8;
+  border: 1px solid #8111e8;
+}
+
 .contact_input {
   background-color: transparent !important;
   border: none;
@@ -201,6 +207,11 @@ img {
 .dflex {
   display: flex;
   /* justify-content:space-around; */
+}
+
+.error_txt {
+  color: #ff2d2d;
+  font-size: 14px;
 }
 
 @media screen and (max-width: 900px) {

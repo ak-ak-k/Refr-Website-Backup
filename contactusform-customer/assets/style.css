@@ -82,6 +82,11 @@ img {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
+.error_txt {
+  color: #ff2d2d;
+  font-size: 14px;
+}
+
 .header_bg {
   background: linear-gradient(105.18deg, #fdb271 0%, #fe9ea1 78.54%, #ffbd81 90%, #ffa862 100%);
   height: 700px;

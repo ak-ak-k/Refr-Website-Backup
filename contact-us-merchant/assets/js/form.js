@@ -1,14 +1,3 @@
-// popup form
-
-function myFunction() {
-  document.getElementById("myDIV").style.display = "block";
-}
-function closeForm() {
-  document.getElementById("myDIV").style.display = "none";
-}
-
-// contact form
-
 var catarr = [];
 
 function changecat(cat) {
@@ -20,13 +9,14 @@ function saveGetDemo() {
   //$(':input[type="submit"]').prop('disabled', true);
   $("#submitGetDemo").prop("disabled", true);
 
-  var name = $("#name").val();
-  var phone = $("#moblie").val();
-  var email = $("#email").val();
-  var textarea = $("#textarea").val();
+  var first_name = $("#vFName").val();
+  var last_name = $("#vLName").val();
+  var phone = $("#Vmobile").val();
+  var email = $("#vemailid").val();
+  var name = first_name + " " + last_name;
   let new_ph = phone.length == 10 ? "+91" + phone : phone;
 
-  if (!name || !textarea || !phone || !email || catarr.length == 0) {
+  if (!first_name || !last_name || !phone || !email || catarr.length == 0) {
     $("#submitGetDemo").prop("disabled", false);
   } else {
     //$('input[type="submit"]').attr('disabled','disabled');
@@ -37,15 +27,14 @@ function saveGetDemo() {
         name: name,
         email: email,
         phone: new_ph,
-        textarea: textarea,
         type: catarr,
       },
       (data) => {
         console.log("Data saved :" + data);
-        $("#name").val("");
-        $("#phone").val("");
-        $("#email").val("");
-        $("#textarea").val("");
+        $("#vFName").val("");
+        $("#vLName").val("");
+        $("#Vmobile").val("");
+        $("#vemailid").val("");
 
         $("#submitGetDemo").prop("disabled", false);
       }
@@ -56,10 +45,10 @@ function saveGetDemo() {
 function getVdemo() {
   document.getElementById("error").innerHTML = "";
 
-  let x1 = document.getElementById("name").value;
-  let x2 = document.getElementById("email").value;
-  let x3 = document.getElementById("phone").value;
-  let x4 = document.getElementById("textarea").value;
+  let x1 = document.getElementById("vFName").value;
+  let x2 = document.getElementById("vLName").value;
+  let x3 = document.getElementById("vemailid").value;
+  let x4 = document.getElementById("Vmobile").value;
   let x5 = catarr.length !== 0;
 
   if (!x1 && !x2 && !x3 && !x4 && !x5) {
