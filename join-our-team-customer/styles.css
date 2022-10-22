@@ -59,6 +59,11 @@ img {
 
 /* main starts */
 
+.error_txt {
+  color: #ff2d2d;
+  font-size: 14px;
+}
+
 .whole-img {
   text-align: right;
   order: 2;
