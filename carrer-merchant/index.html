@@ -264,13 +264,13 @@
                     <p>Enter your Details</p>
                 </div>
                 <div class="fname">
-                    <input type="text" placeholder="first name">
-                    <input type="text" placeholder="last name">
+                    <input type="text" id="vfname" placeholder="first name">
+                    <input type="text" id="vlname" placeholder="last name">
                 </div>
 
-                <input class="email_number" type="email" placeholder="Email ID" name="" id="">
+                <input class="email_number" type="email" placeholder="Email ID" name="" id="vemail">
 
-                <input class="email_number" type="number" placeholder="Contact No." name="" id="">
+                <input class="email_number" type="number" placeholder="Contact No." name="" id="vphone">
 
 
                 <div class="file-upload">
@@ -290,11 +290,20 @@
                     </div>
                 </div>
 
-                <div class="btn">
-                    <button>send</button>
+                <div>
+                    <span id="error" class="error_txt"></span>
                 </div>
+
+                <div class="btn">
+                    <button id="submitGetDemo" onclick="saveGetDemo()">send</button>
+                </div>
+
+
+
             </div>
         </div>
+
+
 
     </div>
 
@@ -338,6 +347,8 @@
 
         gtag('config', 'AW-10970341747');
     </script>
+
+    <script src="./assets/js/forms-script.js"></script>
 
 </body>
 
