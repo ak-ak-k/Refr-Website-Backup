@@ -9,13 +9,13 @@ function saveGetDemo() {
   //$(':input[type="submit"]').prop('disabled', true);
   $("#submitGetDemo").prop("disabled", true);
 
-  var first_name = $("#vFName").val();
-  var textarea = $("#textarea").val();
+  var fname = $("#vFName").val();
+  var desc = $("#vdesc").val();
   var phone = $("#Vmobile").val();
   var email = $("#vemailid").val();
   let new_ph = phone.length == 10 ? "+91" + phone : phone;
 
-  if (!first_name || !textarea || !phone || !email || catarr.length == 0) {
+  if (!fname || !desc || !phone || !email) {
     $("#submitGetDemo").prop("disabled", false);
   } else {
     //$('input[type="submit"]').attr('disabled','disabled');
@@ -24,15 +24,15 @@ function saveGetDemo() {
       "https://app.refr.club/api/reminder/client/IN",
       {
         name: name,
-        textarea: textarea,
+        description: desc,
         email: email,
         phone: new_ph,
-        type: catarr,
+        from: "CLIENT",
       },
       (data) => {
         console.log("Data saved :" + data);
         $("#vFName").val("");
-        $("#textarea").val("");
+        $("#vdesc").val("");
         $("#Vmobile").val("");
         $("#vemailid").val("");
 
@@ -46,16 +46,16 @@ function getVdemo() {
   document.getElementById("error").innerHTML = "";
 
   let x1 = document.getElementById("vFName").value;
-  let x2 = document.getElementById("textarea").value;
+  let x2 = document.getElementById("vdesc").value;
   let x3 = document.getElementById("vemailid").value;
   let x4 = document.getElementById("Vmobile").value;
-  let x5 = catarr.length !== 0;
+  // let x5 = catarr.length !== 0;
 
-  if (!x1 && !x2 && !x3 && !x4 && !x5) {
+  if (!x1 && !x2 && !x3 && !x4) {
     // NO SUBMIT
     document.getElementById("error").innerHTML = "Please fill the form before submitting";
   } else {
-    if (!x1 || !x2 || !x3 || !x4 || !x5) {
+    if (!x1 || !x2 || !x3 || !x4) {
       // SUBMIT NO VALUE
       document.getElementById("error").innerHTML = "Please enter valid value";
     } else {
@@ -70,7 +70,6 @@ function getVdemo() {
       }
     }
   }
-
   /*
     var mailformat = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
     if (document.getElementById("vFName").value == undefined || document.getElementById("vFName").value == "") {
