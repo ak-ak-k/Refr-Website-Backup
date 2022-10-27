@@ -137,6 +137,8 @@ input {
   border: 1px solid #bcbcbc;
   border-radius: 4px;
   padding: 10px;
+  font-size: 1rem;
+  color: #000000;
 }
 
 textarea {
@@ -149,30 +151,30 @@ textarea {
   color: #000000;
 }
 
-input[required] + label {
+/* input[required] + label {
   color: #999;
   font-size: 1rem;
   position: absolute;
   left: 0;
   padding: 12px;
-}
+} */
 
 .tbsearchbar::-webkit-input-placeholder {
   padding: 40px;
 }
-
+/* 
 input[required] + label:after {
   content: "*";
   color: red;
-}
+} */
 
-input[required]:invalid + label {
+/* input[required]:invalid + label {
   display: inline-block;
-}
+} */
 
-input[required]:valid + label {
+/* input[required]:valid + label {
   display: none;
-}
+} */
 
 .margin_bottom {
   margin-bottom: 4%;
