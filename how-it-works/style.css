@@ -87,6 +87,12 @@ header {
   color: white;
 }
 
+.banner_contentright {
+  display: flex;
+  justify-content: center;
+  align-self: flex-end;
+}
+
 .banner_contentright img {
   max-width: 28vw;
 }
