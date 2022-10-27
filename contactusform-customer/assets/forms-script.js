@@ -27,7 +27,7 @@ function saveGetDemo() {
         description: desc,
         email: email,
         phone: new_ph,
-        // from: "CLIENT",
+        from: "CLIENT",
       },
       (data) => {
         console.log("Data saved :" + data);
