@@ -23,11 +23,11 @@ function saveGetDemo() {
     $.post(
       "https://app.refr.club/api/reminder/client/IN",
       {
-        name: name,
+        name: fname,
         description: desc,
         email: email,
         phone: new_ph,
-        from: "CLIENT",
+        // from: "CLIENT",
       },
       (data) => {
         console.log("Data saved :" + data);
