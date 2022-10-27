@@ -7,11 +7,11 @@ function saveGetDemo() {
   var last_name = $("#vLName").val();
   var phone = $("#vmoblie").val();
   var email = $("#vemail").val();
-  var link = $("#file-upload-input").val();
+  // var link = $("#file-upload-input").val();
   var name = first_name + " " + last_name;
   let new_ph = (phone.length = 10 ? "+91" + phone : phone);
 
-  if (!first_name || !last_name || !phone || !email || !link) {
+  if (!first_name || !last_name || !phone || !email) {
     $("#submitGetDemo").prop("disabled", false);
   } else {
     $.post(
@@ -26,7 +26,7 @@ function saveGetDemo() {
         name: name,
         phone: phone,
         email: email,
-        link: link,
+        link: "dummy link",
         from: "VENDOR",
       },
       (data) => {
@@ -35,7 +35,7 @@ function saveGetDemo() {
         $("#vLName").val("");
         $("#vmoblie").val("");
         $("#vemail").val("");
-        $("#file-upload-input").val("");
+        // $("#file-upload-input").val("");
 
         $("#submitGetDemo").prop("disabled", false);
       }
@@ -50,14 +50,14 @@ function getVdemo() {
   let x2 = document.getElementById("vLName").value;
   let x3 = document.getElementById("vmoblie").value;
   let x4 = document.getElementById("vemail").value;
-  let x5 = document.getElementById("file-upload-input").value;
+  // let x5 = document.getElementById("file-upload-input").value;
 
-  if (!x1 && !x2 && !x3 && !x4 && !x5) {
-    console.log(x1, x2, x3, x4, x5);
+  if (!x1 && !x2 && !x3 && !x4) {
+    console.log(x1, x2, x3, x4);
     // NO SUBMIT
     document.getElementById("error").innerHTML = "Please fill the form before submitting";
   } else {
-    if (!x1 || !x2 || !x3 || !x4 || !x5) {
+    if (!x1 || !x2 || !x3 || !x4) {
       // SUBMIT NO VALUE
       document.getElementById("error").innerHTML = "Please enter valid value";
     } else {
