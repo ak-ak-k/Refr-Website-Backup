@@ -1,6 +1,62 @@
 var catarr = [];
-
+var prebtn;
 function changecat(cat) {
+  // if (cat == "Food") {
+  //   var element = document.getElementById(cat);
+  //   element.classList.add("focusedbtn");
+  // } else {
+  //   var element = document.getElementById(cat);
+  //   element.classList.remove("focysedbtn");
+  // }
+  // if (cat == "Fashion") {
+  //   var element = document.getElementById(cat);
+  //   element.classList.add("focusedbtn");
+  // } else {
+  //   var element = document.getElementById(cat);
+  //   element.classList.remove("focysedbtn");
+  // }
+  // if (cat == "Salon") {
+  //   var element = document.getElementById(cat);
+  //   element.classList.add("focusedbtn");
+  // } else {
+  //   var element = document.getElementById(cat);
+  //   element.classList.remove("focysedbtn");
+  // }
+  // if (cat == "Electronics") {
+  //   var element = document.getElementById(cat);
+  //   element.classList.add("focusedbtn");
+  // } else {
+  //   var element = document.getElementById(cat);
+  //   element.classList.remove("focysedbtn");
+  // }
+  // if (cat == "Beauty") {
+  //   var element = document.getElementById(cat);
+  //   element.classList.add("focusedbtn");
+  // } else {
+  //   var element = document.getElementById(cat);
+  //   element.classList.remove("focysedbtn");
+  // }
+  // if (cat == "Pet") {
+  //   var element = document.getElementById(cat);
+  //   element.classList.add("focusedbtn");
+  // } else {
+  //   var element = document.getElementById(cat);
+  //   element.classList.remove("focysedbtn");
+  // }
+  // if (cat == "Healthcare") {
+  //   var element = document.getElementById(cat);
+  //   element.classList.add("focusedbtn");
+  // } else {
+  //   var element = document.getElementById(cat);
+  //   element.classList.remove("focysedbtn");
+  // }
+  // if (cat == "Fitness") {
+  //   var element = document.getElementById(cat);
+  //   element.classList.add("focusedbtn");
+  // } else {
+  //   var element = document.getElementById(cat);
+  //   element.classList.remove("focysedbtn");
+  // }
   catarr[0] = cat;
 }
 
