@@ -2,11 +2,8 @@ var spendImg = document.querySelector(".spendImg");
 
 window.onload = () => {
   var test = document.querySelector(".spend_imgMain");
-  // console.log("Load");
-  // console.log(test);
   test.classList.add("psudo");
   setTimeout(() => {
-    // console.log("Remove");
     test.classList.remove("psudo");
   }, 3000);
 };
@@ -22,12 +19,9 @@ let h = x / 1.8;
 
 window.addEventListener("scroll", () => {
   totalHeight = document.scrollingElement.scrollHeight - window.innerHeight;
-  // console.log(totalHeight);
   newValue = window.pageYOffset;
-  // console.log(Math.floor(newValue / 100));
 
   if (Math.floor(newValue / 100) > h) {
-    // console.log("got");
     spendImg.classList.add("psudo");
   } else if (Math.floor(newValue / 100) < h) {
     spendImg.classList.remove("psudo");

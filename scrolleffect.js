@@ -79,9 +79,7 @@ pinTl.to({}, { duration: 0.001 });
  */
 function startVideo(vidScene, i) {
   const vid = vidScene.querySelector("video");
-  // console.log("start", i);
   if (vid) {
-    // console.log("Start Vid", vid);
     vid.play();
   }
 }
@@ -92,9 +90,7 @@ function startVideo(vidScene, i) {
  */
 function stopVideo(vidScene, i) {
   const vid = vidScene.querySelector("video");
-  // console.log("stop", i);
   if (vid) {
-    // console.log("end vid", vid)
     vid.pause();
   }
 }
@@ -102,7 +98,6 @@ function stopVideo(vidScene, i) {
 let width = window.innerWidth;
 
 if (width < 768) {
-  // console.log("check", width);
   var vid = document.getElementById("myVideo");
   var vid2 = document.getElementById("myVideo2");
   if (vid) {

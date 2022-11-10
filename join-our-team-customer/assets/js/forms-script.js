@@ -30,7 +30,6 @@ function saveGetDemo() {
         from: "VENDOR",
       },
       (data) => {
-        console.log("Data saved :" + data);
         $("#vFName").val("");
         $("#vLName").val("");
         $("#vmoblie").val("");

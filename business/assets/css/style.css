@@ -238,7 +238,7 @@ img {
   margin: 4px 2px;
 }
 
-.contact_btn:focus-within {
+.focusedbtn {
   color: white;
   background: #8111e8;
   border: 1px solid #8111e8;
@@ -1871,7 +1871,6 @@ video::-webkit-media-controls {
 }
 
 @media (max-width: 706px) {
-
   .container,
   .container-sm {
     max-width: 95%;
@@ -1966,7 +1965,6 @@ video::-webkit-media-controls {
 }
 
 @media screen and (min-width: 1600px) {
-
   .container,
   .container-lg,
   .container-md,
@@ -2486,7 +2484,8 @@ video::-webkit-media-controls {
     min-width: 300px;
   }
 
-  .menu .dropOut {}
+  .menu .dropOut {
+  }
 
   .menu li {
     width: 100%;
@@ -2738,7 +2737,7 @@ video::-webkit-media-controls {
     width: auto;
   }
 
-  .store-icon ul li+li {
+  .store-icon ul li + li {
     margin-left: 10px;
   }
 
@@ -2877,7 +2876,7 @@ video::-webkit-media-controls {
     width: 100%;
   }
 
-  .store-icon ul li+li {
+  .store-icon ul li + li {
     margin-left: 0;
     margin-bottom: 0;
   }
@@ -2929,7 +2928,8 @@ section.topsection {
   background: linear-gradient(86.39deg, #f0a6a6 7.44%, #c16568 92.33%) !important;
 }
 
-@media screen and (max-width: 2000px) {}
+@media screen and (max-width: 2000px) {
+}
 
 @media screen and (min-width: 800px) {
   .banner.merchant-social .banner-content h1 {
@@ -2955,7 +2955,6 @@ section.topsection {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1600px) {
-
   .featurebox:nth-child(1) p,
   .featurebox:nth-child(3) p {
     width: 100% !important;
@@ -3978,7 +3977,7 @@ section.refrclub-featurs-top {
   position: relative;
 }
 
-.dropdownContain ul>li.drop {
+.dropdownContain ul > li.drop {
   display: inline-block;
 }
 
@@ -4225,27 +4224,27 @@ ul.mainmenu.business-link li:hover .dropOut {
   display: none;
 }
 
-.top-nav .menu-btn:checked~.menu {
+.top-nav .menu-btn:checked ~ .menu {
   max-height: 100%;
   min-height: 100vh;
   transform: translateX(0vw);
   transition: all 0.23s linear;
 }
 
-.top-nav .menu-btn:checked~.menu-icon .navicon {
+.top-nav .menu-btn:checked ~ .menu-icon .navicon {
   background: transparent;
 }
 
-.top-nav .menu-btn:checked~.menu-icon .navicon:before {
+.top-nav .menu-btn:checked ~ .menu-icon .navicon:before {
   transform: rotate(-45deg);
 }
 
-.top-nav .menu-btn:checked~.menu-icon .navicon:after {
+.top-nav .menu-btn:checked ~ .menu-icon .navicon:after {
   transform: rotate(45deg);
 }
 
-.top-nav .menu-btn:checked~.menu-icon:not(.steps) .navicon:before,
-.top-nav .menu-btn:checked~.menu-icon:not(.steps) .navicon:after {
+.top-nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.top-nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   top: 0;
 }
 
@@ -4343,4 +4342,72 @@ i.bordicon {
 
 .align_self_center {
   align-self: center !important;
+}
+
+#internet {
+  display: none;
+  color: red;
+  z-index: 1;
+  font-size: 14px;
+}
+
+#internet.show {
+  display: block;
+}
+
+#snackbar {
+  display: none;
+  color: green;
+  z-index: 1;
+  font-size: 14px;
+}
+
+#snackbar.show {
+  display: block;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+  to {
+    bottom: 30px;
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+  to {
+    bottom: 30px;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeout {
+  from {
+    bottom: 30px;
+    opacity: 1;
+  }
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
+}
+
+@keyframes fadeout {
+  from {
+    bottom: 30px;
+    opacity: 1;
+  }
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
 }

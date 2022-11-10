@@ -1,4 +1,3 @@
-
 var catarr = [];
 // testimoninals
 var swiper = new Swiper(".mySwiper", {
@@ -16,7 +15,6 @@ var swiper = new Swiper(".mySwiper", {
   },
 });
 var width = window.innerWidth > 0 ? window.innerWidth : screen.width;
-console.log("width = " + width);
 changeswiper();
 
 // swiper
@@ -82,7 +80,3 @@ function changeswiper() {
     });
   }
 }
-
-
-
-
