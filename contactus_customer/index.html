@@ -23,6 +23,9 @@
     <script src="./assets/form.js"></script>
     <link rel="stylesheet" href="../customer_footer/Customer_footer.css" />
 
+
+    <link rel="stylesheet" href="../assets/explorecta_css/explorecta.css">
+
     <title>Refr</title>
 </head>
 
@@ -70,12 +73,11 @@
                                 <div class="details">
                                     <div class="contacts_details">
                                         <form action="" class="form_details">
-                                            <input type="text" placeholder="Name" required>
-                                            <input type="number" placeholder="Contact Number" required>
-                                            <input type="email" placeholder="Email ID" required>
+                                            <input id="FullName" type="text" placeholder="Name" required>
+                                            <input id="Contact_no" type="number" placeholder="Contact Number" required>
+                                            <input id="mailId" type="email" placeholder="Email ID" required>
                                             <div class="d-flex-form">
-
-                                                <select name="cars" id="cars">
+                                                <select name="location" id="Locations">
                                                     <option value="Location">Location</option>
                                                     <option value="Andhra Pradesh">Andhra Pradesh</option>
                                                     <option value="Arunachal Pradesh">Arunachal Pradesh</option>
@@ -104,11 +106,8 @@
                                                     <option value="Uttar Pradesh">Uttar Pradesh</option>
                                                     <option value="Uttarakhand">Uttarakhand</option>
                                                     <option value="West Bengal">West Bengal</option>
-
-
                                                 </select>
-
-                                                <input type="number" placeholder="Pincode" required>
+                                                <input id="pincode" type="number" placeholder="Pincode" required>
 
                                             </div>
                                         </form>
@@ -116,9 +115,16 @@
                                 </div>
 
                                 <div>
+                                    <span id="error" class="error_txt"></span>
+                                    <span id="snackbar">Thankyou, your form has been submitted</span>
+                                    <span id="internet">Internet is not working</span>
+                                </div>
+
+                                <div>
                                     <div class="btn_form">
-                                        <button>Get Access&nbsp;<svg width="16" height="15" viewBox="0 0 16 15"
-                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <button id="submitGetAccess" onclick="SaveexploreData()">Get Access&nbsp;<svg
+                                                width="16" height="15" viewBox="0 0 16 15" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M2.78125 7.89453H13.8339" stroke="white" stroke-width="1.5"
                                                     stroke-linecap="round" stroke-linejoin="round" />
                                                 <path d="M8.3125 2.36719L13.8388 7.8935L8.3125 13.4198" stroke="white"
@@ -126,11 +132,15 @@
                                             </svg>
                                         </button>
                                     </div>
+
+
+
                                     <div class="alter">
                                         <p>alternatively, <span>visit a store listed on Refr.</span>
                                         </p>
                                     </div>
                                 </div>
+
                             </div>
 
 
@@ -379,6 +389,9 @@
             $("#footer").load("../customer_footer/Customer_footer.html");
         });
     </script>
+
+
+    <script src="../assets/js/Cust_explore_form.js"></script>
 </body>
 
 </html>
