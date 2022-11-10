@@ -30,6 +30,12 @@ function saveGetDemo() {
         from: "VENDOR",
       },
       (data) => {
+        let x = document.getElementById("snackbar");
+        x.className = "show";
+        setTimeout(() => {
+          x.className = x.className.replace("show", "");
+        }, 3000);
+
         $("#vFName").val("");
         $("#vLName").val("");
         $("#vmoblie").val("");
@@ -42,33 +48,43 @@ function saveGetDemo() {
   }
 }
 
+window.addEventListener("online", netStatus);
+window.addEventListener("offline", netStatus);
+
 function getVdemo() {
-  document.getElementById("error").innerHTML = "";
+  if (navigator.onLine) {
+    document.getElementById("error").innerHTML = "";
 
-  let x1 = document.getElementById("vFName").value;
-  let x2 = document.getElementById("vLName").value;
-  let x3 = document.getElementById("vmoblie").value;
-  let x4 = document.getElementById("vemail").value;
-  // let x5 = document.getElementById("file-upload-input").value;
+    let x1 = document.getElementById("vFName").value;
+    let x2 = document.getElementById("vLName").value;
+    let x3 = document.getElementById("vmoblie").value;
+    let x4 = document.getElementById("vemail").value;
+    // let x5 = document.getElementById("file-upload-input").value;
 
-  if (!x1 && !x2 && !x3 && !x4) {
-    console.log(x1, x2, x3, x4);
-    // NO SUBMIT
-    document.getElementById("error").innerHTML = "Please fill the form before submitting";
-  } else {
-    if (!x1 || !x2 || !x3 || !x4) {
-      // SUBMIT NO VALUE
-      document.getElementById("error").innerHTML = "Please enter valid value";
+    if (!x1 && !x2 && !x3 && !x4) {
+      console.log(x1, x2, x3, x4);
+      // NO SUBMIT
+      document.getElementById("error").innerHTML = "Please fill the form before submitting";
     } else {
-      var mailformat = "/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$";
+      if (!x1 || !x2 || !x3 || !x4) {
+        // SUBMIT NO VALUE
+        document.getElementById("error").innerHTML = "Please enter valid value";
+      } else {
+        var mailformat = "/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$";
 
-      if (x3.match(mailformat)) {
-        document.getElementById("error").innerHTML = "Please enter the valid email id";
-      }
-      var phoneformat = "/^[0-9A-Za-z@]+$";
-      if (x4.match(phoneformat)) {
-        document.getElementById("error").innerHTML = "Please enter valid Mobile No.";
+        if (x3.match(mailformat)) {
+          document.getElementById("error").innerHTML = "Please enter the valid email id";
+        }
+        var phoneformat = "/^[0-9A-Za-z@]+$";
+        if (x4.match(phoneformat)) {
+          document.getElementById("error").innerHTML = "Please enter valid Mobile No.";
+        }
       }
     }
+  } else {
+    let x = document.getElementById("internet");
+    x.className = "show";
+    x.className = x.className.replace("show", "");
+    console.log("off");
   }
 }
