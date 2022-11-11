@@ -8050,3 +8050,79 @@ select.select_arrow:focus {
     padding: 4%;
   }
 }
+
+
+.error_txt2 {
+  color: #ff2d2d;
+  font-size: 14px;
+}
+
+
+
+#internet2 {
+  display: none;
+  color: red;
+  z-index: 1;
+  font-size: 14px;
+}
+
+#internet2.show {
+  display: block;
+}
+
+#snackbar2 {
+  display: none;
+  color: green;
+  z-index: 1;
+  font-size: 14px;
+}
+
+#snackbar2.show {
+  display: block;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+  to {
+    bottom: 30px;
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+  to {
+    bottom: 30px;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeout {
+  from {
+    bottom: 30px;
+    opacity: 1;
+  }
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
+}
+
+@keyframes fadeout {
+  from {
+    bottom: 30px;
+    opacity: 1;
+  }
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
+}

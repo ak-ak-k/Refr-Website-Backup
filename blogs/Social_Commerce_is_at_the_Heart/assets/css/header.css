@@ -265,6 +265,7 @@ header.merchant-social.offline-seller .header-wrap .menu ul.mainmenu li:last-chi
   background-color: #8000ff;
   padding: 10px 16px;
   border-radius: 5px;
+  border: none;
 }
 .header-wrap .menu ul li:last-child a:hover i {
   border-color: #fff;

@@ -1,12 +1,10 @@
 // popup form
 
-function myFunction1() {
-  console.log(8);
+function exploreBeta(params) {
   document.getElementById("mySidebar").style.width = "0";
-
   document.getElementById("myDIV").style.display = "block";
 }
-function closeForm() {
-  console.log("close from clicks");
+
+function exploreBetaClose() {
   document.getElementById("myDIV").style.display = "none";
 }

@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="../assets/cust_sidemenu/slidemenu.css">
     <link rel="stylesheet" href="./assets/custom.css">
     <script src="./assets/form.js"></script>
-    <link rel="stylesheet" href="../customer_footer/Customer_footer.css" />
+    <link rel="stylesheet" href="../customer_footer/css/Customer_footer.css" />
     <title>Refr</title>
 </head>
 
@@ -33,7 +33,7 @@
                     <div class="popup_screen">
 
                         <div class="close_header">
-                            <button id="hide" onclick="closeForm()">
+                            <button id="hide" onclick="exploreBetaClose()">
                                 <svg width="36" height="35" viewBox="0 0 36 35" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <g opacity="0.4">
@@ -67,12 +67,11 @@
                                 <div class="details">
                                     <div class="contacts_details">
                                         <form action="" class="form_details">
-                                            <input type="text" placeholder="Name" required>
-                                            <input type="number" placeholder="Contact Number" required>
-                                            <input type="email" placeholder="Email ID" required>
+                                            <input id="FullName" type="text" placeholder="Name" required>
+                                            <input id="Contact_no" type="number" placeholder="Contact Number" required>
+                                            <input id="mailId" type="email" placeholder="Email ID" required>
                                             <div class="d-flex-form">
-
-                                                <select name="cars" id="cars">
+                                                <select name="location" id="Locations">
                                                     <option value="Location">Location</option>
                                                     <option value="Andhra Pradesh">Andhra Pradesh</option>
                                                     <option value="Arunachal Pradesh">Arunachal Pradesh</option>
@@ -101,11 +100,8 @@
                                                     <option value="Uttar Pradesh">Uttar Pradesh</option>
                                                     <option value="Uttarakhand">Uttarakhand</option>
                                                     <option value="West Bengal">West Bengal</option>
-
-
                                                 </select>
-
-                                                <input type="number" placeholder="Pincode" required>
+                                                <input id="pincode" type="number" placeholder="Pincode" required>
 
                                             </div>
                                         </form>
@@ -113,9 +109,16 @@
                                 </div>
 
                                 <div>
+                                    <span id="error" class="error_txt"></span>
+                                    <span id="snackbar">Thankyou, your form has been submitted</span>
+                                    <span id="internet">Internet is not working</span>
+                                </div>
+
+                                <div>
                                     <div class="btn_form">
-                                        <button>Get Access&nbsp;<svg width="16" height="15" viewBox="0 0 16 15"
-                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <button id="submitGetAccess" onclick="SaveexploreData()">Get Access&nbsp;<svg
+                                                width="16" height="15" viewBox="0 0 16 15" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M2.78125 7.89453H13.8339" stroke="white" stroke-width="1.5"
                                                     stroke-linecap="round" stroke-linejoin="round" />
                                                 <path d="M8.3125 2.36719L13.8388 7.8935L8.3125 13.4198" stroke="white"
@@ -123,11 +126,15 @@
                                             </svg>
                                         </button>
                                     </div>
+
+
+
                                     <div class="alter">
                                         <p>alternatively, <span>visit a store listed on Refr.</span>
                                         </p>
                                     </div>
                                 </div>
+
                             </div>
 
 
@@ -158,7 +165,7 @@
     <div class="container">
         <div id="mySidebar" class="sidebar">
             <div class="sidemenuheader w-100">
-                <a href="https://refr.club/" class="logo">
+                <a href="../index.html" class="logo">
                     <svg width="100" height="50" viewBox="0 0 80 43" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd"
                             d="M36.0532 20.6821V31.5865H31.8906V14.1928C31.8906 12.2109 32.4159 10.764 33.4666 9.85213C34.5172 8.9403 36.1722 8.48438 38.4317 8.48438H40.7443V11.9754H39.8739L38.4317 11.9895C37.5595 11.9895 36.945 12.1581 36.5883 12.4953C36.2316 12.8326 36.0532 13.3978 36.0532 14.1909V17.2608H38.6701V20.6802L36.0532 20.6821Z"
@@ -195,9 +202,9 @@
                 <span class="divide"></span>
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
             </div>
-            <a href="https://refr.club/how-it-works/">How it Works</a>
-            <a href="https://refr.club/business/">Refr For Business</a>
-            <a onclick="myFunction()">Explore BETA</a>
+            <a href="../how-it-works/index.html">How it Works</a>
+            <a href="../business/index.html">Refr For Business</a>
+            <a onclick="exploreBeta()">Explore BETA</a>
         </div>
         <div class="row">
 
@@ -205,7 +212,7 @@
             <div class="header">
                 <header>
                     <div class="dflex w-100">
-                        <a href="https://refr.club/" class="logo">
+                        <a href="../index.html" class="logo">
                             <svg width="100" height="50" viewBox="0 0 80 43" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -253,8 +260,8 @@
                                           </ul> -->
                     <div class="header_btns">
 
-                        <a href="https://refr.club/how-it-works/" class="how_it_work">How it works</a>
-                        <a href="https://refr.club/business/" class="how_it_work">Refr For Business</a>
+                        <a href="../how-it-works/index.html" class="how_it_work">How it works</a>
+                        <a href="../business/index.html" class="how_it_work">Refr For Business</a>
 
                         <!-- <button class="download_btn">Download the app</button> -->
 
@@ -391,24 +398,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
-    <script src="home.js"></script>
     <script src="../assets/cust_sidemenu/sidemenu.js"></script>
-    <script src="scrolleffect.js"></script>
 
-    <!-- Event snippet for Website traffic conversion page -->
-    <script>
-        gtag('event', 'conversion', { 'send_to': 'AW-10970341747/HcAOCNy3rtYDEPPCiO8o' });
-    </script>
+    <script src="../assets/js/Cust_explore_form.js"></script>
 
-    <!-- Global site tag (gtag.js) - Google Ads: 10970341747 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10970341747"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'AW-10970341747');
-    </script>
 
     <script>
         function categoryList() {

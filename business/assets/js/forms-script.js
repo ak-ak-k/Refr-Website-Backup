@@ -104,8 +104,8 @@ function saveGetDemo() {
   }
 }
 
-window.addEventListener("online", netStatus);
-window.addEventListener("offline", netStatus);
+// window.addEventListener("online", netStatus);
+// window.addEventListener("offline", netStatus);
 
 function getVdemo() {
   if (navigator.onLine) {

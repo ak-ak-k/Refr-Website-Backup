@@ -21,7 +21,7 @@ changeswiper();
 var swiper = new Swiper(".mySwiper1", {
   effect: "coverflow",
   grabCursor: true,
-  centeredSlides: true,
+  centeredSlides: false,
   slidesPerView: "auto",
   coverflowEffect: {
     rotate: 50,

@@ -21,13 +21,13 @@ function myFunction(y) {
 
 // form
 
-function myFunction() {
-  document.getElementById("mySidebar").style.width = "0";
-  document.getElementById("myDIV").style.display = "block";
-}
-function closeForm() {
-  document.getElementById("myDIV").style.display = "none";
-}
+// function myFunction() {
+//   document.getElementById("mySidebar").style.width = "0";
+//   document.getElementById("myDIV").style.display = "block";
+// }
+// function closeForm() {
+//   document.getElementById("myDIV").style.display = "none";
+// }
 
 // function categoryList() {
 //   let categoryList = document.querySelector(".categories_lists");

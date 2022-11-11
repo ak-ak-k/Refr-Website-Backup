@@ -502,6 +502,7 @@ header.merchant-social.offline-seller .header-wrap .menu ul.mainmenu li:last-chi
   background-color: #8000ff;
   padding: 10px 16px;
   border-radius: 5px;
+  border: none;
 }
 
 .header-wrap .menu ul li:last-child a:hover i {
@@ -2564,6 +2565,7 @@ video::-webkit-media-controls {
     -webkit-overflow-scrolling: touch;
     width: 300px;
     z-index: 59999999;
+    transition: 0.3s;
     box-shadow: 0 0 10px rgb(0 0 0 / 6%);
     padding-top: 10px;
   }
@@ -2578,6 +2580,10 @@ video::-webkit-media-controls {
 
     padding: 10px 0 10px 20px;
     display: block;
+    width: fit-content;
+  }
+  .header-wrap .menu ul li:last-child a {
+    background-color: transparent;
   }
 
   .header-wrap {

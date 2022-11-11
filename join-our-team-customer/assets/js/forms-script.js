@@ -30,7 +30,7 @@ function saveGetDemo() {
         from: "VENDOR",
       },
       (data) => {
-        let x = document.getElementById("snackbar");
+        let x = document.getElementById("snackbar2");
         x.className = "show";
         setTimeout(() => {
           x.className = x.className.replace("show", "");
@@ -53,7 +53,7 @@ window.addEventListener("offline", netStatus);
 
 function getVdemo() {
   if (navigator.onLine) {
-    document.getElementById("error").innerHTML = "";
+    document.getElementById("error2").innerHTML = "";
 
     let x1 = document.getElementById("vFName").value;
     let x2 = document.getElementById("vLName").value;
@@ -64,25 +64,25 @@ function getVdemo() {
     if (!x1 && !x2 && !x3 && !x4) {
       console.log(x1, x2, x3, x4);
       // NO SUBMIT
-      document.getElementById("error").innerHTML = "Please fill the form before submitting";
+      document.getElementById("error2").innerHTML = "Please fill the form before submitting";
     } else {
       if (!x1 || !x2 || !x3 || !x4) {
         // SUBMIT NO VALUE
-        document.getElementById("error").innerHTML = "Please enter valid value";
+        document.getElementById("2").innerHTML = "Please enter valid value";
       } else {
         var mailformat = "/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$";
 
         if (x3.match(mailformat)) {
-          document.getElementById("error").innerHTML = "Please enter the valid email id";
+          document.getElementById("error2").innerHTML = "Please enter the valid email id";
         }
         var phoneformat = "/^[0-9A-Za-z@]+$";
         if (x4.match(phoneformat)) {
-          document.getElementById("error").innerHTML = "Please enter valid Mobile No.";
+          document.getElementById("error2").innerHTML = "Please enter valid Mobile No.";
         }
       }
     }
   } else {
-    let x = document.getElementById("internet");
+    let x = document.getElementById("internet2");
     x.className = "show";
     x.className = x.className.replace("show", "");
     console.log("off");

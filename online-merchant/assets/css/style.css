@@ -362,7 +362,7 @@ header.merchant-social .header-wrap .menu ul.mainmenu li:last-child a i {
 header.merchant-social .header-wrap .menu ul li:last-child a {
   color: var(--whiteColor);
   background-color: #8000ff;
-  margin: 3%;
+  /* margin: 3%; */
 }
 
 header.merchant-social .header-wrap .menu ul.mainmenu li:last-child a:hover i,
