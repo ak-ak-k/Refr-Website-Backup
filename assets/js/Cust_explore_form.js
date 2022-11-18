@@ -1,5 +1,4 @@
 function SaveexploreData() {
-  validatedata();
   $("#submitGetDemo").prop("disabled", true);
 
   var FullName = $("#FullName").val();
@@ -68,16 +67,14 @@ function validatedata() {
         // SUBMIT NO VALUE
         document.getElementById("error").innerHTML = "Please enter valid value";
       } else {
-        var mailformat = "/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$";
-        if (x3.match(mailformat)) {
+        if (/^\w+([\.-]?\w+)@\w+([\.-]?\w+)(\.\w{2,3})+$/.test(x3) == false) {
           document.getElementById("error").innerHTML = "Please enter the valid email id";
-        }
-        var phoneformat = "/^[0-9A-Za-z@]+$";
-        if (x4.match(phoneformat)) {
+        } else if (x4 == NaN || x4.toString().length < 10) {
           document.getElementById("error").innerHTML = "Please enter valid Mobile No.";
-        }
-        if (x2.length != 6) {
+        } else if (x2.length != 6) {
           document.getElementById("error").innerHTML = "Please enter valid Pincode No.";
+        } else {
+          SaveexploreData();
         }
       }
     }

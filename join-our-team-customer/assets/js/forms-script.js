@@ -1,6 +1,4 @@
 function saveGetDemo() {
-  getVdemo();
-
   $("#submitGetDemo").prop("disabled", true);
 
   var first_name = $("#vFName").val();
@@ -27,7 +25,7 @@ function saveGetDemo() {
         phone: phone,
         email: email,
         link: "dummy link",
-        from: "VENDOR",
+        from: "JOIN-CLIENT",
       },
       (data) => {
         let x = document.getElementById("snackbar2");
@@ -70,14 +68,12 @@ function getVdemo() {
         // SUBMIT NO VALUE
         document.getElementById("2").innerHTML = "Please enter valid value";
       } else {
-        var mailformat = "/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$";
-
-        if (x3.match(mailformat)) {
+        if (/^\w+([\.-]?\w+)@\w+([\.-]?\w+)(\.\w{2,3})+$/.test(x4) == false) {
           document.getElementById("error2").innerHTML = "Please enter the valid email id";
-        }
-        var phoneformat = "/^[0-9A-Za-z@]+$";
-        if (x4.match(phoneformat)) {
+        } else if (x3 == NaN || x3.toString().length < 10) {
           document.getElementById("error2").innerHTML = "Please enter valid Mobile No.";
+        } else {
+          saveGetDemo();
         }
       }
     }

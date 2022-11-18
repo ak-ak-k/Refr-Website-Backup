@@ -61,10 +61,8 @@ function changecat(cat) {
 }
 
 function saveGetDemo() {
-  getVdemo();
   //$(':input[type="submit"]').prop('disabled', true);
   $("#submitGetDemo").prop("disabled", true);
-
   var first_name = $("#vFName").val();
   var last_name = $("#vLName").val();
   var phone = $("#Vmobile").val();
@@ -84,6 +82,7 @@ function saveGetDemo() {
         email: email,
         phone: new_ph,
         type: catarr,
+        from: "VENDOR",
       },
       (data) => {
         let x = document.getElementById("snackbar");
@@ -112,11 +111,10 @@ function getVdemo() {
     // internet connection on
 
     document.getElementById("error").innerHTML = "";
-
     let x1 = document.getElementById("vFName").value;
     let x2 = document.getElementById("vLName").value;
     let x3 = document.getElementById("vemailid").value;
-    let x4 = document.getElementById("Vmobile").value;
+    let x4 = parseFloat(document.getElementById("Vmobile").value);
     let x5 = catarr.length !== 0;
 
     if (!x1 && !x2 && !x3 && !x4 && !x5) {
@@ -127,13 +125,12 @@ function getVdemo() {
         // SUBMIT NO VALUE
         document.getElementById("error").innerHTML = "Please enter valid value";
       } else {
-        var mailformat = "/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$";
-        if (x3.match(mailformat)) {
+        if (/^\w+([\.-]?\w+)@\w+([\.-]?\w+)(\.\w{2,3})+$/.test(x3) == false) {
           document.getElementById("error").innerHTML = "Please enter the valid email id";
-        }
-        var phoneformat = "/^[0-9A-Za-z@]+$";
-        if (x4.match(phoneformat)) {
+        } else if (x4 == NaN || x4.toString().length < 10) {
           document.getElementById("error").innerHTML = "Please enter valid Mobile No.";
+        } else {
+          saveGetDemo();
         }
       }
     }

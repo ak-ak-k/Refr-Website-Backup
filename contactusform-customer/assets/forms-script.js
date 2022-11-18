@@ -5,10 +5,6 @@ function changecat(cat) {
 }
 
 function formSubmit() {
-  console.log(1);
-  getVdata();
-  console.log(2);
-
   //$(':input[type="submit"]').prop('disabled', true);
   $("#submitGetDemo").prop("disabled", true);
 
@@ -54,7 +50,7 @@ function formSubmit() {
 // window.addEventListener("online", netStatus);
 // window.addEventListener("offline", netStatus);
 
-function getVdata() {
+function getVdemo() {
   if (navigator.onLine) {
     document.getElementById("error2").innerHTML = "";
 
@@ -72,14 +68,12 @@ function getVdata() {
         // SUBMIT NO VALUE
         document.getElementById("error2").innerHTML = "Please enter valid value";
       } else {
-        var mailformat = "/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$";
-
-        if (x3.match(mailformat)) {
+        if (/^\w+([\.-]?\w+)@\w+([\.-]?\w+)(\.\w{2,3})+$/.test(x3) == false) {
           document.getElementById("error2").innerHTML = "Please enter the valid email id";
-        }
-        var phoneformat = "/^[0-9A-Za-z@]+$";
-        if (x4.match(phoneformat)) {
+        } else if (x4 == NaN || x4.toString().length < 10) {
           document.getElementById("error2").innerHTML = "Please enter valid Mobile No.";
+        } else {
+          formSubmit();
         }
       }
     }
