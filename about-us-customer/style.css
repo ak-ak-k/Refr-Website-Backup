@@ -90,8 +90,7 @@
 .emp_img {
   max-width: 100%;
   object-fit: cover;
-  width: 400px;
-  height: 230px;
+  width: 100%;
 }
 
 /* our mission */
