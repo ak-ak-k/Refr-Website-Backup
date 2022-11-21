@@ -60,6 +60,7 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 5%;
+  gap: 2%;
 }
 
 .emp_mil {
