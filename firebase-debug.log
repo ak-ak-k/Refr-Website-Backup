@@ -1,0 +1,19 @@
+[debug] [2022-11-21T07:34:42.273Z] ----------------------------------------------------------------------
+[debug] [2022-11-21T07:34:42.276Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ACER\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-11-21T07:34:42.276Z] CLI Version:   11.16.0
+[debug] [2022-11-21T07:34:42.277Z] Platform:      win32
+[debug] [2022-11-21T07:34:42.277Z] Node Version:  v18.1.0
+[debug] [2022-11-21T07:34:42.278Z] Time:          Mon Nov 21 2022 13:04:42 GMT+0530 (India Standard Time)
+[debug] [2022-11-21T07:34:42.279Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-21T07:34:42.378Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-21T07:34:42.378Z] > authorizing via signed-in user (adityakirtane27@gmail.com)
+[debug] [2022-11-21T07:34:42.379Z] [iam] checking project main-website-5d02b for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-11-21T07:34:42.381Z] > refreshing access token with scopes: []
+[debug] [2022-11-21T07:34:42.384Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-11-21T07:34:42.384Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-11-21T07:34:42.789Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-11-21T07:34:42.789Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-11-21T07:34:42.803Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/main-website-5d02b:testIamPermissions [none]
+[debug] [2022-11-21T07:34:42.803Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/main-website-5d02b:testIamPermissions x-goog-quota-user=projects/main-website-5d02b
+[debug] [2022-11-21T07:34:42.803Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/main-website-5d02b:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
