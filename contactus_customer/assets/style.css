@@ -89,7 +89,7 @@ img {
 
 .card_block {
   width: 40vw;
-  height: 356px;
+  height: auto;
   background: #ffffff;
   border: 1px solid #cecece;
   border-radius: 20px;
@@ -111,7 +111,7 @@ img {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
-  font-size: 14px !important;
+  font-size: 12px !important;
   line-height: 166.5%;
   color: #8d8d8d;
   padding: 0px 10px 12px 24px;
@@ -122,9 +122,10 @@ img {
 }
 
 .card_img {
+  align-self: end;
+  display: flex;
   object-fit: contain;
-  position: absolute;
-  bottom: 0;
+  border-radius: 0 0 20px 20px;
 }
 
 @media screen and (max-width: 900px) {

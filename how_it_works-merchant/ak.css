@@ -3,13 +3,12 @@
 }
 
 .banner_img {
-  /* width: max-content; */
   position: relative;
 }
 
 .banner_img img {
   object-fit: contain;
-  /* aspect-ratio: 16/9; */
+  width: 100%;
 }
 
 .power_getstarted {
