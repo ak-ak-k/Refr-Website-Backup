@@ -142,6 +142,7 @@ img {
   height: 560px;
   display: flex;
   align-items: flex-end;
+  position: relative;
 }
 
 .contactcard {
@@ -154,6 +155,7 @@ img {
   background-color: white;
   position: absolute;
   right: 40px;
+  top: 130px;
 }
 
 .ld_M45width {
