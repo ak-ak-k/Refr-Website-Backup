@@ -312,7 +312,7 @@ img {
 /* network  */
 
 .net_section {
-  padding: 6% 0;
+  padding: 50px 0 0 0;
 }
 
 .net_heading {
@@ -322,7 +322,7 @@ img {
 
 .joinrefr_title {
   text-align: center;
-  margin-bottom: 8%;
+  margin-bottom: 4%;
 }
 
 .joinrefr_title h2 {
