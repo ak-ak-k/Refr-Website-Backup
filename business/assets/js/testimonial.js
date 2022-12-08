@@ -1,3 +1,4 @@
+var catarr = [];
 var x = window.matchMedia("(min-width: 700px)");
 swiper(x);
 x.addListener(swiper);

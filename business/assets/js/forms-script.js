@@ -130,6 +130,7 @@ function getVdemo() {
         } else if (x4 == NaN || x4.toString().length < 10) {
           document.getElementById("error").innerHTML = "Please enter valid Mobile No.";
         } else {
+          console.log("done", x1, x2, x3, x4, x5);
           saveGetDemo();
         }
       }

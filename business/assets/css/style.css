@@ -4473,6 +4473,9 @@ i.bordicon {
   font-weight: 400;
   font-size: 18px;
 }
+.testi_:last-child {
+  margin-top: 0;
+}
 
 @media screen and (max-width: 900px) {
   .btn-primary {
