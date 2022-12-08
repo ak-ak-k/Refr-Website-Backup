@@ -1,4 +1,4 @@
-.tesstimonials_box {
+/* .tesstimonials_box {
   height: -webkit-fill-available;
 }
 
@@ -87,13 +87,13 @@
     bottom: -5px;
   }
 
-  /* .left_arrow {
+  .left_arrow {
     display: none;
   }
 
   .right_arrow {
     display: none;
-  } */
+  }
 
   .testimonials {
     flex-direction: column;
@@ -181,4 +181,4 @@
 .swiper-rtl .swiper-button-prev:after {
   content: "next";
   font-size: 14px;
-}
+} */

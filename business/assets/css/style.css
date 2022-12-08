@@ -4318,24 +4318,6 @@ i.bordicon {
   }
 }
 
-@media screen and (max-width: 900px) {
-  .btn-primary {
-    font-size: 14px !important;
-    padding: 8px !important;
-  }
-
-  .img_sections img {
-    width: 74px;
-    margin-bottom: 5%;
-  }
-
-  .img_sections {
-    flex-wrap: wrap;
-    gap: 8%;
-    max-width: 100%;
-  }
-}
-
 /*  */
 
 .get_demo_cta {
@@ -4417,5 +4399,128 @@ i.bordicon {
   to {
     bottom: 0;
     opacity: 0;
+  }
+}
+
+/* testimonial */
+
+.testimonial {
+  padding: 0 8% 10% 8%;
+}
+
+.testify_main {
+  background: #f8f8f8;
+  border: 1px solid #f9f9f9;
+  border-radius: 10px 10px 0px 0px;
+  padding: 2% 4%;
+}
+
+.testify_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.testify_no {
+  font-weight: 600;
+  font-size: 24px;
+  color: #000000;
+}
+
+.testify_test {
+  font-weight: 600;
+  font-size: 30px;
+  color: #874bf9;
+  margin-top: 4%;
+}
+
+.cta_cs {
+  background: #f8f8f8;
+  border: 1px solid #874bf9;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #874bf9;
+  padding: 6px 12px;
+}
+
+.testimonial_sub {
+  padding: 2% 4%;
+  border: 1px solid #f0f0f0;
+  display: flex;
+  gap: 1rem;
+  position: relative;
+}
+
+.testimonial_para {
+  font-weight: 400;
+  font-size: 18px;
+  max-width: 80%;
+}
+
+.testimonial_img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  position: absolute;
+  right: 20px;
+  top: 70px;
+}
+
+.testi_ {
+  margin: 8% 0 0 0;
+  color: #874bf9;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 900px) {
+  .btn-primary {
+    font-size: 14px !important;
+    padding: 8px !important;
+  }
+
+  .img_sections img {
+    width: 74px;
+    margin-bottom: 5%;
+  }
+
+  .img_sections {
+    flex-wrap: wrap;
+    gap: 8%;
+    max-width: 100%;
+  }
+
+  /* testimonial media queries */
+  .testify_header {
+    flex-direction: column;
+    align-items: baseline;
+  }
+  .testify_no {
+    font-size: 16px;
+  }
+  .testify_test {
+    font-size: 18px;
+    margin: 4px 0 12px 0;
+  }
+  .cta_cs {
+    font-size: 16px;
+    padding: 5px;
+  }
+  .testimonial_sub {
+    padding: 8% 4%;
+  }
+  .testimonial_para {
+    font-size: 12px;
+    max-width: 100%;
+  }
+  .testimonial_img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    position: static;
+  }
+  .testi_ {
+    font-size: 14px;
   }
 }
