@@ -4495,13 +4495,14 @@ i.bordicon {
   .testify_header {
     flex-direction: column;
     align-items: baseline;
+    padding: 4px 0;
   }
   .testify_no {
     font-size: 16px;
   }
   .testify_test {
     font-size: 18px;
-    margin: 4px 0 12px 0;
+    margin: 4px 0;
   }
   .cta_cs {
     font-size: 16px;
@@ -4522,5 +4523,9 @@ i.bordicon {
   }
   .testi_ {
     font-size: 14px;
+    margin-top: 8%;
+  }
+  .testi_:last-child {
+    margin-top: 0;
   }
 }
