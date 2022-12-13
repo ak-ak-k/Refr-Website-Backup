@@ -34,6 +34,8 @@
   font-size: 2.3rem;
   line-height: normal;
   letter-spacing: -0.005em;
+  width: 62%;
+  margin: auto;
 }
 
 .secondary_heading {
@@ -56,16 +58,16 @@
 
 .blog_img {
   width: 100%;
-  /* background: gray; */
   height: auto;
   border-radius: 10px;
+  text-align: center;
 }
 
 .blog_img img {
   max-width: 100%;
   object-fit: cover;
   height: auto;
-  width: 100%;
+  width: 70%;
 }
 
 .blog_content {
@@ -170,17 +172,24 @@
   }
   .primary_heading {
     font-size: 1.5rem;
+    min-width: 90%;
   }
   .secondary_heading {
-    margin: 3% 0;
+    margin: 4% 0;
     font-size: 0.8rem;
   }
   .blog_contents {
-    bottom: 85px;
+    bottom: 55px;
     padding: 5%;
   }
   .blog_img {
     height: 150px;
+  }
+  .blog_img img {
+    width: 100%;
+    height: 150px;
+    max-width: 100%;
+    object-fit: cover;
   }
   .d-block-none {
     display: block;
