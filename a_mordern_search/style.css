@@ -67,7 +67,7 @@
   max-width: 100%;
   object-fit: cover;
   height: auto;
-  width: 70%;
+  width: 100%;
 }
 
 .blog_content {
@@ -124,7 +124,7 @@
 .img-container img {
   object-fit: cover;
   max-width: 100%;
-  height: 80px;
+  height: auto;
 }
 
 .side_content {
