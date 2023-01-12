@@ -290,27 +290,31 @@
 
                             </div>
                         </div>
-                        <div class="input">
-                            <input type="text" placeholder="Email Address" name="" id="">
-                            <svg class="arrow_send" width="28" height="27" viewBox="0 0 28 27" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <g clip-path="url(#clip0_90_310)">
-                                    <path d="M25.2564 3.58659L12.9388 14.4224" stroke="#5484FF" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                    <path
-                                        d="M25.2575 3.58656L16.5435 24.1636L12.9399 14.4224L3.73751 9.60648L25.2575 3.58656Z"
-                                        stroke="#5484FF" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                </g>
-                                <defs>
-                                    <clipPath id="clip0_90_310">
-                                        <rect width="25.3099" height="25.3099" fill="white"
-                                            transform="translate(2.23828) rotate(3.66181)" />
-                                    </clipPath>
-                                </defs>
-                            </svg>
+
+                        <div class="input" id="error_border">
+                            <input type="text" placeholder="Email Address" id="vemailid" name="vemailid" required>
+                            <button type="submit" id="submitGetDemo" onclick="getVdemo()">
+                                <svg class="arrow_send" width="28" height="27" viewBox="0 0 28 27" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_90_310)">
+                                        <path d="M25.2564 3.58659L12.9388 14.4224" stroke="#5484FF" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M25.2575 3.58656L16.5435 24.1636L12.9399 14.4224L3.73751 9.60648L25.2575 3.58656Z"
+                                            stroke="#5484FF" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_90_310">
+                                            <rect width="25.3099" height="25.3099" fill="white"
+                                                transform="translate(2.23828) rotate(3.66181)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </button>
 
                         </div>
+
                     </div>
 
                 </div>
@@ -320,7 +324,9 @@
                 <div class="cards">
                     <div class="card">
                         <a href="../Revolutionizing_Retail_with_Social_Commerce/index.html">
-                            <img src="./assets/images/blog_banner/blogbanner1.png" alt="">
+                            <div class="img_div">
+                                <img class="blog_img" src="./assets/images/blog_banner/blogbanner1.png" alt="">
+                            </div>
                             <div class="content">
                                 <p class="refr_news">REFR NEWS</p>
                                 <h3 class="h3">Revolutionizing Retail with Social Commerce
@@ -377,7 +383,9 @@
 
                     <div class="card">
                         <a href="../Social_Commerce_is_at_the_Heart/index.html">
-                            <img src="./assets/images/blog_banner/blog2banner.jpeg" alt="">
+                            <div class="img_div">
+                                <img class="blog_img" src="./assets/images/blog_banner/blog2banner.jpeg" alt="">
+                            </div>
                             <div class="content">
                                 <p class="refr_news">REFR NEWS</p>
                                 <h3 class="h3">Social commerce is at the heart of online shopping for tomorrow's

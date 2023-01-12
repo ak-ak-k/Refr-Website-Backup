@@ -1,9 +1,7 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#"
-    xmlns:fb="https://www.facebook.com/2008/fbml">
+<html lang="en">
 
 <head>
-
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -21,7 +19,6 @@
     <title>Refr</title>
 
     <link rel="icon" type="image/x-icon" href="../../assets/merchant-favi.svg" />
-
 
 
     <!-- OPEN GRAPH -->
@@ -62,27 +59,17 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <!-- fonts and icons -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700;800;900&family=Jost:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500&display=swap"
         rel="stylesheet">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-
     <!--link rel="stylesheet" href="./assets/css/all.css"-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" />
     <!--link rel="stylesheet" href="./assets/css/bootstrap.min.css" /-->
-    <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./assets/css/header.css" />
-
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <script src="../../assets/js/jquery.min.js"></script>
@@ -94,14 +81,16 @@
     <script src="../../assets/js/dist/js/splide.min.js"></script>
     <script src="../../assets/js/dist/js/splide.min.js"></script>
     <script src="../../assets/js/dist/js/splide-extension-auto-scroll.min.js"></script>
-    <link rel="stylesheet" href="../../../../assets/js/dist/css/splide.min.css">
+    <link rel="stylesheet" href="../../assets/js/dist/css/splide.min.css">
     </link>
-    <link rel="stylesheet" href="../../../../assets/js/dist/css/themes/splide-default.min.css">
+    <link rel="stylesheet" href="../../assets/js/dist/css/themes/splide-default.min.css">
     </link>
-    <link rel="stylesheet" href="../../../../assets/js/dist/css/splide-core.min.css">
+    <link rel="stylesheet" href="../../assets/js/dist/css/splide-core.min.css">
     </link>
-    <link rel="stylesheet" href="../../merchant_footer/Merchant_footer.css">
 
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="../../merchant_footer/Merchant_footer.css">
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-219TBYDRPE"></script>
@@ -229,7 +218,7 @@
                             </a>
                         </div>
                         <div class="menu" style="height:60px ;    display: flex;
-                            align-items: center;">
+                                align-items: center;">
                             <a class="menulinks" href="javascript:void(0)"><i></i></a>
                             <ul class="mainmenu">
                                 <li class="d-block d-sm-none" style="border-bottom: none;">
@@ -257,194 +246,289 @@
         </div>
     </header>
 
+    <!-- <div class="linksY" id="myLinks">
+        <ul>
+            <li><a class="how_it_work">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                            stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M12 8V12" stroke="white" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M12 16H12.01" stroke="white" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                    How it works
+                </a></li>
+            <li><a class="login">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M20 21V19C20 17.9391 19.5786 16.9217 18.8284 16.1716C18.0783 15.4214 17.0609 15 16 15H8C6.93913 15 5.92172 15.4214 5.17157 16.1716C4.42143 16.9217 4 17.9391 4 19V21"
+                            stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        <path
+                            d="M12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11Z"
+                            stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    Login
+                </a></li>
+
+        </ul>
+    </div> -->
+
+    <div class="main">
+        <div class="left_main">
+            <div>
+                <a class="refr_blog" href="../merchant_blog/index.html">
+                    <svg width="36" height="24" viewBox="0 0 36 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M29 12H5" stroke="#0038FF" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M12 19L5 12L12 5" stroke="#0038FF" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                    Refr Blog
+
+                </a>
+            </div>
+            <div>
+                <p class="rev_retail">Revolutionizing Retail with Social Commerce</p>
+            </div>
+        </div>
 
 
-    <div class="container1">
-        <div class="row1">
-            <div class="main"></div>
-            <div class="big">
+
+        <hr class="vertical_middle_line">
+
+        <div class="right_main">
+            <div class="author">
                 <div>
-                    <p class="title">The Refr Blog</p>
-                    <p class="para">Get the latest insights into growing your business with Refr.
-                    </p>
+                    <img src="./assets/images/blogs/logo.png" alt="">
                 </div>
                 <div>
-                    <div class="right_r">
-                        <div class="right">
-                            <svg width="49" height="54" viewBox="0 0 49 54" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M34.2686 23.5383C34.2686 20.5087 33.0651 17.6032 30.9229 15.461C28.7806 13.3187 25.8751 12.1152 22.8456 12.1152C19.816 12.1152 16.9105 13.3187 14.7682 15.461C12.626 17.6032 11.4225 20.5087 11.4225 23.5383C11.4225 36.8652 5.71094 40.6729 5.71094 40.6729H39.9802C39.9802 40.6729 34.2686 36.8652 34.2686 23.5383Z"
-                                    stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                <path
-                                    d="M26.14 48.2883C25.8053 48.8653 25.3249 49.3443 24.7469 49.6772C24.1688 50.0102 23.5135 50.1854 22.8464 50.1854C22.1793 50.1854 21.524 50.0102 20.9459 49.6772C20.3679 49.3443 19.8875 48.8653 19.5527 48.2883"
-                                    stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                <circle cx="35.9986" cy="12.4615" r="12.4615" fill="white" />
-                                <circle cx="35.9989" cy="12.4616" r="9.69231" fill="#340175" />
-                                <path d="M40.6155 9L34.2694 15.3462L31.3848 12.4615" stroke="white" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                            <div>
-                                <p>Never miss a post!</p>
-                                <p>Get the latest in your inbox</p>
+                    <p class="auth">AUTHOR</p>
+                    <a href="" class="team_refr">
+                        Team Refr
+                        <!-- <svg width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M32.7071 8.70711C33.0976 8.31658 33.0976 7.68342 32.7071 7.29289L26.3431 0.928932C25.9526 0.538408 25.3195 0.538408 24.9289 0.928932C24.5384 1.31946 24.5384 1.95262 24.9289 2.34315L30.5858 8L24.9289 13.6569C24.5384 14.0474 24.5384 14.6805 24.9289 15.0711C25.3195 15.4616 25.9526 15.4616 26.3431 15.0711L32.7071 8.70711ZM0 9H32V7H0V9Z"
+                                fill="#0038FF" />
+                        </svg> -->
 
-                            </div>
-                        </div>
-                        <div class="input">
-                            <input type="text" placeholder="Email Address" name="" id="">
-                            <svg class="arrow_send" width="28" height="27" viewBox="0 0 28 27" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <g clip-path="url(#clip0_90_310)">
-                                    <path d="M25.2564 3.58659L12.9388 14.4224" stroke="#5484FF" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                    <path
-                                        d="M25.2575 3.58656L16.5435 24.1636L12.9399 14.4224L3.73751 9.60648L25.2575 3.58656Z"
-                                        stroke="#5484FF" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                </g>
-                                <defs>
-                                    <clipPath id="clip0_90_310">
-                                        <rect width="25.3099" height="25.3099" fill="white"
-                                            transform="translate(2.23828) rotate(3.66181)" />
-                                    </clipPath>
-                                </defs>
-                            </svg>
 
-                        </div>
-                    </div>
-
+                    </a>
                 </div>
             </div>
 
-            <div class="col_cards">
-                <div class="cards">
-                    <div class="card">
-                        <a href="../Revolutionizing_Retail_with_Social_Commerce/index.html">
-                            <img src="./assets/images/blog_banner/blogbanner1.png" alt="">
-                            <div class="content">
-                                <p class="refr_news">REFR NEWS</p>
-                                <h3 class="h3">Revolutionizing Retail with Social Commerce
-                                </h3>
+            <div class="get_updates">
+                <p>GET UPDATES IN YOUR INBOX:</p>
+                <div class="search_field" id="error_border">
+                    <input type="email" id="vemailid" name="vemailid" name="email" placeholder="Email Address" required>
 
-                                <div class="team">
-
-                                    <div class="right_main">
-                                        <div class="author">
-
-                                            <div class="auth_team">
-                                                <p class="auth">AUTHOR</p>
-                                                <a href="" class="team_refr">
-                                                    Team Refr
-                                                    <svg width="33" height="16" viewBox="0 0 33 16" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path
-                                                            d="M32.7071 8.70711C33.0976 8.31658 33.0976 7.68342 32.7071 7.29289L26.3431 0.928932C25.9526 0.538408 25.3195 0.538408 24.9289 0.928932C24.5384 1.31946 24.5384 1.95262 24.9289 2.34315L30.5858 8L24.9289 13.6569C24.5384 14.0474 24.5384 14.6805 24.9289 15.0711C25.3195 15.4616 25.9526 15.4616 26.3431 15.0711L32.7071 8.70711ZM0 9H32V7H0V9Z"
-                                                            fill="#0038FF" />
-                                                    </svg>
-
-
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-                                <div class="about_team">
-                                    <p>Every business, regardless of industry, has a common goal: sell more products.
-                                        And
-                                        increasing conversion rates is a big
-                                        part of that strategy. Social commerce offers something radically different from
-                                        traditional e-commerce by weaving
-                                        buying and selling into the fabric of everyday life and through a real sense of
-                                        community and connection
-
-                                    </p>
-
-                                </div>
-
-                                <div class="read_more">
-                                    <a>read more <span class="material-symbols-outlined">
-                                            arrow_right_alt
-                                        </span> </a>
-                                </div>
-                            </div>
-                        </a>
-
-
-                    </div>
-
-                    <div class="card">
-                        <a href="../Social_Commerce_is_at_the_Heart/index.html">
-                            <img src="./assets/images/blog_banner/blog2banner.jpeg" alt="">
-                            <div class="content">
-                                <p class="refr_news">REFR NEWS</p>
-                                <h3 class="h3">Social commerce is at the heart of online shopping for tomorrow's
-                                    consumers
-                                </h3>
-
-                                <div class="team">
-
-                                    <div class="right_main">
-                                        <div class="author">
-
-                                            <div class="auth_team">
-                                                <p class="auth">AUTHOR</p>
-                                                <a href="" class="team_refr">
-                                                    Team Refr
-                                                    <svg width="33" height="16" viewBox="0 0 33 16" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path
-                                                            d="M32.7071 8.70711C33.0976 8.31658 33.0976 7.68342 32.7071 7.29289L26.3431 0.928932C25.9526 0.538408 25.3195 0.538408 24.9289 0.928932C24.5384 1.31946 24.5384 1.95262 24.9289 2.34315L30.5858 8L24.9289 13.6569C24.5384 14.0474 24.5384 14.6805 24.9289 15.0711C25.3195 15.4616 25.9526 15.4616 26.3431 15.0711L32.7071 8.70711ZM0 9H32V7H0V9Z"
-                                                            fill="#0038FF" />
-                                                    </svg>
-
-
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-                                <div class="about_team">
-                                    <p>The social commerce revolution is here. Over the last couple of years, we've
-                                        (quite
-                                        obviously) spent more time online
-                                        than ever. Aimlessly scrolling, trying to find a new trend, checking on our
-                                        favourite celeb etc. One positive outcome of
-                                        this though, aside from the influx of quality memes, is the extraordinary rise
-                                        of
-                                        social commerce. Social commerce is
-                                        the latest must-know if you want your brand to succeed in today’s commerce
-                                        landscape, which is well known now.
-
-                                    </p>
-
-                                </div>
-
-                                <div class="read_more">
-                                    <a>read more <span class="material-symbols-outlined">
-                                            arrow_right_alt
-                                        </span> </a>
-                                </div>
-                            </div>
-                        </a>
-
-
-                    </div>
-
+                    <button type="submit" id="submitGetDemo" onclick="getVdemo()">
+                        <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M24.6353 3.58659L12.3177 14.4224" stroke="#5484FF" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M24.6364 3.58632L15.9224 24.1634L12.3188 14.4221L3.11642 9.60624L24.6364 3.58632Z"
+                                stroke="#5484FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
                 </div>
+
 
             </div>
         </div>
+
     </div>
 
+    <div class="container1">
+        <div class="banner_img">
+            <img src="./assets/images/blogs/image 2019.png" alt="">
+        </div>
+        <div>
+            <div class="writeup">
+                <p>Every business, regardless of industry, has a common goal: sell more products. And increasing
+                    conversion
+                    rates is a big
+                    part of that strategy.
+                </p>
+                <br>
+                <p>
+                    Social commerce offers something radically different from traditional e-commerce by weaving
+                    buying
+                    and
+                    selling into the
+                    fabric of everyday life and through a real sense of community and connection. It's set to
+                    revolutionize
+                    the way we shop:
+                    affording new opportunities for people to participate in the global economy as consumers,
+                    creators,
+                    influencers and
+                    sellers, resulting in a power shift from big to small. This will impact every brand, retailer
+                    and
+                    platform business
+
+                </p>
+                <br><br>
+                <p>
+                    Around 3.5 billion people i.e 44% of the world’s population – use social media, with consumers
+                    in
+                    developing countries
+                    more likely to have a smartphone with social media apps than they are a laptop. On average
+                    consumers
+                    spend two and a
+                    half hours a day on social platforms, with more than 300 million new social media users coming
+                    online
+                    between 2019 and
+                    2026. For many people, social platforms are the entry point for everything they do online -
+                    news,
+                    entertainment, and
+                    communication. Now commerce is in the mix too.
+
+                </p>
+                <br><br>
+                <p>
+                    People want to buy products and services based on recommendations and inspiration from people
+                    they
+                    trust. That could be
+                    family, friends and communities, and it can also be authentic influencers they follow on social
+                    media.
+                    They want to feel
+                    inspired, informed and confident in what they buy. Social commerce serves these needs, providing
+                    an
+                    enhanced shopping
+                    experience that sparks discovery, enables personalization and leverages individuals’ expertise
+                    and
+                    authenticity to build
+                    trust.
+                </p>
+                <br>
+                <p class="def">
+                    I've definitely been finding a lot of smaller shops and I feel like the more that I shop on
+                    Instagram, the more these
+                    types of shops are recommended to me.
+
+                </p>
+                <br>
+
+                <div class="insta_shop ">
+
+                    <div>
+                        <p>—</p>
+                    </div>
+                    <div>
+                        <p class="insta">INSTAGRAM SHOP USER</p>
+                        <p>Accenture Research social</p>
+                        <p>commerce shopper interviews</p>
+                    </div>
+
+                </div>
+
+                <br>
+
+                <h3 class="points">Embracing social commerce tools for business
+                </h3>
+                <br>
+
+                <p>So what does this all mean for brands, retailers and platforms? One thing's for sure: social
+                    commerce
+                    is a model they
+                    must embrace. For platforms, it opens up new revenue streams just as growth in digital
+                    advertising
+                    is expected to slow.
+                    For retailers, there are opportunities to develop new types of shopping experiences, connect in
+                    new
+                    ways and engage
+                    influencers/creators. And for brands it means embracing the shift from big to small, empowering
+                    small businesses and
+                    engaging directly with consumers through social platforms.
+                </p>
+                <br>
+
+                <h3 class="points">And We Aim To Be At its Forefront
+                </h3>
+                <br>
+                <p>Refr is on a mission to democratize commerce. Since our founding, we’ve relentlessly focused on
+                    creating a world class
+                    buying and selling experience that’s available for all businesses and customers. Through our
+                    Super
+                    App we aim to grow
+                    into a network of tens of millions of shoppers ready to shop at point of inspiration led by peer
+                    to
+                    peer
+                    recommendations. Refr is making shopping easy, trusted, and secure for consumers.</p>
+            </div>
+
+        </div>
+
+        <div>
+            <hr class="horizontal_line">
+        </div>
+
+        <div>
+            <p class="share">Share this post</p>
+        </div>
+    </div>
+
+    <div class="coll">
+        <p>LATEST FROM REFR NEWS</p>
+
+        <div class="cards">
+            <div class="card">
+                <a href="../Social_Commerce_is_at_the_Heart/index.html">
+                    <img src="./assets/images/blogbanner/blog2.jpeg" alt="">
+                    <div class="content">
+                        <p class="refr_news">REFR NEWS</p>
+                        <h3 class="h3">Social commerce is at the heart of online shopping for tomorrow's consumers
+                        </h3>
+                        <p class="card_desc">
+                            The social commerce revolution is here. Over the last couple of years, we've (quite
+                            obviously) spent
+                            more time online
+                            than ever. Aimlessly scrolling, trying to find a new trend, checking on our favourite celeb
+                            etc. One
+                            positive outcome of
+                            this though, aside from the influx of quality memes, is the extraordinary rise of social
+                            commerce.
+                            Social commerce is the latest must-know if you want your brand to succeed in today’s
+                            commerce
+                            landscape, which is well known now.
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <!-- 
+            <div class="card">
+                <img src="./assets/images/Rectangle 34.png" alt="">
+                <div class="content">
+                    <p class="refr_news">REFR NEWS</p>
+                    <h3 class="h3">The rise of marketplaces anywhere and anytime
+                    </h3>
+                    <p class="card_desc">Amazon and Flipkart account for around 75% of total online sales in the
+                        India.....</p>
+                </div>
+            </div> -->
 
 
-    <!-- footer -->
+        </div>
+
+
+    </div>
+
+    <div class="coll_5">
+        <p class="sign_in">Power your business with Refr</p>
+        <!-- <div style="margin: 28px;">
+            <a class="sign_btn" href="https://biz.refr.club/" target="_blank">Get Started</a>
+
+        </div> -->
+        <!-- <div style="margin: 28px;">
+                    <a class="sign_btn" href="https://refr.club/team/">Contact Us</a>
+        
+                </div> -->
+
+
+        <!-- <p class="not_member">Not a member? Join now</p> -->
+
+    </div>
     <div id="footer"></div>
 
     <script>
@@ -454,9 +538,13 @@
         });
     </script>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script> -->
+
+
+
+    <script src="./script.js"></script>
+    <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script> -->
     <script src="../../assets/js/infinite-slide.min.js"></script>
     <script src="../../assets/js/public-script.js"></script>
 
@@ -474,10 +562,6 @@
 
         gtag('config', 'AW-10970341747');
     </script>
-
-
-    <script src="./script.js"></script>
-
 </body>
 
 </html>
