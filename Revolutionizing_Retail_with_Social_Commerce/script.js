@@ -87,3 +87,15 @@ function getVdemo() {
     console.log("off");
   }
 }
+
+// ----------------------------------------------
+
+var btn = document.getElementById("webshareapi");
+
+btn.addEventListener("click", function () {
+  navigator.share({
+    url: document.URL,
+    title: document.title,
+    text: "lorem ipsum...",
+  });
+});

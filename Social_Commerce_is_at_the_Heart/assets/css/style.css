@@ -357,6 +357,9 @@ nav {
   line-height: 155.52%;
   color: #9d9d9d;
   padding: 10px 25px;
+  border: none;
+  outline: none;
+  background-color: transparent;
 }
 
 .col p {
