@@ -1834,7 +1834,7 @@ video::-webkit-media-controls {
     font-size: 22px;
   }
   .menulinks {
-    display: block;
+    display: none;
     top: 15px;
   }
   .header-wrap .menu ul.mainmenu {
@@ -1863,7 +1863,7 @@ video::-webkit-media-controls {
   }
   .header-wrap {
     position: relative;
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
   }
   .banner .banner-wrap .banner-img img.main-img {
     height: auto;
