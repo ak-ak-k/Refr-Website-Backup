@@ -744,6 +744,7 @@ footer {
   .title {
     text-align: center;
     font-size: 2rem;
+    line-height: 50px;
     margin-bottom: 0;
   }
   .arrow_send {
@@ -788,14 +789,8 @@ footer {
     max-width: 100%;
   }
   .h3 {
-    font-size: 1.5rem;
-    line-height: 30px;
-  }
-  .about_team {
-    display: none;
-  }
-  .read_more {
-    display: none;
+    font-size: 1.2rem !important;
+    line-height: 30px !important;
   }
   .author {
     gap: 0;
@@ -809,6 +804,13 @@ footer {
   }
   .input input {
     height: 50px;
+  }
+  /*  */
+  .img_div {
+    height: 200px;
+  }
+  .blog_img {
+    height: 200px;
   }
 }
 
